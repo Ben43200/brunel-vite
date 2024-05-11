@@ -67,7 +67,7 @@ const Navbar = () => {
           </div>
         </nav>
         <div className="title-container">
-          <h1 className="title">{title}</h1>
+          <p className="title">{title}</p>
         </div>
       </header>
     );
