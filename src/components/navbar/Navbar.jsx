@@ -37,7 +37,7 @@ const Navbar = () => {
       { title: "Blog", url: "realisations" },
       { title: "Contact", url: "contact" },
     ];
-    const title = "ANNE CHRISTINE BRUNEL, diététicienne et micronutritionniste !";
+    const title = "ANNE CHRISTINE BRUNEL, diététicienne et micronutritionniste";
   
     return (
       <header>
