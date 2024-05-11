@@ -34,7 +34,8 @@ header {
   background: linear-gradient(85deg, #352361 1%, rgb(64, 84, 178) 55%);
   // grid-area: header;
   // width: 100vw;
-  position: fixed;
+
+  // position: fixed;
   width: 100%;
   @include media(desktop) {
     // width: 1240px;
