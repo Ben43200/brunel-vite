@@ -170,6 +170,8 @@ header {
     // top: 84px;
     top: 0px;
     background: linear-gradient(85deg, #352361 1%, rgb(64, 84, 178) 55%);
+    background: linear-gradient(85deg, #c1e4f1 1%, rgb(64, 84, 178) 55%);
+
     height: 100vh;
     width: 0;
 
@@ -185,6 +187,7 @@ header {
     opacity: 0.95;
     position: fixed;
     z-index: 200;
+    
   }
 
   .nav-elements ul {
