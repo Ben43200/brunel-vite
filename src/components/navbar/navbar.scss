@@ -37,7 +37,7 @@ header {
   position: fixed;
   width: 100%;
   @include media(desktop) {
-    width: 1240px;
+    // width: 1240px;
   }
 }
 
@@ -263,7 +263,7 @@ h1 {
   // position: fixed;
   z-index: 98;
   @include media(desktop) {
-    width: 1240px;
+    // width: 1240px;
   }
 }
 .burger-icon span {

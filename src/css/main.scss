@@ -25,17 +25,17 @@
     height: 100vh;
     text-align: justify;
     margin: 0;
-    @include media(desktop) {
-      // body {
-      grid-template-areas:
-        " . header ."
-        "  . main .  "
-        "footer footer footer ";
-      grid-template-columns: auto 1240px auto;
+    // @include media(desktop) {
+    //   // body {
+    //   grid-template-areas:
+    //     " . header ."
+    //     "  . main .  "
+    //     "footer footer footer ";
+    //   grid-template-columns: auto 1240px auto;
 
 
-      padding: 0;
-    }
+    //   padding: 0;
+    // }
   }
   
   #root > header {
