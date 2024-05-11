@@ -10,6 +10,8 @@
 header {
   box-shadow: 10px 5px 5px grey;
   border-radius: 10px;
+    grid-template-rows: auto 1fr auto;
+    background-color:#c1e4f1 ;
 }
 
 .container {
@@ -31,7 +33,9 @@ header {
 .navbar {
   height: 70px;
   //   background-color: #fef7e5;
-  background: linear-gradient(85deg, #352361 1%, rgb(64, 84, 178) 55%);
+  // background: linear-gradient(85deg, #352361 1%, rgb(64, 84, 178) 55%);
+  background: linear-gradient(85deg, #c1e4f1 1%, rgb(64, 84, 178) 55%);
+
   // grid-area: header;
   // width: 100vw;
 
@@ -253,7 +257,7 @@ h1 {
   }
 }
 .title-container {
-  height: 9rem;
+  height: 6rem;
   background-color: #131f53;
   display: flex;
   justify-content: center;
