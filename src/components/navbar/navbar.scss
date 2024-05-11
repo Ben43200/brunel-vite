@@ -169,7 +169,7 @@ header {
     height: 0rem;
     // top: 84px;
     top: 0px;
-    background: linear-gradient(85deg, #352361 1%, rgb(64, 84, 178) 55%);
+    // background: linear-gradient(85deg, #352361 1%, rgb(64, 84, 178) 55%);
     background: linear-gradient(85deg, #c1e4f1 1%, rgb(64, 84, 178) 55%);
 
     height: 100vh;
@@ -289,6 +289,7 @@ h1 {
 // }
 
 .title{
-  color:red;
+  // color:red;
+  color: #c1e4f1;
   // padding-top: 70px;
 }
