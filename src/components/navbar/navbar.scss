@@ -147,7 +147,11 @@ header {
 }
 
 // @media (max-width: 600px) {
-@media (max-width: 768px) {
+// @media (max-width: 768px) {
+@media (max-width: 858px) {
+
+// @media (max-width: 1018px) {
+
 
   .menu-icon {
     display: block;
@@ -275,3 +279,8 @@ h1 {
 //   padding-left: 4px;
 //   // position: absolute;
 // }
+
+.title{
+  color:red;
+  padding-top: 70px;
+}
