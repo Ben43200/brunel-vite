@@ -1,3 +1,3 @@
 export const IMAGES= {
-    logo : new URL('./logo-png.png', import.meta.url).href
+    image1 : new URL('./logo-png.png', import.meta.url).href
 }
