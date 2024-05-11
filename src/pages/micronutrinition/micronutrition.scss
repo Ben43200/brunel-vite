@@ -1,0 +1,16 @@
+@import "../../css/mixinsandfunctions.scss";
+.video{
+    width: 100%;
+    @include media(desktop) {
+        width: 750px; 
+        height: 500px;
+       
+}
+}
+
+.nutri-content{
+    @include media(desktop) {
+    display: grid;
+    justify-content: center;
+}
+}

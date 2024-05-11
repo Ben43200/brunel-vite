@@ -31,7 +31,7 @@ const Navbar = () => {
   
     const menuItemsData = [
       { title: "Accueil", url: "" },
-      { title: "La micronutrition", url: "notremission" },
+      { title: "La micronutrition", url: "micronutrition" },
       { title: "Puzzle de ma vie", url: "methodologie" },
       { title: "Prestations", url: "services" },
       { title: "Blog", url: "realisations" },
