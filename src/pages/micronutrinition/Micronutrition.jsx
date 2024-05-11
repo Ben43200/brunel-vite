@@ -6,7 +6,7 @@ const Micronutrition = () => {
     return(
         <main className="nutri-content">
             
-    <video className= "video" controls >
+    <video className= "video" controls  playsInline >
       <source src="videos/acb-motion-comp.mp4" type="video/mp4"/>
 </video>
 </main>
