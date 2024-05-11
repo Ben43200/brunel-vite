@@ -43,6 +43,8 @@
   #root > main {
     grid-area: main;
     padding:20px 2px;
+    display: grid;
+    height: auto;
   }
   
   #root > footer {

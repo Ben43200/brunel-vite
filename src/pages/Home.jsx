@@ -1,7 +1,8 @@
+import "./home.scss"
 const Home = () => {
 return(
     <main>
-    <h1>Titre</h1>
+    <p className="sub-title">Titre</p>
     </main>
 )
 }
