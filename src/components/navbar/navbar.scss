@@ -74,6 +74,9 @@ header {
     // height: auto; /* Maintain aspect ratio */
     max-width: 50px; /* Set max-width for larger devices */
     z-index: 300;
+    background-color: #c1e4f1;
+    //essai border-radius
+    border-radius: 50%;
 
 }
 @media only screen and (min-width: 768px) {

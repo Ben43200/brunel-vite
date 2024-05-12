@@ -1,6 +1,6 @@
 import { useState, useEffect, useRef } from "react";
 import { NavLink } from "react-router-dom";
-import { IMAGES } from "../../assets/Images.jsx";
+// import { IMAGES } from "../../assets/Images.jsx";
 import "./navbar.scss"
 
 
@@ -43,7 +43,7 @@ const Navbar = () => {
       <header>
         <nav className="navbar">
           <div className="container">
-            <img src={IMAGES.logo} className="logo-1" alt="logo" />
+            <img src="/public/images/logo-brunel-color-300x247.png" className="logo-1" alt="logo" />
             <div className="menu-icon" onClick={handleShowNavbar}>
               <span className="burger-icon" ref={menuRef}>
                 <span></span>
