@@ -43,7 +43,7 @@ const Navbar = () => {
       <header>
         <nav className="navbar">
           <div className="container">
-            <img src="/public/images/logo-brunel-color-300x247.png" className="logo-1" alt="logo" />
+            <img src="images/logo-brunel-color-300x247.png" className="logo-1" alt="logo" />
             <div className="menu-icon" onClick={handleShowNavbar}>
               <span className="burger-icon" ref={menuRef}>
                 <span></span>
