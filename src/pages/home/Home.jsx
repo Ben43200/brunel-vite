@@ -1,11 +1,12 @@
 import "./home.scss"
+import Carousel from "../../components/carousel/Carousel.jsx";
 const Home = () => {
+    const slides = ["Dehli", "Mumbai", "Pune"];
 return(
     <main className="home-container">
         <div className="circular--landscape">
-        {/* <img src="/images/accueil1-mobile.webp" className="mobile-circle" /> */}
         </div>
-    {/* <img src= {new URL('../assets/photo1.webp', import.meta.url).href} alt="photo1" /> */}
+        {/* <Carousel  slides={slides} />; */}
     </main>
 )
 }

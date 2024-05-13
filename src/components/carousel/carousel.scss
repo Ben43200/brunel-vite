@@ -1,0 +1,19 @@
+.item {
+    display: flex;
+    height: 60vh;
+    background: salmon;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .leftBtn {
+    position: absolute;
+    top: 40%;
+    left: 20px;
+  }
+  
+  .rightBtn {
+    position: absolute;
+    top: 40%;
+    right: 20px;
+  }
