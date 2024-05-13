@@ -29,19 +29,4 @@ img{
   
     }
 }
-.circular--landscape-1{
-        width: 350px;
-        height: 350px;
-        background: url("/public/images/accueil1-mobile.webp");
-        background-position: 50% 50%;
-        background-size: cover;
-        border-radius: 50%;
-      
-            @include media(tablet) {
-        display: none;
-}
-}
-
-.circular--landscape-2{
-    background-color: black;
-}
+// 
