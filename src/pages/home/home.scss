@@ -10,6 +10,8 @@ img{
 }
 
 .home-container{
+    display: flex;
+    justify-content: center;
 
     // background-origin: content-box;
     // background-attachment: fixed;
@@ -22,15 +24,18 @@ img{
     // background-size: contain;
     background-size: cover;
     background-position: center top;
+
+  
     }
 }
 .circular--landscape{
-        width: 500px;
-        height: 500px;
+        width: 350px;
+        height: 350px;
         background: url("/public/images/accueil1-mobile.webp");
         background-position: 50% 50%;
         background-size: cover;
         border-radius: 50%;
+      
             @include media(tablet) {
         display: none;
 }
