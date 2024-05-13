@@ -13,7 +13,7 @@ img{
 
     // background-origin: content-box;
     // background-attachment: fixed;
-    @include media(desktop) {
+    @include media(tablet) {
         // width: 1240px;
     // background-attachment: fixed;
     // background-size: contain;
@@ -31,7 +31,7 @@ img{
         background-position: 50% 50%;
         background-size: cover;
         border-radius: 50%;
-            @include media(desktop) {
+            @include media(tablet) {
         display: none;
 }
 }
