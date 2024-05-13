@@ -16,8 +16,8 @@
 .circular--landscape-2{
       width: 350px;
 height: 350px;
-background: url("/public/images/accueil1-mobile.webp");
-background: black;
+background: url("/public/images/accueil2.webp");
+// background: black;
 
 background-position: 50% 50%;
 background-size: cover;
@@ -31,8 +31,8 @@ display: none;
 .circular--landscape-3{
 width: 350px;
 height: 350px;
-// background: url("/public/images/accueil1-mobile.webp");
-background: green;
+background: url("/public/images/accueil3.webp");
+// background: green;
 background-position: 50% 50%;
 background-size: cover;
 border-radius: 50%;
@@ -44,11 +44,13 @@ border-radius: 50%;
   .leftBtn {
     position: absolute;
     // top: 40%;
+    bottom:20% ;
     left: 20px;
   }
   
   .rightBtn {
     position: absolute;
     // top: 40%;
+    bottom: 20%;
     right: 20px;
   }

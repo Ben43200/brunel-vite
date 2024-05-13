@@ -16,12 +16,12 @@ const Carousel = ({ slides }) => {
     setCur(cur + 1 > len - 1 ? 0 : cur + 1);
   }, [cur, len]);
 
-  // useEffect(() => {
-  //   const interval = setTimeout(() => {
-  //     rightHandle();
-  //   }, 1000);
-  //   return () => clearTimeout(interval);
-  // }, [rightHandle]);
+  useEffect(() => {
+    const interval = setTimeout(() => {
+      rightHandle();
+    }, 2000);
+    return () => clearTimeout(interval);
+  }, [rightHandle]);
 
   return (
     <>
