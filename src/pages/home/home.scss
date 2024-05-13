@@ -6,28 +6,32 @@
 
 img{
     width: 100%;
+    // height: 100%;
 }
 
 .home-container{
-    background-repeat: no-repeat;
-    background-image: url("/images/accueil1-mobile.webp");
-    // background-size: contain;
-    background-size: cover;
-    background-position: center top;
-    background-origin: content-box;
+
+    // background-origin: content-box;
     // background-attachment: fixed;
     @include media(desktop) {
         // width: 1240px;
     // background-attachment: fixed;
     // background-size: contain;
     background-image: url("/images/accueil1.webp");
+    background-repeat: no-repeat;
+    // background-size: contain;
     background-size: cover;
-
-
-
-
-
+    background-position: center top;
     }
-
-
+}
+.circular--landscape{
+        width: 500px;
+        height: 500px;
+        background: url("/public/images/accueil1-mobile.webp");
+        background-position: 50% 50%;
+        background-size: cover;
+        border-radius: 50%;
+            @include media(desktop) {
+        display: none;
+}
 }
