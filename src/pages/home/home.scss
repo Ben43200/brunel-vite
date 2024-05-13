@@ -1,7 +1,33 @@
+@import "../../css/mixinsandfunctions.scss";
+
 .sub-title{
     padding-top:200px;
 }
 
 img{
     width: 100%;
+}
+
+.home-container{
+    background-repeat: no-repeat;
+    background-image: url("images/accueil1-mobile.webp");
+    // background-size: contain;
+    background-size: cover;
+    background-position: center top;
+    background-origin: content-box;
+    // background-attachment: fixed;
+    @include media(desktop) {
+        // width: 1240px;
+    // background-attachment: fixed;
+    // background-size: contain;
+    background-image: url("images/accueil1.webp");
+    background-size: cover;
+
+
+
+
+
+    }
+
+
 }
