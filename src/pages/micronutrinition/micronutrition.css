@@ -1,0 +1,16 @@
+.video {
+  width: 100%;
+}
+@media screen and (min-width: 1025px) {
+  .video {
+    width: 750px;
+    height: 500px;
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  .nutri-content {
+    display: grid;
+    justify-content: center;
+  }
+}/*# sourceMappingURL=micronutrition.css.map */
