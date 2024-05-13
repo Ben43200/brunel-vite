@@ -29,7 +29,7 @@ img{
   
     }
 }
-.circular--landscape{
+.circular--landscape-1{
         width: 350px;
         height: 350px;
         background: url("/public/images/accueil1-mobile.webp");
@@ -40,4 +40,8 @@ img{
             @include media(tablet) {
         display: none;
 }
+}
+
+.circular--landscape-2{
+    background-color: black;
 }

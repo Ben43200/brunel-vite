@@ -16,23 +16,24 @@ const Carousel = ({ slides }) => {
     setCur(cur + 1 > len - 1 ? 0 : cur + 1);
   }, [cur, len]);
 
-  useEffect(() => {
-    const interval = setTimeout(() => {
-      rightHandle();
-    }, 1000);
-    return () => clearTimeout(interval);
-  }, [rightHandle]);
+  // useEffect(() => {
+  //   const interval = setTimeout(() => {
+  //     rightHandle();
+  //   }, 1000);
+  //   return () => clearTimeout(interval);
+  // }, [rightHandle]);
 
   return (
     <>
-      <h2> Carousel </h2>
+      {/* <h2> Carousel </h2> */}
 
       <FaArrowLeft className="leftBtn" onClick={leftHandle} />
       <FaArrowRight className="rightBtn" onClick={rightHandle} />
 
       {slides.map((slide, index) => {
         return (
-          <div key={index}>{cur === index && <SlideItem slide={slide} />}</div>
+          <div key={index}>{cur === index && <SlideItem slide={slide}  />}</div>
+          // <div key={index} className={slide}>{cur === index && <SlideItem   />}</div>
         );
       })}
     </>
