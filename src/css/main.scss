@@ -25,7 +25,10 @@
     height: 100vh;
     text-align: justify;
     margin: 0;
-    @include media(desktop) {
+    // @include media(desktop) {
+@media (min-width: 1240px) {
+
+
       // body {
       grid-template-areas:
         " . header  . "
@@ -33,6 +36,7 @@
         "footer footer footer ";
       // grid-template-columns: auto 1240px auto;
     grid-template-rows: auto 1fr auto;
+    grid-template-columns: 1fr 1240px 1fr;
     max-width: 100vw;
 
 
