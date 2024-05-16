@@ -34,7 +34,7 @@ const Navbar = () => {
       { title: "La micronutrition", url: "micronutrition" },
       { title: "Puzzle de ma vie", url: "methodologie" },
       { title: "Prestations", url: "services" },
-      { title: "Blog", url: "realisations" },
+      { title: "Blog", url: "blog" },
       { title: "Contact", url: "contact" },
     ];
     const title = "ANNE CHRISTINE BRUNEL, diététicienne et micronutritionniste";

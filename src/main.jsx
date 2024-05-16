@@ -6,6 +6,7 @@ import Footer from "./components/footer/Footer.jsx";
 import './css/main.scss'
 import "./css/mixinsandfunctions.scss";
 import Micronutrition from "./pages/micronutrinition/Micronutrition.jsx";
+import Blog from "./pages/blog/Blog.jsx";
 
 
 
@@ -20,6 +21,8 @@ root.render(
     <Routes>
       <Route path="/" element={<Home />} />
       <Route path="/micronutrition" element={<Micronutrition />} />
+      <Route path="/blog" element={<Blog />} />
+
 
 
 
