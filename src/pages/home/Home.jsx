@@ -9,15 +9,15 @@ const Home = () => {
     
         {
           image:
-            "/public/images/accueil1.webp",
+            "images/accueil1.webp",
         },
         {
           image:
-            "/public/images/accueil2.webp",
+            "images/accueil2.webp",
         },
         {
           image:
-            "/public/images/accueil3.webp",
+            "images/accueil3.webp",
         },
       ];  
    
