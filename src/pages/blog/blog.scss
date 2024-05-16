@@ -3,6 +3,7 @@
 grid-template-columns: 1fr;
 display: grid;
 margin-top:10rem;
+gap:40px;
 @include media(tablet){
 grid-template-columns: repeat(2,1fr);
 gap:20px;
@@ -22,11 +23,12 @@ margin-top: auto;
     height: 500px;
     padding: 10px;
     align-items: center;
+    // row-gap:40px;
+
     // grid-template-columns: repeat(4,1fr);
     // row-gap:27px;
     @include media(tablet){
         margin-top:auto;
-        // row-gap:40px;
     }
 }
 .main-blog-container > div > h1{
