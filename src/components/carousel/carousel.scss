@@ -40,7 +40,7 @@ border-radius: 50%;
   display: none;
 }
 }
-  
+
   .leftBtn {
     position: absolute;
     // top: 40%;
@@ -53,4 +53,13 @@ border-radius: 50%;
     // top: 40%;
     bottom: 20%;
     right: 20px;
+  }
+
+.big-carousel{
+  display: none;
+
+  @include media(tablet) {
+    display: flex;
+    }
+
   }
