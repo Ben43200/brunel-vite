@@ -1,14 +1,14 @@
 import { BLOGDATAS } from "../../assets/BlogData.jsx"
-
+import "./blog.scss"
 
 const Blog = () =>{
 
     return(
-        <main>
+        <main className="main-blog-container">
         {BLOGDATAS.map((blogdata, index) =>
-        <div key={index}>
+        <div className="blog-container" key={index}>
             <h1>{blogdata.name}</h1>
-            <img src={blogdata.image} alt={`${blogdata.alt}`} width="200"/>
+            <img className="blog-data-img" src={blogdata.image} alt={`${blogdata.alt}`} />
             <p>{blogdata.text}</p>
         </div>
         )}

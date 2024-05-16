@@ -1,0 +1,21 @@
+@import "../../css/mixinsandfunctions.scss";
+
+.blog-container{
+    display: grid;
+    justify-items: center;
+    margin-top:10rem;
+    @include media(tablet){
+        margin-top:auto
+    }
+}
+.blog-container > div > h1{
+
+    color:black;
+    font-size: 2rem;
+}
+
+.blog-data-img{
+    width: 400px;
+    display: flex;
+    justify-content: center;
+}
