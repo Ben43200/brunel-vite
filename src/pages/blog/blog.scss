@@ -4,8 +4,10 @@
     display: grid;
     justify-items: center;
     margin-top:10rem;
+    // row-gap:27px;
     @include media(tablet){
-        margin-top:auto
+        margin-top:auto;
+        // row-gap:40px;
     }
 }
 .blog-container > div > h1{
