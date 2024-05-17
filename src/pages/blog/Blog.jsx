@@ -6,7 +6,7 @@ const Blog = () =>{
     return(
         <main className="main-blog-container">
         {BLOGDATAS.map((blogdata, index) =>
-        <div className="blog-container" key={index}>
+        <div className="blog-card" key={index}>
             <h1>{blogdata.name}</h1>
             <img className="blog-data-img" src={blogdata.image} alt={`${blogdata.alt}`} />
             <p>{blogdata.text}</p>
