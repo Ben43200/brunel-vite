@@ -24,6 +24,7 @@
     grid-template-rows: auto 1fr auto;
     height: 100vh;
     text-align: justify;
+    
     margin: 0;
     // @include media(desktop) {
 @media (min-width: 1240px) {
@@ -54,7 +55,10 @@
   }
   #root > main {
     grid-area: main;
+    padding:20px 6px;
+    @include media (tablet){
     padding:20px 2px;
+    }
     
   }
   
