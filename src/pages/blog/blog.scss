@@ -34,12 +34,16 @@ margin-top: auto;
     grid-template-areas: "title"
                         "image"
                         "text";
-             width:400px;       
                         
     grid-template-rows: 70px auto auto;
+width: 100%;
     // row-gap:40px;
     // grid-template-columns: repeat(4,1fr);
     // row-gap:27px;
+    @media only screen and (min-width: 400px) {
+        width:400px;       
+
+    }
     @include media(tablet){
         margin-top:auto;
   width: 350px;
