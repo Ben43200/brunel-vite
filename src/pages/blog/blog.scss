@@ -1,11 +1,16 @@
 @import "../../css/mixinsandfunctions.scss";
 .main-blog-container{
-grid-template-columns: 1fr;
-display: grid;
+// grid-template-columns: 1fr;
+// display: grid;
+display: flex;
+flex-wrap:wrap;
+justify-content: center;
+
 margin-top:10rem;
 gap:40px;
 @include media(tablet){
-grid-template-columns: repeat(2,1fr);
+
+// grid-template-columns: repeat(2,1fr);
 gap:20px;
 margin-top: auto;
 
@@ -29,15 +34,16 @@ margin-top: auto;
     grid-template-areas: "title"
                         "image"
                         "text";
-                    
+             width:400px;       
                         
     grid-template-rows: 70px auto auto;
     // row-gap:40px;
-
     // grid-template-columns: repeat(4,1fr);
     // row-gap:27px;
     @include media(tablet){
         margin-top:auto;
+  width: 350px;
+
     }
 }
 .main-blog-container > div > h1{
