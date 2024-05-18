@@ -1,16 +1,18 @@
 // import { BLOGDATAS } from "../../assets/BlogData.jsx";
 // import { useOutletContext } from "react-router-dom";
 import { useParams } from "react-router-dom";
-const BlogItem =(props) =>{
-    console.log(props)
-    let {BlogItemId} = useParams();
-    console.log(BlogItemId)
-    console.log("test")
+import { BLOGDATAS } from "../../assets/BlogData.jsx";
+const BlogItem =() =>{
+   
+    let {id} = useParams();
+    console.log(id)
+    const blogitem = BLOGDATAS.find(blogitem => String(blogitem.id) === id);
+    // console.log(blogitem)
+    // console.log("test")
     // const [currentId] = useOutletContext()
     return(
     <main>
-    
-    <div>{BlogItemId}</div>
+    <img src={blogitem.image} alt={blogitem.alt} />
     </main>
     )
 }

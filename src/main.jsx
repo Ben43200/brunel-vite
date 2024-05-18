@@ -24,7 +24,7 @@ root.render(
       <Route path="/" element={<Home />} />
       <Route path="/micronutrition" element={<Micronutrition />} />
       <Route path="/blog" element={<Blog />} />
-      <Route path=":blogitemId" element={<BlogItem />} />
+      <Route path="/blogitem/:id" element={<BlogItem />} />
       
 
 

@@ -9,7 +9,7 @@ const Blog = () =>{
         {BLOGDATAS.map((blogdata, id) =>
         
         // <div className="blog-card" key={id}>
-            <Link to={`blogitem/${id}`} id="blog-card" key={id}>
+            <Link to={`/blogitem/${id}`} id="blog-card" key={id}>
             <h1>{blogdata.name}</h1>
             <img className="blog-data-img" src={blogdata.image} alt={`${blogdata.alt}`} />
             <p>{blogdata.text}</p>
