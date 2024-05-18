@@ -13,7 +13,7 @@ const Blog = () =>{
             <h1>{blogdata.name}</h1>
             <img className="blog-data-img" src={blogdata.image} alt={`${blogdata.alt}`} />
             <p>{blogdata.text}</p>
-            <div>{blogdata.completText}</div>
+            {/* <div>{blogdata.completText}</div> */}
            </Link>
         // </div>
         )}
