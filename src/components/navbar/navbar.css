@@ -11,6 +11,16 @@ header {
   border-radius: 10px;
   grid-template-rows: auto 1fr auto;
   background-color: #c1e4f1;
+  top: 0px;
+  left: 0px;
+  position: fixed;
+  right: 0px;
+  z-index: 400;
+}
+@media screen and (min-width: 768px) {
+  header {
+    position: relative;
+  }
 }
 
 .container {

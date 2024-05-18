@@ -4,4 +4,20 @@
 
 img {
   width: 100%;
+}
+
+.home-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10rem;
+}
+@media screen and (min-width: 768px) {
+  .home-container {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    margin-top: auto;
+  }
 }/*# sourceMappingURL=home.css.map */

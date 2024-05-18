@@ -121,22 +121,28 @@ body {
   text-align: justify;
   margin: 0;
 }
-@media screen and (min-width: 1025px) {
+@media (min-width: 1240px) {
   #root {
     grid-template-areas: " . header  . " "  . main .  " "footer footer footer ";
     grid-template-rows: auto 1fr auto;
+    grid-template-columns: 1fr 1240px 1fr;
     max-width: 100vw;
+    height: 100vh;
     padding: 0;
   }
 }
-
 #root > header {
   grid-area: header;
 }
 
 #root > main {
   grid-area: main;
-  padding: 20px 2px;
+  padding: 20px 6px;
+}
+@media screen and (min-width: 768px) {
+  #root > main {
+    padding: 20px 2px;
+  }
 }
 
 #root > footer {

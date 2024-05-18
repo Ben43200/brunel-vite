@@ -1,0 +1,69 @@
+.circular--landscape-1 {
+  width: 350px;
+  height: 350px;
+  background: url("/public/images/accueil1-mobile.webp");
+  background-position: 50% 50%;
+  background-size: cover;
+  border-radius: 50%;
+}
+@media screen and (min-width: 768px) {
+  .circular--landscape-1 {
+    display: none;
+  }
+}
+
+.circular--landscape-2 {
+  width: 350px;
+  height: 350px;
+  background: url("/public/images/accueil2.webp");
+  background-position: 50% 50%;
+  background-size: cover;
+  border-radius: 50%;
+}
+@media screen and (min-width: 768px) {
+  .circular--landscape-2 {
+    display: none;
+  }
+}
+
+.circular--landscape-3 {
+  width: 350px;
+  height: 350px;
+  background: url("/public/images/accueil3.webp");
+  background-position: 50% 50%;
+  background-size: cover;
+  border-radius: 50%;
+}
+@media screen and (min-width: 768px) {
+  .circular--landscape-3 {
+    display: none;
+  }
+}
+
+.leftBtn {
+  position: absolute;
+  bottom: 20%;
+  left: 20px;
+}
+
+.rightBtn {
+  position: absolute;
+  bottom: 20%;
+  right: 20px;
+}
+
+.big-carousel {
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  .big-carousel {
+    display: flex;
+  }
+}
+
+.big-carousel > img {
+  height: 487px;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}/*# sourceMappingURL=carousel.css.map */
