@@ -7,6 +7,7 @@ import './css/main.scss'
 import "./css/mixinsandfunctions.scss";
 import Micronutrition from "./pages/micronutrinition/Micronutrition.jsx";
 import Blog from "./pages/blog/Blog.jsx";
+import BlogItem from "./components/blogitem/BlogItem.jsx";
 
 
 
@@ -22,6 +23,7 @@ root.render(
       <Route path="/" element={<Home />} />
       <Route path="/micronutrition" element={<Micronutrition />} />
       <Route path="/blog" element={<Blog />} />
+      <Route path="/blogitem/:id" element={<BlogItem />} />
 
 
 

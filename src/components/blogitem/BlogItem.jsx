@@ -1,6 +1,10 @@
-import { BLOGDATAS } from "../../assets/BlogData.jsx";
+// import { BLOGDATAS } from "../../assets/BlogData.jsx";
 
 
-const BlogItem =() =>{
-    
+const BlogItem =(props) =>{
+    <main>
+    <div>{props.completText}</div>
+    </main>
 }
+
+export default BlogItem

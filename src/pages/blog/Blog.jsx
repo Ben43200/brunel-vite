@@ -16,7 +16,6 @@ const Blog = () =>{
             <div>{blogdata.completText}</div>
            </Link>
         // </div>
-        
         )}
     </main>
     )
