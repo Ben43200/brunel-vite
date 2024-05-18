@@ -20,10 +20,12 @@ root.render(
     <Navbar />
 
     <Routes>
+
       <Route path="/" element={<Home />} />
       <Route path="/micronutrition" element={<Micronutrition />} />
       <Route path="/blog" element={<Blog />} />
-      <Route path="/blogitem/:id" element={<BlogItem />} />
+      <Route path=":blogitemId" element={<BlogItem />} />
+      
 
 
 
