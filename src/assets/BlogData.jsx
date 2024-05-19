@@ -6,7 +6,6 @@ export const BLOGDATAS= [
     "alt" : "image omega",
     "text" : "On en parle beaucoup, mais que sont-ils exactement ? A quoi servent-ils ? Où les trouve-t-on ?" +
 	"Les omégas 3 sont des acides gras à longues chaines avec plusieurs doubles liaisons. Ce sont...",
-	"completText":  ["test","test2"],
 	},
 	{
 		"id": 1,
@@ -14,7 +13,6 @@ export const BLOGDATAS= [
 		"image" : "images/micronutrition.webp",
 		"alt" : "image micronutrition",
 		"text" : "La Micronutrition, une approche de la nutrition médicalisée adaptée à chacun…La Micronutrition consiste à satisfaire les besoins en micronutriments de l’individu, par une alimentation...",
-		"completText": [ "test","test2"],
 	},
 		{
 			"id": 2,
@@ -22,7 +20,6 @@ export const BLOGDATAS= [
 			"image" : "images/appel-micronutrition.webp",
 			"alt" : "image appel micronutrition",
 			"text" : "Parce qu’elle n’est pas réservée à une population particulière mais au contraire adaptée pour apporter des solutions personnalisées à chaque période de la vie, la micronutrition s’adresse à tous ceux...",
-			"completText": [ "test","test2"],
 			},
 			{
 				"id": 3,
@@ -30,7 +27,6 @@ export const BLOGDATAS= [
 				"image" : "images/omega.webp",
 				"alt" : "image omega",
 				"text" : "La dysbiose (par opposition à l’eubiose) est le nom donné à « la guerre dans l’intestin ». Les bactéries « méchantes » et autres microorganismes (tels que levures, parasites) ont pris le dessus sur...",
-				"completText": [ "test","test2"],
 				},
 				{
 					"id": 4,
@@ -38,7 +34,6 @@ export const BLOGDATAS= [
 					"image" : "images/paix-intestin.webp",
 					"alt" : "image paix intestin",
 					"text" : "Lorsque la dysbiose est installée, le changement d’alimentation, l’exclusion d’aliments créant une hypersensibilité ne seront, le plus souvent, pas suffisant pour rétablir la paix. Il faut réensemencer...",
-					"completText": [ "test","test2"],
 					},
 					{
 						"id": 5,
@@ -46,7 +41,6 @@ export const BLOGDATAS= [
 						"image" : "images/omega.webp",
 						"alt" : "omega",
 						"text" : "L’hyperperabilité intestinale représente l’ouverture des jonctions serrées qui se situent entre chaque cellule de l’intestin. Ces jonctions, qui peuvent être représentées comme des portes...",
-						"completText": [ "test","test2"],
 						},
 						{
 							"id": 6,
@@ -54,7 +48,6 @@ export const BLOGDATAS= [
 							"image" : "images/manque-micronutriments.webp",
 							"alt" : "legumineuse",
 							"text" : "L’organisme fonctionne alors en mode « économie » en dépensant un minimum d’énergie et en stockant les moindres excès. C’est souvent le cas après des...",
-							"completText": [ "test","test2"],
 							},
 							{
 								"id": 7,
@@ -62,7 +55,6 @@ export const BLOGDATAS= [
 								"image" : "images/petit-dej.webp",
 								"alt" : "image oeuf petit dej",
 								"text" : "Objectif du premier repas de la journée : fournir l’énergie nécessaire pour tenir toute la matinée de travail et permettre à l’influx nerveux de se propager le long de nos...",
-								"completText": [ "test","test2"],
 								},
 								{
 									"id": 8,
@@ -70,7 +62,6 @@ export const BLOGDATAS= [
 									"image" : "images/huiles-toxiques.webp",
 									"alt" : "image huiles toxiques",
 									"text" : "Un article du Canard enchainé * nous en apprend de belles sur les huiles végétales.On se doutait bien que les processus de transformation industrielle des huiles...",
-									"completText": [ "test","test2"],
 									},
 									
 
