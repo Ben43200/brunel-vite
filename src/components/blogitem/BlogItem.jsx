@@ -12,7 +12,8 @@ const BlogItem =() =>{
     // const [currentId] = useOutletContext()
     return(
     <main>
-    <img src={blogitem.image} alt={blogitem.alt} />
+    <img src={`/${blogitem.image}`} alt={blogitem.alt} />
+    {/* <div>{blogitem.completText}</div> */}
     </main>
     )
 }
