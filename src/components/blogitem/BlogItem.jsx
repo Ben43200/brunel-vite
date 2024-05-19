@@ -3,6 +3,7 @@
 import { useParams } from "react-router-dom";
 import { BLOGDATAS } from "../../assets/BlogData.jsx";
 const BlogItem =() =>{
+    // console.log(completText)
    
     let {id} = useParams();
     console.log(id)
@@ -13,7 +14,9 @@ const BlogItem =() =>{
     return(
     <main>
     <img src={`/${blogitem.image}`} alt={blogitem.alt} />
-    {/* <div key={id}>{blogitem.completText}</div> */}
+    {/* {completText.map((completText) =>(
+    <div key={id}>{completText}</div>
+    ))} */}
     </main>
     )
 }
