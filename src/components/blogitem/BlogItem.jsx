@@ -13,7 +13,7 @@ const BlogItem =() =>{
     return(
     <main>
     <img src={`/${blogitem.image}`} alt={blogitem.alt} />
-    {/* <div>{blogitem.completText}</div> */}
+    {/* <div key={id}>{blogitem.completText}</div> */}
     </main>
     )
 }
