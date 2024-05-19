@@ -2,6 +2,7 @@
 // import { useOutletContext } from "react-router-dom";
 import { useParams } from "react-router-dom";
 import { BLOGDATAS } from "../../assets/BlogData.jsx";
+// import CompletText from "../CompletText.jsx";
 const BlogItem =() =>{
     // console.log(completText)
    
@@ -14,9 +15,10 @@ const BlogItem =() =>{
     return(
     <main>
     <img src={`/${blogitem.image}`} alt={blogitem.alt} />
-    {/* {completText.map((completText) =>(
-    <div key={id}>{completText}</div>
-    ))} */}
+    {BLOGDATAS.map((blogitem, id) =>(
+    <ul key={id}>
+        <li>{blogitem.completText}</li>
+        </ul>))}
     </main>
     )
 }
