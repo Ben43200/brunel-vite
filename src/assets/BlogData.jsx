@@ -7,7 +7,7 @@ export const BLOGDATAS = [
     text:
       "On en parle beaucoup, mais que sont-ils exactement ? A quoi servent-ils ? Où les trouve-t-on ?" +
       "Les omégas 3 sont des acides gras à longues chaines avec plusieurs doubles liaisons. Ce sont...",
-    completText: [<p>text1</p>,<p>text2</p>],
+    completText: ["text1","text2"],
   },
   {
     id: 1,
@@ -15,7 +15,9 @@ export const BLOGDATAS = [
     image: "images/micronutrition.webp",
     alt: "image micronutrition",
     text: "La Micronutrition, une approche de la nutrition médicalisée adaptée à chacun…La Micronutrition consiste à satisfaire les besoins en micronutriments de l’individu, par une alimentation...",
-    completText: [<p>text1</p>,<p>text2</p>],
+    // completText: [<p>text1</p>,<p>text2</p>],
+    completText: ["text1","text2"],
+
 
   },
   {
@@ -25,6 +27,8 @@ export const BLOGDATAS = [
     alt: "image appel micronutrition",
     text: "Parce qu’elle n’est pas réservée à une population particulière mais au contraire adaptée pour apporter des solutions personnalisées à chaque période de la vie, la micronutrition s’adresse à tous ceux...",
 	completText: [<p>text1</p>,<p>text2</p>],
+  // completText: ["text1","text2"],
+
 
   },
   {
@@ -34,6 +38,8 @@ export const BLOGDATAS = [
     alt: "image omega",
     text: "La dysbiose (par opposition à l’eubiose) est le nom donné à « la guerre dans l’intestin ». Les bactéries « méchantes » et autres microorganismes (tels que levures, parasites) ont pris le dessus sur...",
     completText: [<p>text1</p>,<p>text2</p>],
+    // completText: ["text1","text2"],
+
 
     
 
@@ -53,7 +59,9 @@ export const BLOGDATAS = [
     image: "images/omega.webp",
     alt: "omega",
     text: "L’hyperperabilité intestinale représente l’ouverture des jonctions serrées qui se situent entre chaque cellule de l’intestin. Ces jonctions, qui peuvent être représentées comme des portes...",
-    completText: ["text1", "text2"],
+    // completText: ["text1", "text2"],
+	completText: [<p>text1</p>,<p>text2</p>],
+
   },
   {
     id: 6,

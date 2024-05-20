@@ -26,9 +26,9 @@ const BlogItem =(props) =>{
         <li>{blogitemText}</li>
         </ul>))}
         {/* {/* <ul>{listItems}</ul> */}
-        {nestedData.map((category) => (
+        {BLOGDATAS.map((category) => (
         <ul key={`category-${category.id}`}>
-          {category.items.map((item, index) => (
+          {category.completText.map((item, index) => (
             <li key={`item-${index}`}>{item}</li>
           ))}
         </ul>
