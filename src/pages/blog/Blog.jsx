@@ -14,10 +14,12 @@ const Blog = () =>{
             <h1>{blogdata.name}</h1>
             <img className="blog-data-img" src={blogdata.image} alt={`${blogdata.alt}`} />
             <p>{blogdata.text}</p>
+            <div className="complet-text">
             {BLOGDATAS[id].completText.map((completTexti,id) =>(
                 <div key={id}>{completTexti}</div>
+               
             ))}
-           
+           </div>
            </Link>
         // </div>
         )}
