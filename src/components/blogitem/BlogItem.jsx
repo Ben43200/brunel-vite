@@ -14,6 +14,10 @@ const BlogItem =(props) =>{
     // console.log(blogitem)
     // console.log("test")
     // const [currentId] = useOutletContext()
+    const nestedData = [
+        { id: 1, items: ['Apple', 'Banana'] },
+        { id: 2, items: ['Strawberry', 'Pineapple'] },
+      ];
     return(
     <main>
     <img src={`/${blogitem.image}`} alt={blogitem.alt} />
@@ -22,6 +26,13 @@ const BlogItem =(props) =>{
         <li>{blogitemText}</li>
         </ul>))}
         {/* {/* <ul>{listItems}</ul> */}
+        {nestedData.map((category) => (
+        <ul key={`category-${category.id}`}>
+          {category.items.map((item, index) => (
+            <li key={`item-${index}`}>{item}</li>
+          ))}
+        </ul>
+      ))}
 
     </main>
     )
