@@ -1,4 +1,3 @@
-import { blogdataitem } from "../../assets/BlogDataItem.jsx";
 
 
 const completTexts = ({completTexts}) =>{
