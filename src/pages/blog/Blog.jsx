@@ -3,6 +3,7 @@ import "./blog.scss"
 import { Link } from "react-router-dom"
 
 const Blog = () =>{
+    // console.log(completText)
 
     return(
         <main className="main-blog-container">
@@ -13,7 +14,9 @@ const Blog = () =>{
             <h1>{blogdata.name}</h1>
             <img className="blog-data-img" src={blogdata.image} alt={`${blogdata.alt}`} />
             <p>{blogdata.text}</p>
-            <div>{blogdata.completText}</div>
+            {/* {BLOGDATAS.map((blogdata,i) => */}
+            {/* {props.BLOGDATAS.map((blogdata,i) =( */}
+            {/* <div key={blogdata.id}>{blogdata.completText}</div> */}
            </Link>
         // </div>
         )}
