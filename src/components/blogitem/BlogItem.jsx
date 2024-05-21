@@ -20,19 +20,27 @@ const BlogItem =(props) =>{
       ];
     return(
     <main>
-    <img src={`/${blogitem.image}`} alt={blogitem.alt} />
+    {/* <img src={`/${blogitem.image}`} alt={blogitem.alt} />
     {blogdataitem.map((blogitemText, id) =>(
     <ul key={id}>
         <li>{blogitemText}</li>
         </ul>))}
         {/* {/* <ul>{listItems}</ul> */}
-        {BLOGDATAS.map((category) => (
+        {/* {BLOGDATAS.map((category) => (
         <ul key={`category-${category.id}`}>
           {category.completText.map((item, index) => (
             <li key={`item-${index}`}>{item}</li>
           ))}
-        </ul>
-      ))}
+        </ul> */}
+      {/* ))}  */}
+
+
+<h1 className="blog-item-title">{blogitem.name}</h1>
+    <img src={`/${blogitem.image}`} alt={blogitem.alt} />
+           <div className="complet-text">
+            {BLOGDATAS[id].completText.map((completTexti,id) =>(
+                <div key={id}>{completTexti}</div>))}
+                </div>
 
     </main>
     )
