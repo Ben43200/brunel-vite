@@ -1,0 +1,53 @@
+@import "../../css/mixinsandfunctions.scss";
+// @import "../../css/variables.scss";
+
+.errorContainer {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.errorTitle {
+  font-size: 96px;
+  font-weight: 700;
+  // color: $primary-color;
+  margin: 0;
+  @include media(desktop) {
+    font-size: 288px;
+  }
+}
+
+.errorText {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: normal;
+  text-align: center;
+  // color: $primary-color;
+  width: 260px;
+  margin-top: -40px;
+  @include media(desktop) {
+    margin-top: 0px;
+    font-size: 36px;
+    width: 100%;
+  }
+}
+
+.errorLinkHome {
+  font-size: 14px;
+  // color: $primary-color;
+  @include media(desktop) {
+    font-size: 18px;
+  }
+}
+
+.error {
+  min-height: calc(100vh - var(--hauteurHeader) - var(--hauteurFooter));
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+// #root >main{
+//   grid-area: main;
+// }
