@@ -116,7 +116,7 @@ body {
 #root {
   display: grid;
   grid-template-areas: " header " "main " "footer ";
-  grid-template-rows: auto 1fr auto;
+  grid-template-rows: 160px 1fr auto;
   height: 100vh;
   text-align: justify;
   margin: 0;
