@@ -92,7 +92,9 @@ export const BLOGDATAS = [
     alt: "omega",
     text: "L’hyperperabilité intestinale représente l’ouverture des jonctions serrées qui se situent entre chaque cellule de l’intestin. Ces jonctions, qui peuvent être représentées comme des portes...",
     // completText: ["text1", "text2"],
-    completText: ["L’hyperperméabilité intestinale représente l’ouverture des jonctions serrées qui se situent entre chaque cellule de l’intestin. Ces jonctions, qui peuvent être représentées comme des portes, doivent être fermées, elles s’ouvrent de temps en temps pendant un bref instant pour permettre à notre système immunitaire de se « former » et de ne pas réagir à tout étranger. Quand la dysbiose est présente depuis longtemps, nous retrouvons le plus souvent une hyperperméabilité intestinale. Ces portes ouvertes laissent passer des bouts de nutriments mal digérés et des endotoxines (toxines provenant de certaines bactéries intestinales).  Ce passage de « molécules étrangères » dans notre organisme représente une attaque pour notre système immunitaire qui va réagir plus ou moins fortement. Ceci pouvant engendrer des maladies chroniques (syndrome métabolique, diabète, obésité, problèmes cardiovasculaires, maladies auto-immunes, allergies, fatigue chronique, dépressions, fibromyalgie, problèmes de peau…)."],
+    completText: [
+      "L’hyperperméabilité intestinale représente l’ouverture des jonctions serrées qui se situent entre chaque cellule de l’intestin. Ces jonctions, qui peuvent être représentées comme des portes, doivent être fermées, elles s’ouvrent de temps en temps pendant un bref instant pour permettre à notre système immunitaire de se « former » et de ne pas réagir à tout étranger. Quand la dysbiose est présente depuis longtemps, nous retrouvons le plus souvent une hyperperméabilité intestinale. Ces portes ouvertes laissent passer des bouts de nutriments mal digérés et des endotoxines (toxines provenant de certaines bactéries intestinales).  Ce passage de « molécules étrangères » dans notre organisme représente une attaque pour notre système immunitaire qui va réagir plus ou moins fortement. Ceci pouvant engendrer des maladies chroniques (syndrome métabolique, diabète, obésité, problèmes cardiovasculaires, maladies auto-immunes, allergies, fatigue chronique, dépressions, fibromyalgie, problèmes de peau…).",
+    ],
   },
   {
     id: 6,
@@ -100,7 +102,9 @@ export const BLOGDATAS = [
     image: "images/manque-micronutriments.webp",
     alt: "legumineuse",
     text: "L’organisme fonctionne alors en mode « économie » en dépensant un minimum d’énergie et en stockant les moindres excès. C’est souvent le cas après des...",
-    completText: [<p>text1</p>, <p>text2</p>],
+    completText: [
+      "L’organisme fonctionne alors en mode « économie » en dépensant un minimum d’énergie et en stockant les moindres excès. C’est souvent le cas après des régimes amaigrissants draconiens et répétitifs, après une grossesse ou un allaitement. La micronutrition va donc partir à la découverte des multiples verrous (carences, déséquilibres, déficits) qui entraînent des problèmes de digestion ou empêchent de perdre du poids, sans faire un calcul savant des calories, et donner les clés pour lever ces verrous.",
+    ],
   },
   {
     id: 7,
@@ -108,7 +112,18 @@ export const BLOGDATAS = [
     image: "images/petit-dej.webp",
     alt: "image oeuf petit dej",
     text: "Objectif du premier repas de la journée : fournir l’énergie nécessaire pour tenir toute la matinée de travail et permettre à l’influx nerveux de se propager le long de nos...",
-    completText: [<p>text1</p>, <p>text2</p>],
+    completText: ["Objectif du premier repas de la journée : fournir l'énergie nécessaire pour tenir toute la matinée de travail et permettre à l'influx nerveux de se propager le long de nos neurones. Pour cela, nous avons besoin de neuromédiateurs, en particulier la dopamine qui se comporte comme la clé dans le contact d'une voiture pour bien démarrer la journée, et la noradrénaline (transformée à partir de la dopamine) qui est comme l’accélérateur . Cette dopamine a besoin d'un précurseur qui est un acide aminé: la tyrosine. Cet acide aminé est essentiel, c'est à dire que nous ne pouvons pas nous-même le synthétiser; il faut donc l'amener par l'alimentation. Il se trouve en particulier dans les protéines animales.",
+    "Côté menus : n'hésitez-pas à mettre un peu de salé dans votre assiette: 1 œuf bio ou bleu-blanc-coeur*si possible à la coque ou au plat, et 1 tranche de jambon ou du bacon maigre ou de truite fumée ou des sardines ou 1 portion de fromage brebis ou chèvre ou 1/2 à 1 yaourt de brebis ou chèvre ou  soja.",
+    "  30g de fruits à coque (en particulier des noix de Grenoble ou noix du Brésil) ou 1 c à c de purée d'amandes ou de noisettes, 1 c à s de graines de lin mixées pour apporter des \"bons acides gras\" précurseurs des omégas 3." ,
+  "  une petite portion de céréales sans sucre ajouté , comme des flocons d'avoine ou épeautre ou châtaigne, ou du muesli ou du pain au sarrasin ou au petit épeautre ou au levain bio.",
+  " 1 fruit de saison bio;  éviter le jus de fruit même 100% pur jus.",
+  "  Ajoutez 1 boisson (thé vert, café, céréales torréfiées, chicorée).",
+  "   Ainsi, vous pouvez varier votre petit déjeuner en fonction de vos envies et de votre emploi du temps.",
+  "  *bleu-blanc-coeur: animaux nourris avec des graines de lin. On retrouve donc des omégas 3 dans les œufs, le jambon, le lait... Ces produits se trouvent dans certaines grandes surfaces. http://www.bleu-blanc-coeur.org/" ,
+  
+
+  ]
+
   },
   {
     id: 8,
