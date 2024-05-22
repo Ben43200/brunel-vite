@@ -29,7 +29,9 @@ const Home = () => {
     <main className="home-container">
         {/* <div className="circular--landscape"> */}
          <Carousel  slides={slides}   />
+         <div className="carousel-home-container">
          <FullCarousel bigSlides={ImageData} />
+         </div>
          {/* <FullCarousel  /> */}
         {/* <Carousel  slides={slides} className={className} />  */}
         {/* <Carousel  className={className} /> */}
