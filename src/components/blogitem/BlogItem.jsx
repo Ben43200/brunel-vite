@@ -1,9 +1,6 @@
-// import { BLOGDATAS } from "../../assets/BlogData.jsx";
-// import { useOutletContext } from "react-router-dom";
+import "../../pages/blog/blog.scss";
 import { useParams } from "react-router-dom";
 import { BLOGDATAS } from "../../assets/BlogData.jsx";
-import { blogdataitem } from "../../assets/BlogDataItem.jsx";
-// import CompletText from "../CompletText.jsx";
 import { useState } from "react";
 import { useEffect } from "react";
 import { useNavigate } from "react-router-dom";
@@ -31,13 +28,15 @@ const BlogItem =(props) =>{
 
  
   return data ? (
-    <main>
+    <main className="blog-item-container">
 <h1 className="blog-item-title">{blogitem.name}</h1>
-    <img src={`/${blogitem.image}`} alt={blogitem.alt} />
+{/* <div className="blog-item-subcontainer"> */}
+    <img src={`/${blogitem.image}`} alt={blogitem.alt} className="blog-item-image" />
            <div className="complet-text">
             {BLOGDATAS[id].completText.map((completTexti,id) =>(
                 <div key={id}>{completTexti}</div>))}
                 </div>
+                {/* </div> */}
 
     </main>
     ) : null
