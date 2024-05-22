@@ -3,7 +3,11 @@
 #full-carousel-container>div{
     display:flex
 }
-.full-carousel >div {
+.full-carousel-container >div > .bigcarousel  {
+    object-fit: cover;
+    height:700px
+}
+#full-carousel > img{
     object-fit: cover;
     height:700px
 }
