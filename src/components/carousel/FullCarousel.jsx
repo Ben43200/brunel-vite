@@ -89,7 +89,7 @@ const FullCarousel = ({ bigSlides }) => {
     return (
       <div key={index}>
         {index === current && (
-      <div className="big-carousel">
+      <div className="big-carousel" id="full-carousel">
           <img src={bigSlide.image} alt="" />
           </div>
         )}

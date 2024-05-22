@@ -1,6 +1,8 @@
 @import "../../css/mixinsandfunctions.scss";
 
-
+#full-carousel-container>div{
+    display:flex
+}
 .full-carousel >div {
     object-fit: cover;
     height:700px
