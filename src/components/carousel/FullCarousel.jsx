@@ -68,7 +68,7 @@ const FullCarousel = ({ bigSlides }) => {
   useEffect(() => {
     const interval = setTimeout(() => {
       nextSlide();
-    }, 2000);
+    }, 3000);
     return () => clearTimeout(interval);
   }, [nextSlide]);
 
