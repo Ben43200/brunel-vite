@@ -92,7 +92,7 @@ export const BLOGDATAS = [
     alt: "omega",
     text: "L’hyperperabilité intestinale représente l’ouverture des jonctions serrées qui se situent entre chaque cellule de l’intestin. Ces jonctions, qui peuvent être représentées comme des portes...",
     // completText: ["text1", "text2"],
-    completText: [<p>text1</p>, <p>text2</p>],
+    completText: ["L’hyperperméabilité intestinale représente l’ouverture des jonctions serrées qui se situent entre chaque cellule de l’intestin. Ces jonctions, qui peuvent être représentées comme des portes, doivent être fermées, elles s’ouvrent de temps en temps pendant un bref instant pour permettre à notre système immunitaire de se « former » et de ne pas réagir à tout étranger. Quand la dysbiose est présente depuis longtemps, nous retrouvons le plus souvent une hyperperméabilité intestinale. Ces portes ouvertes laissent passer des bouts de nutriments mal digérés et des endotoxines (toxines provenant de certaines bactéries intestinales).  Ce passage de « molécules étrangères » dans notre organisme représente une attaque pour notre système immunitaire qui va réagir plus ou moins fortement. Ceci pouvant engendrer des maladies chroniques (syndrome métabolique, diabète, obésité, problèmes cardiovasculaires, maladies auto-immunes, allergies, fatigue chronique, dépressions, fibromyalgie, problèmes de peau…)."],
   },
   {
     id: 6,
