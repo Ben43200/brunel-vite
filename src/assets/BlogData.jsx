@@ -120,8 +120,6 @@ export const BLOGDATAS = [
   "  Ajoutez 1 boisson (thé vert, café, céréales torréfiées, chicorée).",
   "   Ainsi, vous pouvez varier votre petit déjeuner en fonction de vos envies et de votre emploi du temps.",
   "  *bleu-blanc-coeur: animaux nourris avec des graines de lin. On retrouve donc des omégas 3 dans les œufs, le jambon, le lait... Ces produits se trouvent dans certaines grandes surfaces. http://www.bleu-blanc-coeur.org/" ,
-  
-
   ]
 
   },
@@ -131,6 +129,10 @@ export const BLOGDATAS = [
     image: "images/huiles-toxiques.webp",
     alt: "image huiles toxiques",
     text: "Un article du Canard enchainé * nous en apprend de belles sur les huiles végétales.On se doutait bien que les processus de transformation industrielle des huiles...",
-    completText: [<p>text1</p>, <p>text2</p>],
+    completText: ["Un article du Canard enchainé * nous en apprend de belles sur les huiles végétales." ,
+    " On se doutait bien que les processus de transformation industrielle des huiles n’amélioraient pas leurs qualités nutritionnelles, mais cela va au-delà de ce que l’on imagine !" ,
+    "En effet, après le broyage des graines des oléagineux, il est ajouté de l’hexane, un dérivé du pétrole qui rend le mélange moins trouble, puis après un passage en centrifugeuse, l’huile brute est traité à la soude caustique pour la débarrasser des acides gras indésirables. Elle est décolorée avec du charbon actif, puis décarbonisée par chauffage sous vide entre 180° et 240°C à la vapeur d’eau.",
+    "D’après l’Efsa, l’Autorité européenne de sécurité des aliments, ces manipulations fabriquent des contaminants toxiques."
+    ],
   },
 ];
