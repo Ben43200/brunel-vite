@@ -99,14 +99,14 @@ width: 100%;
 
 
 .blog-item-container{
-    // display:grid;
-    // grid-template-columns: 1fr;
-    // grid-template-areas: "title"
-    //                     "image"
-    //                     "text";
-    display: flex;
-    flex-direction: column;
-                        margin-top: 0rem;
+    display:grid;
+    grid-template-columns: 1fr;
+    grid-template-areas: "title"
+                        "image"
+                        "text";
+    // display: flex;
+    // flex-direction: column;
+                        // margin-top: 0rem;
     @include media(tablet){
     grid-template-columns: 1fr 1fr;
     grid-template-areas: "title title"
