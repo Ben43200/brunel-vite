@@ -9,6 +9,7 @@ import Micronutrition from "./pages/micronutrinition/Micronutrition.jsx";
 import Blog from "./pages/blog/Blog.jsx";
 import BlogItem from "./components/blogitem/BlogItem.jsx";
 import Error from "./pages/error/Error.jsx";
+import Contact from "./pages/contact/Contact.jsx";
 
 
 
@@ -27,6 +28,7 @@ root.render(
       <Route path="/blog" element={<Blog />} />
       <Route path="/blog/blogitem/:id" element={<BlogItem />} />
       <Route path="*" element={<Error />} />
+      <Route path="contact" element={<Contact />} />
 
 
 
