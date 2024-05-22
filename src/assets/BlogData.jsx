@@ -81,7 +81,9 @@ export const BLOGDATAS = [
     image: "images/paix-intestin.webp",
     alt: "image paix intestin",
     text: "Lorsque la dysbiose est installée, le changement d’alimentation, l’exclusion d’aliments créant une hypersensibilité ne seront, le plus souvent, pas suffisant pour rétablir la paix. Il faut réensemencer...",
-    completText: [<p>text1</p>, <p>text2</p>],
+    completText: [
+      "Lorsque la dysbiose est installée, le changement d’alimentation, l’exclusion d’aliments créant une hypersensibilité ne seront, le plus souvent, pas suffisant pour rétablir la paix. Il faut réensemencer, durant plusieurs mois et en quantité suffisante, le tube digestif avec des probiotiques (bactéries amies), des prébiotiques  (fibres indigestibles qui nourriront les bactéries amies leurs permettant de se développer et de libérer des acides gras volatils dont le N-butyrate), et des micronutriments essentiels (glutamine, zinc, vitamine A, N-butyrate,…) aux cellules intestinales. Ces nutriments permettront de réparer la muqueuse intestinale et résoudront l’hyperperméabilité intestinale.",
+    ],
   },
   {
     id: 5,
