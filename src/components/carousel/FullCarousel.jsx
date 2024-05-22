@@ -65,12 +65,12 @@ const FullCarousel = ({ bigSlides }) => {
     setCurrent(current === 0 ? length - 1 : current - 1);
   };
 
-  // useEffect(() => {
-  //   const interval = setTimeout(() => {
-  //     nextSlide();
-  //   }, 2000);
-  //   return () => clearTimeout(interval);
-  // }, [nextSlide]);
+  useEffect(() => {
+    const interval = setTimeout(() => {
+      nextSlide();
+    }, 2000);
+    return () => clearTimeout(interval);
+  }, [nextSlide]);
 
 
 

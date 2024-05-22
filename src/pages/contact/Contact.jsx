@@ -22,7 +22,6 @@ const Contact = () => {
                 <div className="contact-info">
                     <h2>ANNE CHRISTINE BRUNEL</h2>
                     <p>Diététicienne et micronutritionniste</p>
-                    <p>06 12 34 56 78</p>
                       </div> 
                       <div className="full-carousel-container">
                 <FullCarousel bigSlides={ImageContactData} className="carousel-image"  />
