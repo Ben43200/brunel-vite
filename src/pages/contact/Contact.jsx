@@ -4,14 +4,10 @@ const Contact = () => {
     
     const ImageContactData = [
     
-        {
-          image:
+     
             "images/entree.webp",
-        },
-        {
-          image:
+     
             "images/salle-attente.webp",
-        },
    
       ];  
     return (
@@ -24,7 +20,7 @@ const Contact = () => {
                     <p>Diététicienne et micronutritionniste</p>
                       </div> 
                       <div className="full-carousel-container">
-                <FullCarousel bigSlides={ImageContactData} className="carousel-image"  />
+                {/* <FullCarousel images={ImageContactData} className="carousel-image"  /> */}
                 </div>
         <h1>Contact</h1>
         </main>

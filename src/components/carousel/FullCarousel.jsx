@@ -42,9 +42,9 @@
 
 // export default FullCarousel;
 
+//ancien code
 
-
-import  { useState, useEffect } from "react";
+// import  { useState, useEffect } from "react";
 // import { SlideImage, StyledSlider } from "./SlideImage";
 // import SlideImage from "./SlideImage.jsx";
 
@@ -53,55 +53,99 @@ import  { useState, useEffect } from "react";
 //   FaChevronLeft,
 // } from "react-icons/fa";
 
-const FullCarousel = ({ bigSlides }) => {
-  const [current, setCurrent] = useState(0);
-  const length = bigSlides.length;
+// const FullCarousel = ({ bigSlides }) => {
+//   const [current, setCurrent] = useState(0);
+//   const length = bigSlides.length;
 
-  const nextSlide = () => {
-    setCurrent(current === length - 1 ? 0 : current + 1);
-  };
+//   const nextSlide = () => {
+//     setCurrent(current === length - 1 ? 0 : current + 1);
+//   };
 
-  const prevSlide = () => {
-    setCurrent(current === 0 ? length - 1 : current - 1);
-  };
+//   const prevSlide = () => {
+//     setCurrent(current === 0 ? length - 1 : current - 1);
+//   };
 
-  useEffect(() => {
-    const interval = setTimeout(() => {
-      nextSlide();
-    }, 3000);
-    return () => clearTimeout(interval);
-  }, [nextSlide]);
+//   useEffect(() => {
+//     const interval = setTimeout(() => {
+//       nextSlide();
+//     }, 3000);
+//     return () => clearTimeout(interval);
+//   }, [nextSlide]);
 
 
 
-  return(
-  // <StyledSlider>
-  <div>
-  {/* <FaChevronLeft
-    className="left-arrow"
-    onClick={prevSlide}
-  />
-  <FaChevronRight
-    className="right-arrow"
-    onClick={nextSlide}
-  /> */}
-  {bigSlides.map((bigSlide, index) => {
-    return (
+//   return(
+//   // <StyledSlider>
+//   <div>
+//   {/* <FaChevronLeft
+//     className="left-arrow"
+//     onClick={prevSlide}
+//   />
+//   <FaChevronRight
+//     className="right-arrow"
+//     onClick={nextSlide}
+//   /> */}
+//   {bigSlides.map((bigSlide, index) => {
+//     return (
      
-      <div key={index}>
-        {index === current && (
-      <div className="big-carousel" id="full-carousel">
-          <img src={bigSlide.image} alt="" />
-          </div>
-        )}
-      </div>
+//       <div key={index}>
+//         {index === current && (
+//       <div className="big-carousel" id="full-carousel">
+//           <img src={bigSlide.image} alt="" />
+//           </div>
+//         )}
+//       </div>
    
-    );
-  })}
-  </div>
-// </StyledSlider>
-);
+//     );
+//   })}
+//   </div>
+// // </StyledSlider>
+// );
+// };
+
+// export default FullCarousel;
+
+//fin ancien code
+
+
+
+
+import  { useState, useEffect } from 'react';
+
+// import PropTypes from 'prop-types';
+
+const FullCarousel = ({ images }) => {
+  const [activeImage, setActiveImage] = useState(0);
+
+  // Preload images
+  useEffect(() => {
+    images.forEach(image => {
+      const img = new Image();
+      img.src = image;
+    });
+  }, [images]);
+
+  // Change image every 3 seconds
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setActiveImage(prevIndex => (prevIndex + 1) % images.length);
+    }, 3000);
+
+    return () => clearInterval(interval);
+  }, [images]);
+
+  return (
+    <div className="carousel">
+      {images.map((image, index) => (
+        <img
+          key={index} 
+          src={image} 
+          className={`carousel-item ${index === activeImage ? 'show' : ''}`} 
+          alt="" 
+        />
+      ))}
+    </div>
+  );
 };
 
 export default FullCarousel;
-

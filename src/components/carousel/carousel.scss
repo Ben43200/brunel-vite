@@ -57,9 +57,13 @@ border-radius: 50%;
 
 .carousel-home-container{
   display: none;
+  width: 100%;
+  // height:500px;
 
   @include media(tablet) {
     display: flex;
+    justify-content: center;
+    align-items: center;
     }
 
   }
@@ -67,4 +71,45 @@ border-radius: 50%;
     height:487px;
     width:100%;
     object-fit: cover;
+  }
+
+  // .carousel-item{
+  //   opacity: 0;
+  //   transition: opacity 1s ease-in-out;
+  //      position: absolute;
+  // }
+
+  // .carousel-item.show{
+  //   opacity: 1;
+  // }
+
+  // .carousel{
+  //   display: flex;
+  //   overflow: hidden;
+  //   width: 100%;
+  // }
+
+
+
+  .carousel {
+    position: relative;
+    // height:auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+  
+  .carousel-item {
+    position: absolute;
+    width: 100%;
+    // visibility: hidden;
+    opacity: 0;
+    // transition: visibility 0s, opacity 0.5s linear;
+    transition: opacity 1s ease-in-out;
+  }
+  
+  .carousel-item.show {
+    // visibility: visible;
+    opacity: 1;
+    width: 100%;
   }
