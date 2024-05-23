@@ -26,11 +26,11 @@ const Home = () => {
   ];
 
   useEffect(() => {
-    images.forEach((slide) => {
+    images.forEach((image) => { // Ajoutez une flèche ici
       const div = document.createElement('div');
-      div.style.backgroundImage = `url(${slide})`;
+      div.style.backgroundImage = `url(${image})`;
     });
-
+  
     ImageData.forEach((image) => {
       const img = new Image();
       img.src = image;
