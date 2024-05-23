@@ -18,6 +18,19 @@
 // //     height: 1000px;
 // // }
 
-#root > main > div.full-carousel-container > div >img{
+// #root > main > div.full-carousel-container > div >img{
+    #root > main > div.full-carousel-container > div >img{
     height:470px;
+    @include media(tablet) {
+        height:800px
+}
+}
+.main-contact-container{
+    display: grid;
+    grid-template-rows: 1fr auto 1fr;
+}
+
+.full-carousel-container{
+    overflow: hidden;
+    height:700px;
 }

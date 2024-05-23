@@ -11,7 +11,7 @@ const Contact = () => {
    
       ];  
     return (
-        <main>
+        <main className="main-contact-container">
             <div className="banner-container">
                 <img src="images/header-contact.webp" alt="contact" />
                 </div>
