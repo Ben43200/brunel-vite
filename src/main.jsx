@@ -27,8 +27,8 @@ root.render(
       <Route path="/micronutrition" element={<Micronutrition />} />
       <Route path="/blog" element={<Blog />} />
       <Route path="/blog/blogitem/:id" element={<BlogItem />} />
-      <Route path="*" element={<Error />} />
       <Route path="contact" element={<Contact />} />
+      <Route path="*" element={<Error />} />
 
 
 
