@@ -1,5 +1,6 @@
 import FullCarousel from "../../components/carousel/FullCarousel.jsx";
 import "./contact.scss";
+import { useEffect } from "react";
 const Contact = () => {
     
     const ImageContactData = [
@@ -9,7 +10,13 @@ const Contact = () => {
      
             "images/salle-attente.webp",
    
-      ];  
+      ];
+      useEffect(() => {
+        ImageContactData.forEach((image) => {
+          const img = new Image();
+          img.src = image;
+        });
+      }, []);  
     return (
         <main className="main-contact-container">
             <div className="banner-container">
