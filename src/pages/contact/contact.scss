@@ -10,6 +10,7 @@
 #full-carousel > img{
     object-fit: cover;
     height:487px;
+    // height:300px;
     @include media(tablet) {
     height:600px
 }}
@@ -20,21 +21,23 @@
 
 // #root > main > div.full-carousel-container > div >img{
     #root > main > div.full-carousel-container > div >img{
-    height:400px;
+    height:300px;
     @include media(tablet) {
         height:600px
 }
 }
 .main-contact-container{
     display: grid;
+    grid-template-rows: 90px auto auto;
+    @include media(tablet) {
     grid-template-rows: auto auto auto;
     align-items: center;
     justify-content: center;
 }
-
+}
 .full-carousel-container{
     overflow: hidden;
-    height:400px;
+    height:300px;
     @include media(tablet) {
     height:600px;
 }
