@@ -1,6 +1,6 @@
 import FullCarousel from "../../components/carousel/FullCarousel.jsx";
 import "./contact.scss";
-import { useEffect } from "react";
+import { useEffect,Suspense } from "react";
 const Contact = () => {
     
     const ImageContactData = [
@@ -27,7 +27,9 @@ const Contact = () => {
                     <p>Diététicienne et micronutritionniste</p>
                       </div> 
                       <div className="full-carousel-container">
+                      <Suspense fallback={<div>Chargement...</div>}>
                 <FullCarousel images={ImageContactData} className="carousel-image"  />
+                </Suspense>
                 </div>
         <h1>Contact</h1>
         </main>
