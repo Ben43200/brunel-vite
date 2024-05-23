@@ -28,6 +28,8 @@
 .main-contact-container{
     display: grid;
     grid-template-rows: auto auto auto;
+    align-items: center;
+    justify-content: center;
 }
 
 .full-carousel-container{

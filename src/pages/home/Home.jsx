@@ -1,7 +1,9 @@
 import "./home.scss";
-import Carousel from "../../components/carousel/Carousel.jsx";
-import FullCarousel from "../../components/carousel/FullCarousel.jsx";
-import { useEffect } from "react";
+// import Carousel from "../../components/carousel/Carousel.jsx";
+// import FullCarousel from "../../components/carousel/FullCarousel.jsx";
+import React, { useEffect, Suspense } from "react";
+const FullCarousel = React.lazy(() => import('../../components/carousel/FullCarousel.jsx'));
+const Carousel = React.lazy(() => import('../../components/carousel/Carousel.jsx'));
 const Home = () => {
   // const images = [
   //   "circular--landscape-1",
@@ -40,10 +42,14 @@ const Home = () => {
   return (
     <main className="home-container">
       <div className="little-carousel">
+      <Suspense fallback={<div>Chargement...</div>}>
         <Carousel images={images} />
+        </Suspense>
       </div>
       <div className="carousel-home-container">
+      <Suspense fallback={<div>Chargement...</div>}>
         <FullCarousel images={ImageData} />
+        </Suspense>
       </div>
     </main>
   );
