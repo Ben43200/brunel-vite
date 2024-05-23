@@ -3,10 +3,18 @@ import Carousel from "../../components/carousel/Carousel.jsx";
 import FullCarousel from "../../components/carousel/FullCarousel.jsx";
 import { useEffect } from "react";
 const Home = () => {
-  const slides = [
-    "circular--landscape-1",
-    "circular--landscape-2",
-    "circular--landscape-3",
+  // const images = [
+  //   "circular--landscape-1",
+  //   "circular--landscape-2",
+  //   "circular--landscape-3",
+  // ];
+
+  const images = [
+    "images/accueil1.webp",
+
+    "images/accueil2.webp",
+
+    "images/accueil3.webp",
   ];
 
   const ImageData = [
@@ -18,7 +26,7 @@ const Home = () => {
   ];
 
   useEffect(() => {
-    slides.forEach((slide) => {
+    images.forEach((slide) => {
       const div = document.createElement('div');
       div.style.backgroundImage = `url(${slide})`;
     });
@@ -27,12 +35,12 @@ const Home = () => {
       const img = new Image();
       img.src = image;
     });
-  }, [slides, ImageData]);
+  }, [images, ImageData]);
 
   return (
     <main className="home-container">
       <div className="little-carousel">
-        <Carousel slides={slides} />
+        <Carousel images={images} />
       </div>
       <div className="carousel-home-container">
         <FullCarousel images={ImageData} />
