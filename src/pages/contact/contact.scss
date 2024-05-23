@@ -32,7 +32,10 @@
 
 .full-carousel-container{
     overflow: hidden;
+    height:400px;
+    @include media(tablet) {
     height:700px;
+}
 }
 
 #root > .main-contact-container > div.full-carousel-container > div{
