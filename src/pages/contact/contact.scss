@@ -22,7 +22,7 @@
     #root > main > div.full-carousel-container > div >img{
     height:400px;
     @include media(tablet) {
-        height:800px
+        height:600px
 }
 }
 .main-contact-container{
@@ -41,4 +41,8 @@
 #root > .main-contact-container > div.full-carousel-container > div{
     display: grid;
     align-items: start;
+}
+
+.banner-container{
+    height:271px;
 }
