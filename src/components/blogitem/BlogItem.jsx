@@ -9,15 +9,15 @@ import { useNavigate } from "react-router-dom";
 
 const BlogItem =(props) =>{
 
-//   //code pour précharger les images
-//   const images = BLOGDATAS.map((blogitem) => blogitem.image);
-//   useEffect(() => {
-//     images.forEach((image) => {
-//       const img = new Image();
-//       img.src = image;
-//     });
-//   }, [images]);
-// //fin code pour précharger les images
+  //code pour précharger les images
+  const images = BLOGDATAS.map((blogitem) => blogitem.image);
+  useEffect(() => {
+    images.forEach((image) => {
+      const img = new Image();
+      img.src = image;
+    });
+  }, [images]);
+//fin code pour précharger les images
 
     const navigate = useNavigate();
    console.log(props)
