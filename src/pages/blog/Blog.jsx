@@ -1,8 +1,18 @@
 import { BLOGDATAS } from "../../assets/BlogData.jsx"
 import "./blog.scss"
 import { Link } from "react-router-dom"
+import { useEffect } from "react"
 
 const Blog = () =>{
+      //code pour précharger les images
+  const images = BLOGDATAS.map((blogitem) => blogitem.image);
+  useEffect(() => {
+    images.forEach((image) => {
+      const img = new Image();
+      img.src = image;
+    });
+  }, [images]);
+//fin code pour précharger les images
     // console.log(completText)
 // console.log(BLOGDATAS)
 // console.log(BLOGDATAS[1].completText)
