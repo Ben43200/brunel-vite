@@ -1,6 +1,7 @@
 import "./home.scss";
 import Carousel from "../../components/carousel/Carousel.jsx";
 import FullCarousel from "../../components/carousel/FullCarousel.jsx";
+import { useEffect } from "react";
 const Home = () => {
   const slides = [
     "circular--landscape-1",
@@ -15,6 +16,18 @@ const Home = () => {
 
     "images/accueil3.webp",
   ];
+
+  useEffect(() => {
+    slides.forEach((slide) => {
+      const div = document.createElement('div');
+      div.style.backgroundImage = `url(${slide})`;
+    });
+
+    ImageData.forEach((image) => {
+      const img = new Image();
+      img.src = image;
+    });
+  }, [slides, ImageData]);
 
   return (
     <main className="home-container">
