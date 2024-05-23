@@ -20,7 +20,7 @@ const Contact = () => {
                     <p>Diététicienne et micronutritionniste</p>
                       </div> 
                       <div className="full-carousel-container">
-                {/* <FullCarousel images={ImageContactData} className="carousel-image"  /> */}
+                <FullCarousel images={ImageContactData} className="carousel-image"  />
                 </div>
         <h1>Contact</h1>
         </main>
