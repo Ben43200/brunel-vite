@@ -49,7 +49,7 @@ const BlogItem =() =>{
  <NavLink to="/blog" className="back-link">
  <button onClick={() => {
    console.log('Bouton cliqué');
-   window.scrollTo(0, 0);
+  //  window.scrollTo(0, 0);
  }}>Retour au Blog</button>
 </NavLink>
 </div>
