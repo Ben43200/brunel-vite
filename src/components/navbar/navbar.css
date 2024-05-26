@@ -45,8 +45,6 @@ header {
 .logo-1 {
   max-width: 50px; /* Set max-width for larger devices */
   z-index: 300;
-  background-color: #c1e4f1;
-  border-radius: 50%;
 }
 
 @media only screen and (min-width: 768px) {
