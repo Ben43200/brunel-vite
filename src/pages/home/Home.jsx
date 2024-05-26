@@ -43,11 +43,11 @@ const Home = () => {
 
   return (
     <main className="home-container">
-      <div className="little-carousel">
+      {/* <div className="little-carousel">
       {/* <Suspense fallback={<div>Chargement...</div>}> */}
-        <Carousel images={images} />
+        {/* <Carousel images={images} /> */}
         {/* </Suspense> */}
-      </div>
+      {/* </div> */}
       <div className="carousel-home-container">
       {/* <Suspense fallback={<div>Chargement...</div>}> */}
         <FullCarousel images={ImageData} />
