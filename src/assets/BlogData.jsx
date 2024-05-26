@@ -22,7 +22,7 @@ export const BLOGDATAS = [
   {
     id: 1,
     name: "Qu’est-ce que la micronutrition ?",
-    image: "images/micronutrition.webp",
+    image: "images/micronutrition-v2.webp",
     alt: "image micronutrition",
     text: "La Micronutrition, une approche de la nutrition médicalisée adaptée à chacun…La Micronutrition consiste à satisfaire les besoins en micronutriments de l’individu, par...En savoir +...",
     // completText: [<p>text1</p>,<p>text2</p>],
@@ -67,8 +67,8 @@ export const BLOGDATAS = [
   {
     id: 3,
     name: "Qu’est-ce que la dysbiose ?",
-    image: "images/omega.webp",
-    alt: "image omega",
+    image: "images/dysbiose.png",
+    alt: "image dysbiose",
     text: "La dysbiose (par opposition à l’eubiose) est le nom donné à « la guerre dans l’intestin ». Les bactéries « méchantes » et autres microorganismes (tels que levures, parasites) ont pris...En savoir +...",
     completText: [
       "La dysbiose (par opposition à l’eubiose) est le nom donné à « la guerre dans l’intestin ». Les bactéries « méchantes » et autres microorganismes (tels que levures, parasites) ont pris le dessus sur nos bactéries amies. Cette dysbiose est certainement à l’origine de toutes maladies chroniques (syndrome métabolique, diabète, obésité, problèmes cardiovasculaires, maladies auto-immunes, allergies, fatigue chronique, dépression, fibromyalgie, problème de peau…). La « mal bouffe », le stress, la prise de médicaments sont souvent des facteurs responsables ou déclenchants. C’est pourquoi, il faut veiller à bien nourrir le microbiote avec une alimentation saine, la moins transformée possible (partir de l’aliment brut et le cuisiner soi-même), très variée, riche en micronutriments (avec légumes et fruits de saison bio), la moins raffinée possible, et réapprendre à bien mastiquer pour permettre une bonne digestion. Une éviction alimentaire sera nécessaire dans les cas d’hypersensibilité à certains aliments (gluten, protéines de lait de vache, lactose, œufs, Fodmap…).",
@@ -88,8 +88,8 @@ export const BLOGDATAS = [
   {
     id: 5,
     name: "Qu’est-ce que l’hyperperméabilité intestinale ?",
-    image: "images/omega.webp",
-    alt: "omega",
+    image: "images/hypermeabilite.webp",
+    alt: "photo hyperméabilité intestinale",
     text: "L’hyperperabilité intestinale représente l’ouverture des jonctions serrées qui se situent entre chaque cellule de l’intestin. Ces jonctions, qui peuvent être représentées...En savoir +...",
     // completText: ["text1", "text2"],
     completText: [
