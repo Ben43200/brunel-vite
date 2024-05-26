@@ -1,5 +1,5 @@
 import  { useState, useEffect } from 'react';
-
+import './carousel.scss';
 // import PropTypes from 'prop-types';
 
 const FullCarousel = ({ images }) => {

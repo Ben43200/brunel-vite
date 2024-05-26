@@ -1,56 +1,5 @@
 @import "../../css/mixinsandfunctions.scss";
 
-.circular--landscape-1{
-  width: 350px;
-  height: 350px;
-  background: url("/public/images/accueil1-mobile.webp");
-  background-position: 50% 50%;
-  background-size: cover;
-  border-radius: 50%;
-  opacity: 1;
-  transition: all 0.5s ease; //transition effect
-
-      @include media(tablet) {
-  display: none;
-}
-}
-
-.circular--landscape-2{
-      width: 350px;
-height: 350px;
-background: url("/public/images/accueil2.webp");
-// background: black;
-
-background-position: 50% 50%;
-background-size: cover;
-border-radius: 50%;
-opacity: 1;
-transition: all 0.5s ease; //transition effect
-transition: all 0.5s ease; //transition effect
-
-
-  @include media(tablet) {
-display: none;
-}
-}
-
-.circular--landscape-3{
-width: 350px;
-height: 350px;
-background: url("/public/images/accueil3.webp");
-// background: green;
-background-position: 50% 50%;
-background-size: cover;
-border-radius: 50%;
-transition: all 1s ease; //transition effect
-opacity: 1;
-transition: all 0.5s ease; //transition effect
-
-@include media(tablet) {
-  display: none;
-}
-}
-
   .leftBtn {
     position: absolute;
     // top: 40%;
@@ -83,24 +32,6 @@ transition: all 0.5s ease; //transition effect
     object-fit: cover;
   }
 
-  // .carousel-item{
-  //   opacity: 0;
-  //   transition: opacity 1s ease-in-out;
-  //      position: absolute;
-  // }
-
-  // .carousel-item.show{
-  //   opacity: 1;
-  // }
-
-  // .carousel{
-  //   display: flex;
-  //   overflow: hidden;
-  //   width: 100%;
-  // }
-
-
-
   .carousel {
     position: relative;
     height:600px;
@@ -125,32 +56,3 @@ transition: all 0.5s ease; //transition effect
     width: 100%;
   }
 
-
-
-  .carousel-circular {
-    position: relative;
-    width: 350px;
-    height: 350px;
-    display: flex;
-    
-  @include media(tablet) {
-    display: none;
-    }
-  
-    .carousel-image {
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      background-position: 50% 50%;
-      background-size: cover;
-      opacity: 0;
-      border-radius: 50%;
-      transition: opacity 2s ease;
-  
-      &.active {
-        opacity: 1;
-      }
-    }
-  }

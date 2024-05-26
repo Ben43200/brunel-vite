@@ -7,7 +7,7 @@ import './css/main.scss'
 import "./css/mixinsandfunctions.scss";
 import Micronutrition from "./pages/micronutrinition/Micronutrition.jsx";
 import Blog from "./pages/blog/Blog.jsx";
-import BlogItem from "./components/blogitem/BlogItem.jsx";
+import BlogItem from "./pages/blogitem/BlogItem.jsx";
 import Error from "./pages/error/Error.jsx";
 import Contact from "./pages/contact/Contact.jsx";
 

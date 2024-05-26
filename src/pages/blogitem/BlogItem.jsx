@@ -7,7 +7,7 @@ import { useNavigate } from "react-router-dom";
 
 
 
-const BlogItem =(props) =>{
+const BlogItem =() =>{
 
   //code pour précharger les images
   const images = BLOGDATAS.map((blogitem) => blogitem.image);
@@ -20,9 +20,7 @@ const BlogItem =(props) =>{
 //fin code pour précharger les images
 
     const navigate = useNavigate();
-   console.log(props)
     let {id} = useParams();
-    console.log(id)
     const blogitem = BLOGDATAS.find(blogitem => String(blogitem.id) === id);
 
     const [data, setData] = useState(null);
