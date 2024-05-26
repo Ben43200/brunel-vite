@@ -1,5 +1,5 @@
 import "../../pages/blog/blog.scss";
-import { useParams } from "react-router-dom";
+import { NavLink, useParams } from "react-router-dom";
 import { BLOGDATAS } from "../../assets/BlogData.jsx";
 import { useState } from "react";
 import { useEffect } from "react";
@@ -45,7 +45,14 @@ const BlogItem =() =>{
                 <div key={id}>{completTexti}</div>))}
                 </div>
                 {/* </div> */}
-
+                <div className="back-link-container">
+ <NavLink to="/blog" className="back-link">
+ <button onClick={() => {
+   console.log('Bouton cliqué');
+   window.scrollTo(0, 0);
+ }}>Retour au Blog</button>
+</NavLink>
+</div>
     </main>
     ) : null
 }
