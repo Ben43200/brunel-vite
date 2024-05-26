@@ -61,14 +61,14 @@
 .blog-item-container {
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-areas: "title" "image" "text";
+  grid-template-areas: "title" "image" "text" "button";
   align-items: center;
   margin-top: 0;
 }
 @media screen and (min-width: 768px) {
   .blog-item-container {
     grid-template-columns: 1fr 1fr;
-    grid-template-areas: "title title" "image text";
+    grid-template-areas: "title title" "image text" "button button";
   }
 }
 
@@ -109,4 +109,5 @@
   justify-content: center;
   align-items: center;
   margin-top: 20px;
+  grid-area: button;
 }/*# sourceMappingURL=blog.css.map */
