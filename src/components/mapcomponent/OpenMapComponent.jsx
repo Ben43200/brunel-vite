@@ -1,9 +1,8 @@
 import { MapContainer, TileLayer, Marker, Popup, useMap } from 'react-leaflet';
 import { useState, useEffect } from 'react';
-
 import L from 'leaflet';
-import markerIcon from '../../assets/logo-2.png'; // Remplacez par le chemin d'accès à votre image
 
+const markerIcon = "marker.png"; // Remplacez par le chemin d'accès à votre image
 const customMarker = new L.Icon({
   iconUrl: markerIcon,
   iconRetinaUrl: markerIcon,
