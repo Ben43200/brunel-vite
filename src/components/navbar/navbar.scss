@@ -7,28 +7,46 @@
   font-family: "Poppins", sans-serif;
   background-color: #ffffd3;
 }
-header {
+
+//ancien code
+// header {
+//   box-shadow: 10px 5px 5px grey;
+//   border-radius: 10px;
+//     grid-template-rows: auto 1fr auto;
+//     background-color:#c1e4f1 ;
+//     //essai header
+
+//     top: 0px;
+//     left: 0px;
+//     // position: sticky;
+//     position: fixed;
+//     right: 0px;
+//     z-index: 400;
+//     @include media(tablet) {
+// // @media (min-width: 1240px) {
+
+//       position: relative;
+//     }
+
+//     //fin essai
+// }
+
+//fin ancien code
+//nouvel essai fixer le header
+
+
+header{
   box-shadow: 10px 5px 5px grey;
   border-radius: 10px;
-    grid-template-rows: auto 1fr auto;
-    background-color:#c1e4f1 ;
-    //essai header
-
-    top: 0px;
-    left: 0px;
-    // position: sticky;
-    position: fixed;
-    right: 0px;
-    z-index: 400;
-    @include media(tablet) {
-// @media (min-width: 1240px) {
-
-      position: relative;
-    }
-
-    //fin essai
+  background-color:#c1e4f1 ;
+position: fixed;
+top: 0;
+left: 50%; // Centrer l'élément horizontalement
+transform: translateX(-50%); // Décaler l'élément de moitié à gauche pour le centrer parfaitement
+width: 100%;
+max-width: 1240px;
+z-index: 500;
 }
-
 
 .container {
   max-width: 1100px;
