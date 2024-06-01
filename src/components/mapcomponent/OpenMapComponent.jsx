@@ -16,6 +16,7 @@ const SetInteraction = ({ isInteractive }) => {
       map.doubleClickZoom.disable();
       map.scrollWheelZoom.disable();
     }
+    map.invalidateSize(); // Force la carte à vérifier la taille de son conteneur et à se recentrer
   }, [isInteractive, map]);
 
   return null;
