@@ -141,22 +141,22 @@ button {
   background: linear-gradient(85deg, #352361 1%, rgb(64, 84, 178) 55%);
 }
 
-.logo-1{
-  height:350px;
-  width: 100%;
-  // border: 2px solid black;
+// .logo-1{
+//   height:350px;
+//   width: 100%;
+//   // border: 2px solid black;
   
-  @include media(tablet) {
-    width:400px;
-  }
-  @media (min-width: 400px){
-    width: auto;
-    // height: auto;
-  }
-  @media (max-width: 390px){
-    width: 100%;
-    // height: auto;
-  }
+//   @include media(tablet) {
+//     width:400px;
+//   }
+//   @media (min-width: 400px){
+//     width: auto;
+//     // height: auto;
+//   }
+//   @media (max-width: 390px){
+//     width: 100%;
+//     // height: auto;
+//   }
   
  
-}
+// }
