@@ -2,6 +2,7 @@
 import React , { useState, useEffect, Suspense } from 'react';
 import './contact.scss';
 import OpenMapComponent from '../../components/mapcomponent/OpenMapComponent.jsx';
+import ContactForm from '../../components/contactform/ContactForm.jsx';
 
 const FullCarousel = React.lazy(() => import('../../components/carousel/FullCarousel.jsx'));
 
@@ -38,6 +39,7 @@ const Contact = () => {
       </div>
       <h1>Contact</h1>
       <OpenMapComponent />
+      <ContactForm />
     </main>
   );
 };
