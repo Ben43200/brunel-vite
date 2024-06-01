@@ -1,6 +1,20 @@
 import { MapContainer, TileLayer, Marker, Popup, useMap } from 'react-leaflet';
 import { useState, useEffect } from 'react';
 
+import L from 'leaflet';
+import markerIcon from '../../assets/logo-2.png'; // Remplacez par le chemin d'accès à votre image
+
+const customMarker = new L.Icon({
+  iconUrl: markerIcon,
+  iconRetinaUrl: markerIcon,
+  iconAnchor: null,
+  popupAnchor: null,
+  shadowUrl: null,
+  shadowSize: null,
+  shadowAnchor: null,
+  iconSize: new L.Point(40, 40),
+});
+
 const SetInteraction = ({ isInteractive }) => {
   const map = useMap();
 
@@ -23,7 +37,7 @@ const SetInteraction = ({ isInteractive }) => {
 }
 
 const OpenMapComponent = () => {
-  const position = [44.72473366745566, 5.032174801844155]; // Position par défaut, vous pouvez la changer
+  const position = [44.724729856051376, 5.032518124596882]; // Position par défaut, vous pouvez la changer
   const [isInteractive, setIsInteractive] = useState(false);
 
   return (
@@ -39,7 +53,7 @@ const OpenMapComponent = () => {
           url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
           attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
         />
-        <Marker position={position}>
+        <Marker position={position} icon={customMarker}>
           <Popup>
             Un popup exemple.
           </Popup>
