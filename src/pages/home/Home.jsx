@@ -1,8 +1,8 @@
 import "./home.scss";
 import FullCarousel from "../../components/carousel/FullCarousel.jsx";
 import  { useEffect } from "react";
-import OpenMapComponent from "../../components/mapcomponent/OpenMapComponent.jsx";
-import 'leaflet/dist/leaflet.css';
+// import OpenMapComponent from "../../components/mapcomponent/OpenMapComponent.jsx";
+// import 'leaflet/dist/leaflet.css';
 
 // const FullCarousel = React.lazy(() => import('../../components/carousel/FullCarousel.jsx'));
 const Home = () => {
@@ -27,7 +27,7 @@ const Home = () => {
       {/* <Suspense fallback={<div>Chargement...</div>}> */}
         <FullCarousel images={ImageData} />
         {/* </Suspense> */}
-    <OpenMapComponent />
+    {/* <OpenMapComponent /> */}
       </div>
     </main>
   );
