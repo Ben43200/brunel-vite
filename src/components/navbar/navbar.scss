@@ -45,7 +45,7 @@ left: 50%; // Centrer l'élément horizontalement
 transform: translateX(-50%); // Décaler l'élément de moitié à gauche pour le centrer parfaitement
 width: 100%;
 max-width: 1240px;
-z-index: 500;
+z-index: 1001;
 }
 
 .container {
@@ -215,8 +215,9 @@ z-index: 500;
     // height: calc(100vh - 60px);
     transition: all 0.3s ease-in;
     overflow: hidden;
-    z-index: 100;
+    // z-index: 100;
     position: fixed;
+    z-index: 1001;
   }
 
   .nav-elements.active {
