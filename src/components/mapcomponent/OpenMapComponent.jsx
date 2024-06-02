@@ -45,7 +45,7 @@ const OpenMapComponent = () => {
   const [isInteractive, setIsInteractive] = useState(false);
 
   return (
-    <div>
+    <div className="map-big-container">
       <input 
         type="checkbox" 
         checked={isInteractive} 

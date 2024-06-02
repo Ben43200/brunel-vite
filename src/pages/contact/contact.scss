@@ -26,18 +26,19 @@
         height:600px
 }
 }
-.main-contact-container{
-    display: grid;
-    grid-template-rows: 90px auto auto;
-    @include media(tablet) {
-    grid-template-rows: auto auto auto;
-    align-items: center;
-    justify-content: center;
-}
-}
+// .main-contact-container{
+//     display: grid;
+//     grid-template-rows: 90px auto auto;
+//     @include media(tablet) {
+//     grid-template-rows: auto auto auto;
+//     align-items: center;
+//     justify-content: center;
+// }
+// }
 .full-carousel-container{
     overflow: hidden;
     height:300px;
+    grid-area: carousel-container;
     @include media(tablet) {
     height:600px;
 }
@@ -49,5 +50,58 @@
 }
 
 .banner-container{
-    height:235px;
+    // height:235px;
+    grid-area: banner-container;
 }
+
+
+
+
+
+.main-contact-container {
+    display: grid;
+    // grid-template-rows: repeat(5, auto);
+    grid-template-rows: 200px auto auto auto auto;
+  
+    grid-template-columns: 1fr;
+    grid-template-areas: "banner-container"
+                "contact-info"
+                "carousel-container"
+                "map"
+                "contact-form";
+  
+    @include media(tablet) {
+        gap:20px;
+      grid-template-rows: 400px auto auto auto auto; // Remplacez 200px par la hauteur souhaitée pour banner-container en mode tablette
+      align-items: start; // Aligne les éléments au début de leur cellule de grille
+      justify-content: center;
+      grid-template-columns: 1fr 1fr;
+      grid-template-areas: "banner-container banner-container"
+                           "contact-info carousel-container"
+                           "map contact-form";
+
+    }
+  }
+  
+  .banner-container {
+    height: 90px;
+  
+    @include media(tablet) {
+      height: 400px; // Remplacez 200px par la hauteur souhaitée pour banner-container en mode tablette
+    }
+  }
+  
+  .contact-info {
+    grid-area: contact-info;
+    @include media(tablet) {
+      height: auto; // Permet à contact-info de prendre la hauteur de son contenu
+    }
+  }
+
+  .map-big-container{
+    grid-area: map;
+  }
+
+  .form{
+    grid-area: contact-form;
+  }

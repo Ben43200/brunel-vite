@@ -38,7 +38,7 @@ const Contact = () => {
         </Suspense>
       </div>
       <h1>Contact</h1>
-      <OpenMapComponent />
+      <OpenMapComponent  />
       <ContactForm />
     </main>
   );
