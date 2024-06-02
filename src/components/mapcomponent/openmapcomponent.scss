@@ -5,3 +5,13 @@
 //   .leaflet-control-container {
 //     z-index: 500 !important; /* Utilisez !important pour vous assurer que ce style est appliqué */
 //   }
+
+.map-container {
+    height: 400px;
+    width: 600px;
+  
+    @media (max-width: 600px) {
+      height: 1000px;
+      width: 100%;
+    }
+  }

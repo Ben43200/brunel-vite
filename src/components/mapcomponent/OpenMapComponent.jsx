@@ -2,11 +2,12 @@ import { MapContainer, TileLayer, Marker, Popup, useMap } from 'react-leaflet';
 import { useState, useEffect } from 'react';
 import 'leaflet/dist/leaflet.css';
 import L from 'leaflet';
+import styles from './MapContainer.module.scss';
 // import markerIcon from 'images/marker.png'; // Remplacez par le chemin d'accès à votre image
 
 // const markerIcon = "images/marker.png";
 
-const markerIcon = new URL('../../utils/marker.png', import.meta.url).href; // Remplacez par le chemin d'accès à votre image
+const markerIcon = new URL('../../utils/marker2.png', import.meta.url).href; // Remplacez par le chemin d'accès à votre image
 const customMarker = new L.Icon({
   iconUrl: markerIcon,
   iconRetinaUrl: markerIcon,
@@ -50,7 +51,10 @@ const OpenMapComponent = () => {
         checked={isInteractive} 
         onChange={() => setIsInteractive(!isInteractive)} 
       />
-      <MapContainer center={position} zoom={13} style={{ height: "100vh", width: "100%" }}>
+<div className={styles['map-container-parent']}>
+<MapContainer className={styles['map-container']} center={position} zoom={13}>
+      {/* <MapContainer className='map-container' center={position} zoom={13} > */}
+
         <SetInteraction isInteractive={isInteractive} />
         <TileLayer
           url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
@@ -62,6 +66,7 @@ const OpenMapComponent = () => {
           </Popup>
         </Marker>
       </MapContainer>
+      </div>
     </div>
   );
 }
