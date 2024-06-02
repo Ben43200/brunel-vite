@@ -23,7 +23,7 @@
     #root > main > div.full-carousel-container > div >img{
     height:300px;
     @include media(tablet) {
-        height:600px
+        // height:600px
 }
 }
 // .main-contact-container{
@@ -40,7 +40,7 @@
     height:300px;
     grid-area: carousel-container;
     @include media(tablet) {
-    height:600px;
+    // height:600px;
 }
 }
 
@@ -72,7 +72,7 @@
   
     @include media(tablet) {
         gap:20px;
-      grid-template-rows: 400px auto auto auto auto; // Remplacez 200px par la hauteur souhaitée pour banner-container en mode tablette
+      grid-template-rows: 300px auto auto auto auto; // Remplacez 200px par la hauteur souhaitée pour banner-container en mode tablette
       align-items: start; // Aligne les éléments au début de leur cellule de grille
       justify-content: center;
       grid-template-columns: 1fr 1fr;
