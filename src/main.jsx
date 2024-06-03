@@ -14,6 +14,13 @@ import Contact from "./pages/contact/Contact.jsx";
 
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
+window.addEventListener('resize', () => {
+  let vh = window.innerHeight * 0.01;
+  document.documentElement.style.setProperty('--vh', `${vh}px`);
+});
+
+// Trigger the event manually once at the start to set the initial value
+window.dispatchEvent(new Event('resize'));
 
 root.render(
 
