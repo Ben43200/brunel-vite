@@ -1,11 +1,11 @@
 // nouveau code
 import React , { useState, useEffect, Suspense } from 'react';
 import './contact.scss';
-import OpenMapComponent from '../../components/mapcomponent/OpenMapComponent.jsx';
+// import OpenMapComponent from '../../components/mapcomponent/OpenMapComponent.jsx';
 import ContactForm from '../../components/contactform/ContactForm.jsx';
 
 const FullCarousel = React.lazy(() => import('../../components/carousel/FullCarousel.jsx'));
-
+const OpenMapComponent = React.lazy(() => import('../../components/mapcomponent/OpenMapComponent.jsx'));
 const Contact = () => {
   const [images, setImages] = useState([]);
 
@@ -38,7 +38,9 @@ const Contact = () => {
         </Suspense>
       </div>
       <h1>Contact</h1>
+      <Suspense fallback={<div>Chargement...</div>}>
       <OpenMapComponent  />
+      </Suspense>
       <ContactForm />
     </main>
   );
