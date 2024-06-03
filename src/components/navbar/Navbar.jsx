@@ -37,7 +37,7 @@ const Navbar = () => {
       { title: "Blog", url: "blog" },
       { title: "Contact", url: "contact" },
     ];
-    const title = "ANNE CHRISTINE BRUNEL, diététicienne et micronutritionniste";
+    // const title = "Anne-Christine BRUNEL,<br/> diététicienne et micronutritionniste";
   
     return (
       <header>
@@ -67,7 +67,7 @@ const Navbar = () => {
           </div>
         </nav>
         <div className="title-container">
-          <p className="title">{title}</p>
+          <p className="title">ANNE-CHRISTINE BRUNEL,<br/> diététicienne et micronutritionniste</p>
         </div>
       </header>
     );

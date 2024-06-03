@@ -330,5 +330,20 @@ h1 {
 .title{
   // color:red;
   color: #c1e4f1;
+  // width: 260px;
+  margin: 0;
+  padding: 0;
+  // letter-spacing: -1px;
+  word-spacing: normal;
+
   // padding-top: 70px;
+  br {
+    display: none;
+  }
+
+  @media (max-width: 600px) {
+    br {
+      display: block;
+    }
+  }
 }
