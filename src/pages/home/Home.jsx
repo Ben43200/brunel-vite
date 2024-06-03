@@ -23,12 +23,12 @@ const Home = () => {
 
   return (
     <main className="home-container">
-      <div className="carousel-home-container">
+      {/* <div className="carousel-home-container">
       {/* <Suspense fallback={<div>Chargement...</div>}> */}
-        <FullCarousel images={ImageData} />
+        {/* <FullCarousel images={ImageData} /> */}
         {/* </Suspense> */}
-    {/* <OpenMapComponent /> */}
-      </div>
+    {/* <OpenMapComponent /> 
+      </div> */}
     </main>
   );
 };
