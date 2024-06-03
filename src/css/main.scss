@@ -22,8 +22,8 @@
     display: grid;
     grid-template-areas: " header " "main " "footer ";
   ;
-    grid-template-rows: 160px 1fr auto;
-    height: 100vh;
+    grid-template-rows: auto 1fr auto;
+    min-height: 100vh;
     text-align: justify;
     
     margin: 0;
