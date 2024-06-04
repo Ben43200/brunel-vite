@@ -21,31 +21,15 @@
 #root > main > div.full-carousel-container > div > img {
   height: 300px;
 }
-@media screen and (min-width: 768px) {
-  #root > main > div.full-carousel-container > div > img {
-    height: 600px;
-  }
-}
-
-.main-contact-container {
-  display: grid;
-  grid-template-rows: 90px auto auto;
-}
-@media screen and (min-width: 768px) {
-  .main-contact-container {
-    grid-template-rows: auto auto auto;
-    align-items: center;
-    justify-content: center;
-  }
-}
-
 .full-carousel-container {
   overflow: hidden;
   height: 300px;
+  width: 100%;
+  grid-area: carousel-container;
 }
-@media screen and (min-width: 768px) {
+@media (min-width: 450px) {
   .full-carousel-container {
-    height: 600px;
+    width: 400px;
   }
 }
 
@@ -55,5 +39,55 @@
 }
 
 .banner-container {
-  height: 235px;
+  grid-area: banner-container;
+}
+
+.main-contact-container {
+  display: grid;
+  grid-template-rows: 125px auto auto auto auto;
+  grid-template-columns: 1fr;
+  grid-template-areas: "banner-container" "contact-info" "carousel-container" "map" "contact-form";
+  justify-items: center;
+}
+@media (min-width: 570px) {
+  .main-contact-container {
+    grid-template-rows: 180px auto auto auto auto;
+  }
+}
+@media screen and (min-width: 768px) {
+  .main-contact-container {
+    gap: 20px;
+    grid-template-rows: 300px auto auto auto;
+    align-items: start;
+    justify-content: center;
+    grid-template-columns: auto auto;
+    grid-template-areas: "banner-container banner-container" "contact-info carousel-container" "map contact-form";
+  }
+}
+
+.banner-container {
+  height: 90px;
+}
+@media screen and (min-width: 768px) {
+  .banner-container {
+    height: 400px;
+  }
+}
+
+.contact-info {
+  grid-area: contact-info;
+}
+@media screen and (min-width: 768px) {
+  .contact-info {
+    height: auto;
+  }
+}
+
+.map-big-container {
+  grid-area: map;
+}
+
+form {
+  grid-area: contact-form;
+  height: 450px;
 }/*# sourceMappingURL=contact.css.map */

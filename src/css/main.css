@@ -109,18 +109,23 @@
   font-weight: 400;
 }
 
+body html, body body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
 #root {
   display: grid;
   grid-template-areas: " header " "main " "footer ";
   grid-template-rows: 160px 1fr auto;
-  height: 100vh;
   text-align: justify;
+  min-height: calc(100 * var(--vh));
   margin: 0;
 }
 @media (min-width: 1240px) {
   #root {
     grid-template-areas: " . header  . " "  . main .  " "footer footer footer ";
-    grid-template-rows: auto 1fr auto;
     grid-template-columns: 1fr 1240px 1fr;
     max-width: 100vw;
     height: 100vh;

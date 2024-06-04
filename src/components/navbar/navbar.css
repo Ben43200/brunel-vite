@@ -9,18 +9,14 @@
 header {
   box-shadow: 10px 5px 5px grey;
   border-radius: 10px;
-  grid-template-rows: auto 1fr auto;
   background-color: #c1e4f1;
-  top: 0px;
-  left: 0px;
   position: fixed;
-  right: 0px;
-  z-index: 400;
-}
-@media screen and (min-width: 768px) {
-  header {
-    position: relative;
-  }
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  max-width: 1240px;
+  z-index: 1001;
 }
 
 .container {
@@ -121,8 +117,8 @@ header {
     width: 0;
     transition: all 0.3s ease-in;
     overflow: hidden;
-    z-index: 100;
     position: fixed;
+    z-index: 1001;
   }
   .nav-elements.active {
     width: 200px;
@@ -202,4 +198,15 @@ h1 {
 
 .title {
   color: #c1e4f1;
+  margin: 0;
+  padding: 0;
+  word-spacing: normal;
+}
+.title br {
+  display: none;
+}
+@media (max-width: 600px) {
+  .title br {
+    display: block;
+  }
 }/*# sourceMappingURL=navbar.css.map */

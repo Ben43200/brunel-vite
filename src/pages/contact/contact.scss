@@ -101,11 +101,16 @@
   
   .contact-info {
     grid-area: contact-info;
+    padding:10px;
     @include media(tablet) {
       height: auto; // Permet à contact-info de prendre la hauteur de son contenu
+      padding: 10px
     }
   }
 
+  #root > main > div.contact-info > p{
+    padding: 5px 0px;
+  }
   .map-big-container{
     grid-area: map;
     // height:430px;

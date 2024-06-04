@@ -1,0 +1,22 @@
+.map-container-parent {
+  display: flex;
+  justify-content: center;
+  height: 420px;
+  grid-area: map;
+}
+
+.map-container {
+  height: 400px;
+  width: 400px;
+}
+@media (max-width: 600px) {
+  .map-container {
+    width: 100%;
+  }
+}
+
+.checkbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}/*# sourceMappingURL=MapContainer.module.css.map */
