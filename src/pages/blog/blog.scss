@@ -171,3 +171,18 @@ width: 100%;
     50% { transform: scale(1.05); }
     100% { transform: scale(1); }
   }
+
+  button{
+    background-color: #4054b2;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: 0.3s;
+    &:hover{
+        background-color: #c1e4f1;
+        color: black;
+    }
+  }
