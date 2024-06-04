@@ -8,7 +8,8 @@ import { useNavigate } from "react-router-dom";
 
 
 const BlogItem =() =>{
-
+// Dans votre composant
+const navigate2 = useNavigate();
   //code pour précharger les images
   const images = BLOGDATAS.map((blogitem) => blogitem.image);
   useEffect(() => {
@@ -46,12 +47,13 @@ const BlogItem =() =>{
                 </div>
                 {/* </div> */}
                 <div className="back-link-container">
- <NavLink to="/blog" className="back-link">
+ {/* <NavLink to="/blog" className="back-link">
  <button onClick={() => {
   //  console.log('Bouton cliqué');
   //  window.scrollTo(0, 0);
  }}>Retour au Blog</button>
-</NavLink>
+</NavLink> */}
+ <button onClick={() => navigate2(-1)}>Retour au Blog</button>
 </div>
     </main>
     ) : null
