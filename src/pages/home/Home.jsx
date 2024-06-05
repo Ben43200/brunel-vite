@@ -28,6 +28,17 @@ const Home = () => {
         <FullCarousel images={ImageData} />
         {/* </Suspense> */}
     {/* {/* <OpenMapComponent />  */}
+      </div>
+      <div className="home-contact-info">
+        <h2>ANNE CHRISTINE BRUNEL</h2>
+        <p>Diététicienne et micronutritionniste</p>
+        <p>Espace Synergie / 1 allée Vanber - 26400 CREST </p>
+        <p> 06 01 46 02 74</p>  
+        <p>annechristine.brunel@gmail.com</p>
+        <h2>TARIFS</h2>
+        <p>1ère consultation : 80€ (1h30)</p>
+        <p> 2ème consultation et suivantes : 60€ (1h)</p>
+        <p> Suivi diététique : 30€ (1/2 heure)</p>
       </div> 
     </main>
   );
