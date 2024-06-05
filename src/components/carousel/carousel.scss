@@ -18,6 +18,9 @@
   // display: none;
   height: 172px;
   width: 100%;
+  display: flex;
+  justify-content: center;
+    align-items: center;
   // height:500px;
 
   @include media(tablet) {
