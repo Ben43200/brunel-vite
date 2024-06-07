@@ -14,13 +14,13 @@ const FullCarousel = ({ images }) => {
   }, [images]);
 
   // Change image every 3 seconds
-  useEffect(() => {
-    const interval = setInterval(() => {
-      setActiveImage(prevIndex => (prevIndex + 1) % images.length);
-    }, 3000);
+  // useEffect(() => {
+  //   const interval = setInterval(() => {
+  //     setActiveImage(prevIndex => (prevIndex + 1) % images.length);
+  //   }, 3000);
 
-    return () => clearInterval(interval);
-  }, [images]);
+  //   return () => clearInterval(interval);
+  // }, [images]);
 
   return (
     <div className="carousel">

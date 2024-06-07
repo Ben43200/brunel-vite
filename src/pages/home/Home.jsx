@@ -7,11 +7,11 @@ import  { useEffect } from "react";
 // const FullCarousel = React.lazy(() => import('../../components/carousel/FullCarousel.jsx'));
 const Home = () => {
   const ImageData = [
-    "images/accueil1.webp",
+    "images/accueil1.jpg",
 
-    "images/accueil2.webp",
+    "images/accueil2.jpg",
 
-    "images/accueil3.webp",
+    "images/accueil3.jpg",
   ];
 
   useEffect(() => {
@@ -26,16 +26,10 @@ const Home = () => {
       <div className="carousel-home-container">
       {/* <Suspense fallback={<div>Chargement...</div>}> */}
         <FullCarousel images={ImageData} />
+        </div>
         {/* </Suspense> */}
     {/* {/* <OpenMapComponent />  */}
-      </div>
-      <div className="home-contact-info">
-        <h2>ANNE CHRISTINE BRUNEL</h2>
-        <p>Diététicienne et micronutritionniste</p>
-        <p>Espace Synergie / 1 allée Vanber - 26400 CREST </p>
-        <p> 06 01 46 02 74</p>  
-        <p>annechristine.brunel@gmail.com</p>
-      </div> 
+
     </main>
   );
 };
