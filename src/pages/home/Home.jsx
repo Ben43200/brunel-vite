@@ -1,6 +1,6 @@
 import "./home.scss";
 // import FullCarousel from "../../components/carousel/FullCarousel.jsx";
-import  { useEffect, Suspense } from "react";
+import React, { useEffect, Suspense } from "react";
 // import OpenMapComponent from "../../components/mapcomponent/OpenMapComponent.jsx";
 // import 'leaflet/dist/leaflet.css';
 
@@ -26,8 +26,9 @@ const Home = () => {
       <div className="carousel-home-container">
       <Suspense fallback={<div>Chargement...</div>}>
         <FullCarousel images={ImageData} />
-        </div>
         </Suspense>
+        </div>
+
     {/* {/* <OpenMapComponent />  */}
 
     </main>
