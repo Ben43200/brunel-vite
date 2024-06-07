@@ -41,11 +41,16 @@ header{
   background-color:#c1e4f1 ;
 position: fixed;
 top: 0;
-left: 50%; // Centrer l'élément horizontalement
-transform: translateX(-50%); // Décaler l'élément de moitié à gauche pour le centrer parfaitement
-width: 100%;
-max-width: 1240px;
+
+// suppression du comportement ancien layout navbar
+// left: 50%; // Centrer l'élément horizontalement
+// transform: translateX(-50%); // Décaler l'élément de moitié à gauche pour le centrer parfaitement
+// width: 100%;
+// max-width: 1240px;
+// fin suppression du comportement ancien layout navbar
 z-index: 1001;
+// prend toute la largeur de l'écran nouveau code layout
+width:100%;
 }
 
 .container {
