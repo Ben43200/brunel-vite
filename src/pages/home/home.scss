@@ -122,6 +122,10 @@ img{
 
 
 .carousel-home-container > .carousel{
+    height:auto;
+    @include media(tablet) {
+    height:70vh;
+    @include media(desktop) {
     height:85vh;
     > .carousel-item {
         height: 100%; // Ajouter cette ligne
@@ -133,4 +137,5 @@ img{
         }
     }
 }
-
+}
+}
