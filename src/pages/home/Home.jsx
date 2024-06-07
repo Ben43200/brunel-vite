@@ -7,11 +7,11 @@ import React, { useEffect, Suspense } from "react";
 const FullCarousel = React.lazy(() => import('../../components/carousel/FullCarousel.jsx'));
 const Home = () => {
   const ImageData = [
-    "images/accueil1.jpg",
+    "images/accueil1.webp",
 
-    "images/accueil2.jpg",
+    "images/accueil2.webp",
 
-    "images/accueil3.jpg",
+    "images/accueil3.webp",
   ];
 
   useEffect(() => {
