@@ -47,6 +47,7 @@
   .carousel-item {
     position: absolute;
     width: 100%;
+    object-fit: cover;
     
     // visibility: hidden;
     opacity: 0;
