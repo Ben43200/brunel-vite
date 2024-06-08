@@ -36,7 +36,7 @@
     // @include media(desktop) {
 //déplacement intégralité du code layout sur mobile
 max-width: 100vw;
-height: 100vh;
+// height: 100vh; passage en commentaire pour que le layout de root englobe tout le contenu
 
 //debut ancien code layout
 
