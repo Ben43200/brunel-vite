@@ -1,10 +1,116 @@
 .testimonialcarousel {
     display: flex;
-    justify-content: space-between;
+    
+    overflow: hidden;
+    position: relative;
+    width: 700px;
     align-items: center;
   }
+  .testimonial{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .testimonial>h2{ 
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #333;
+    // margin-bottom: 1rem;
   
-  .testimonial {
-    flex-grow: 1;
-    text-align: center;
+  }
+  
+//   @keyframes slide {
+//     0% {
+//       transform: translateX(-100%);
+//       opacity: 0;
+//     }
+//     20%, 80% {
+//       transform: translateX(0);
+//       opacity: 1;
+//     }
+//     100% {
+//       transform: translateX(100%);
+//       opacity: 0;
+//     }
+//   }
+  
+//   .carousel__slide {
+//     min-width: 100%;
+//     position: absolute;
+//     left: 0;
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+//     flex-direction: column;
+//     animation: slide 5s linear infinite;
+//   }
+
+
+
+
+
+
+
+//   @keyframes slide {
+//     0% {
+//       transform: translateX(-100%);
+//       opacity: 0;
+//     }
+//     20%, 80% {
+//       transform: translateX(0);
+//       opacity: 1;
+//     }
+//     100% {
+//       transform: translateX(100%);
+//       opacity: 0;
+//     }
+//   }
+  
+//   .carousel__slide {
+//     min-width: 100%;
+//     position: absolute;
+//     left: 0;
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+//     flex-direction: column;
+//     animation: slide 15s linear infinite; // Increase the duration to 15s
+//   }
+
+
+
+
+
+
+  .testimonialcarousel {
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    // width: 100%;
+  }
+  
+  @keyframes slide {
+    0%, 100% {
+      transform: translateX(-100%);
+      opacity: 0;
+      z-index: 1;
+    }
+    10%, 90% {
+      transform: translateX(0);
+      opacity: 1;
+      z-index: 2;
+    }
+  }
+  
+  .carousel__slide {
+    min-width: 100%;
+    position: absolute;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    animation: slide 15s linear infinite;
   }
