@@ -6,13 +6,7 @@ import TestimonialCarousel from "../../components/TestimonialCarousel.jsx";
 
 // const FullCarousel = React.lazy(() => import('../../components/carousel/FullCarousel.jsx'));
 const Home = () => {
-  // const ImageData = [
-  //   "images/accueil1.webp",
 
-  //   "images/accueil2.webp",
-
-  //   "images/accueil3.webp",
-  // ];
   const ImageDataDesktop = [
     "images/ACB-ORDI-1.jpeg",
     "images/ACB-ORDI-2.jpeg",
