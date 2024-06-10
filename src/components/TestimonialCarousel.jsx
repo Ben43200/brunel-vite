@@ -41,7 +41,7 @@ function TestimonialCarousel() {
           className={`carousel__slide ${index === current ? 'carousel__slide--active' : ''}`}
         >
           <p>❝{testimonial.testimonial}❞</p>
-          <h2>{testimonial.name}</h2>
+          <h2 className="testimonial-author">{testimonial.name}</h2>
         </div>
       ))}
     </div>

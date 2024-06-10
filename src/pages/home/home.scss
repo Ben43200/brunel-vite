@@ -14,9 +14,13 @@ img{
     // flex-direction: column;
     display: grid;
     justify-items: center;
+    //ancien code
     gap: 50px;
     // grid-template-rows: 1fr 300px;  suppression deuxième ligne
     grid-template-rows: 2fr 1fr;
+    // nouveau code après ajout module commentaires
+    gap: 10px;
+    grid-template-rows: 3fr 1fr;
   
     @include media(tablet) {
  
