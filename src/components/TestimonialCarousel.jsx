@@ -40,7 +40,7 @@ function TestimonialCarousel() {
           key={index}
           className={`carousel__slide ${index === current ? 'carousel__slide--active' : ''}`}
         >
-          <p>❝{testimonial.testimonial}❞</p>
+          <p className="testimonial">❝{testimonial.testimonial}❞</p>
           <h2 className="testimonial-author">{testimonial.name}</h2>
         </div>
       ))}
