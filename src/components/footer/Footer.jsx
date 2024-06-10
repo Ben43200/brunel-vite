@@ -3,7 +3,10 @@ export default function Footer(){
 
     return (
         <footer>
-            <h4>© Footer</h4>
+            <div className="footer-container">
+            <p>©Meteoben</p>
+            <p>Mentions Légales</p>
+            </div>
         </footer>
     )
 }

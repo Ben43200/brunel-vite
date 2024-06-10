@@ -9,8 +9,15 @@ footer{
     align-items: center;
 
 }
-footer > h4{
+footer >.footer-container > p{
     color: white;
-    font-size: 25px;
+    font-size: 12px;
     
 }
+
+.footer-container{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+
+}   
