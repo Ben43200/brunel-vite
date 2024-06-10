@@ -1,9 +1,8 @@
 import "./home.scss";
 import FullCarousel from "../../components/carousel/FullCarousel.jsx";
-import  { useEffect } from "react";
+import  { useEffect, useState } from "react";
 import TestimonialCarousel from "../../components/TestimonialCarousel.jsx";
-// import OpenMapComponent from "../../components/mapcomponent/OpenMapComponent.jsx";
-// import 'leaflet/dist/leaflet.css';
+
 
 // const FullCarousel = React.lazy(() => import('../../components/carousel/FullCarousel.jsx'));
 const Home = () => {
@@ -14,37 +13,43 @@ const Home = () => {
 
   //   "images/accueil3.webp",
   // ];
-  const ImageData = [
+  const ImageDataDesktop = [
     "images/ACB-ORDI-1.jpeg",
     "images/ACB-ORDI-2.jpeg",
     "images/ACB-ORDI-3.jpeg",
-    // "images/ACB-MOBILE-1.jpg",
-    // "images/ACB-MOBILE-2.jpg",
-    // "images/ACB-MOBILE-3.jpg",
   ]
+  const ImageDataMobile=[
+    "images/ACB-MOBILE-1.jpg",
+    "images/ACB-MOBILE-2.jpg",
+    "images/ACB-MOBILE-3.jpg",
+  ]
+
+
+  const [isDesktopOrLaptop, setIsDesktopOrLaptop] = useState(window.innerWidth >=600);
+  const [ImageData, setImageData] = useState(isDesktopOrLaptop ? ImageDataDesktop : ImageDataMobile);
+
+  useEffect(() => {
+    const handleResize = () => {
+      setIsDesktopOrLaptop(window.innerWidth >= 1224);
+    };
+
+    window.addEventListener('resize', handleResize);
+
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
+  }, []);
+
+  useEffect(() => {
+    setImageData(isDesktopOrLaptop ? ImageDataDesktop : ImageDataMobile);
+  }, [isDesktopOrLaptop]);
 
   useEffect(() => {
     ImageData.forEach((image) => {
       const img = new Image();
       img.src = image;
     });
-  }, [ ImageData]);
-
-
-
-  // const testimonials = [
-  //   {
-  //     name: "Client 1",
-  //     testimonial: "C'était une excellente expérience !"
-  //   },
-  //   {
-  //     name: "Client 2",
-  //     testimonial: "Je recommande vivement leurs services."
-  //   },
-  //   // Ajoutez plus d'avis ici
-  // ];
-
-
+  }, [ImageData]);
 
   return (
     <main className="home-container">
@@ -54,8 +59,7 @@ const Home = () => {
         {/* </Suspense> */}
         </div>
 
-    {/* {/* <OpenMapComponent />  */}
-{/* <TestimonialCarousel testimonials={testimonials} />  */}
+
 <TestimonialCarousel />
     </main>
   );
