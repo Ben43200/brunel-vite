@@ -78,6 +78,7 @@ height: 100%
     @media (min-width: 321px) and (max-width: 768px) and (orientation: landscape) {
         .carousel-home-container > .carousel {
         //   height:172px; ancienne valeur
+        // height:172px; ancienne valeur
         }
       }
 }
@@ -86,7 +87,9 @@ height: 100%
     // height: 172px;
     height: 100%;
     width: 100%;
-
+    @media (min-width: 321px) and (max-width: 768px) and (orientation: landscape) {
+        height: 300px;
+        // height: auto;
     //recentrage carousel
     // display: flex;
     // justify-content: center;
@@ -107,7 +110,7 @@ height: 100%
       }
   
     }
-
+}
 // .carousel-home-container > .carousel > .carousel-item{
 //     width:100%;
 //     height:400px;
