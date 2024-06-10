@@ -6,13 +6,18 @@ import  { useEffect } from "react";
 
 // const FullCarousel = React.lazy(() => import('../../components/carousel/FullCarousel.jsx'));
 const Home = () => {
+  // const ImageData = [
+  //   "images/accueil1.webp",
+
+  //   "images/accueil2.webp",
+
+  //   "images/accueil3.webp",
+  // ];
   const ImageData = [
-    "images/accueil1.webp",
-
-    "images/accueil2.webp",
-
-    "images/accueil3.webp",
-  ];
+    "images/ACB-ORDI-1.jpeg",
+    "images/ACB-ORDI-2.jpeg",
+    "images/ACB-ORDI-3.jpeg",
+  ]
 
   useEffect(() => {
     ImageData.forEach((image) => {
@@ -20,6 +25,22 @@ const Home = () => {
       img.src = image;
     });
   }, [ ImageData]);
+
+
+
+  const testimonials = [
+    {
+      name: "Client 1",
+      testimonial: "C'était une excellente expérience !"
+    },
+    {
+      name: "Client 2",
+      testimonial: "Je recommande vivement leurs services."
+    },
+    // Ajoutez plus d'avis ici
+  ];
+
+
 
   return (
     <main className="home-container">
@@ -30,7 +51,7 @@ const Home = () => {
         </div>
 
     {/* {/* <OpenMapComponent />  */}
-
+{/* <TestimonialCarousel testimonials={testimonials} />  */}
     </main>
   );
 };
