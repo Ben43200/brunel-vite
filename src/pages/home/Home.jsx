@@ -18,8 +18,9 @@ const Home = () => {
     "images/ACB-ORDI-1.jpeg",
     "images/ACB-ORDI-2.jpeg",
     "images/ACB-ORDI-3.jpeg",
+    // "images/ACB-MOBILE-1.jpg",
+    // "images/ACB-MOBILE-2.jpg",
     // "images/ACB-MOBILE-3.jpg",
-
   ]
 
   useEffect(() => {
