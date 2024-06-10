@@ -30,7 +30,7 @@ const Home = () => {
 
   useEffect(() => {
     const handleResize = () => {
-      setIsDesktopOrLaptop(window.innerWidth >= 1224);
+      setIsDesktopOrLaptop(window.innerWidth >= 600);
     };
 
     window.addEventListener('resize', handleResize);
