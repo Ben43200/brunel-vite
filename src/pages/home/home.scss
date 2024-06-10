@@ -21,7 +21,7 @@ img{
     // nouveau code après ajout module commentaires
     gap: 10px;
 // fix intégralité commentaire long
-grid-template-rows: 3fr 2fr;  
+grid-template-rows: 3fr 1fr;  
     @include media(tablet) {
  
         grid-template-rows: 3fr 1fr;
