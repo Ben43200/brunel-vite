@@ -84,33 +84,17 @@
 
 
 
-  .testimonialcarousel {
-    display: flex;
-    overflow: hidden;
-    position: relative;
-    // width: 100%;
-  }
-  
-  @keyframes slide {
-    0%, 100% {
-      transform: translateX(-100%);
-      opacity: 0;
-      z-index: 1;
-    }
-    10%, 90% {
-      transform: translateX(0);
-      opacity: 1;
-      z-index: 2;
-    }
-  }
+// 
   
   .carousel__slide {
     min-width: 100%;
     position: absolute;
     left: 0;
-    display: flex;
+    display: none; // Hide all slides by default
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    animation: slide 15s linear infinite;
+  }
+  .carousel__slide--active {
+    display: flex; // Only show the active slide
   }
