@@ -8,7 +8,7 @@ const testimonials = [
 	"Encore mille mercis, elle m'a sauvé d'un avenir qui m'aurait amené à de l'invalidité." +
 	"" +
 	"Je la conseille à mille pour cent !! "},
-  { name: "Nassera", testimonial: 	" Madame BRUNEL est une excellente diététicienne micronutritioniste, très professionnelle, à l'écoute, disponible et de très bons conseils car se forme et s'informe continuellement." +
+  { name: "Nassera", testimonial: " Madame BRUNEL est une excellente diététicienne micronutritioniste, très professionnelle, à l'écoute, disponible et de très bons conseils car se forme et s'informe continuellement." +
 	"" +
 	"Vous serez toujours reçu avec gentillesse et bienveillance." +
 	"" +
