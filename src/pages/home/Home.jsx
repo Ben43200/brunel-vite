@@ -1,6 +1,7 @@
 import "./home.scss";
 import FullCarousel from "../../components/carousel/FullCarousel.jsx";
 import  { useEffect } from "react";
+import TestimonialCarousel from "../../components/TestimonialCarousel.jsx";
 // import OpenMapComponent from "../../components/mapcomponent/OpenMapComponent.jsx";
 // import 'leaflet/dist/leaflet.css';
 
@@ -28,17 +29,17 @@ const Home = () => {
 
 
 
-  const testimonials = [
-    {
-      name: "Client 1",
-      testimonial: "C'était une excellente expérience !"
-    },
-    {
-      name: "Client 2",
-      testimonial: "Je recommande vivement leurs services."
-    },
-    // Ajoutez plus d'avis ici
-  ];
+  // const testimonials = [
+  //   {
+  //     name: "Client 1",
+  //     testimonial: "C'était une excellente expérience !"
+  //   },
+  //   {
+  //     name: "Client 2",
+  //     testimonial: "Je recommande vivement leurs services."
+  //   },
+  //   // Ajoutez plus d'avis ici
+  // ];
 
 
 
@@ -52,6 +53,7 @@ const Home = () => {
 
     {/* {/* <OpenMapComponent />  */}
 {/* <TestimonialCarousel testimonials={testimonials} />  */}
+<TestimonialCarousel />
     </main>
   );
 };
