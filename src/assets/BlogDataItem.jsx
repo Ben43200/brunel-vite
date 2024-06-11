@@ -182,10 +182,149 @@ export const blogdataitem = [
         microbiote avec une alimentation saine, la moins transformée possible
         (partir de l’aliment brut et le cuisiner soi-même), très variée, riche
         en micronutriments (avec légumes et fruits de saison bio), la moins
-        raffinée possible, et réapprendre à <strong>bien mastiquer</strong> pour permettre une
-        bonne digestion. Une éviction alimentaire sera nécessaire dans les cas
-        d’hypersensibilité à certains aliments (gluten, protéines de lait de
-        vache, lactose, œufs, Fodmap…).
+        raffinée possible, et réapprendre à <strong>bien mastiquer</strong> pour
+        permettre une bonne digestion. Une éviction alimentaire sera nécessaire
+        dans les cas d’hypersensibilité à certains aliments (gluten, protéines
+        de lait de vache, lactose, œufs, Fodmap…).
+      </p>,
+    ],
+  },
+  {
+    id: 5,
+    content: [
+      <p key={0} className="first-content">
+        Lorsque la <strong>dysbiose</strong> est installée, le changement
+        d’alimentation, l’exclusion d’aliments créant une hypersensibilité ne
+        seront, le plus souvent, pas suffisant pour rétablir la paix. Il faut
+        réensemencer, durant plusieurs mois et en quantité suffisante, le tube
+        digestif avec des <strong>probiotiques</strong> (bactéries amies), des{" "}
+        <strong>prébiotiques</strong> (fibres indigestibles qui nourriront les
+        bactéries amies leurs permettant de se développer et de libérer des
+        acides gras volatils dont le N-butyrate), et des{" "}
+        <strong>micronutriments</strong> essentiels (glutamine, zinc, vitamine
+        A, N-butyrate,…) aux cellules intestinales. Ces nutriments permettront
+        de réparer la muqueuse intestinale et résoudront l’
+        <strong>hyperperméabilité intestinale</strong>.
+      </p>,
+    ],
+  },
+  {
+    id: 6,
+    content: [
+      <p key={0} className="first-content">
+        L’hyperperméabilité intestinale représente l’ouverture des jonctions
+        serrées qui se situent entre chaque cellule de l’intestin. Ces
+        jonctions, qui peuvent être représentées comme des portes, doivent être
+        fermées, elles s’ouvrent de temps en temps pendant un bref instant pour
+        permettre à notre système immunitaire de se « former » et de ne pas
+        réagir à tout étranger. Quand la dysbiose est présente depuis longtemps,
+        nous retrouvons le plus souvent une hyperperméabilité intestinale. Ces
+        portes ouvertes laissent passer des bouts de nutriments mal digérés et
+        des endotoxines (toxines provenant de certaines bactéries intestinales).
+        Ce passage de « molécules étrangères » dans notre organisme représente
+        une attaque pour notre système immunitaire qui va réagir plus ou moins
+        fortement. Ceci pouvant engendrer des maladies chroniques (syndrome
+        métabolique, diabète, obésité, problèmes cardiovasculaires, maladies
+        auto-immunes, allergies, fatigue chronique, dépressions, fibromyalgie,
+        problèmes de peau…).
+      </p>,
+    ],
+  },
+  {
+    id: 7,
+    content: [
+      <p key={0} className="first-content">
+        L’organisme fonctionne alors en mode « économie » en dépensant un
+        minimum d’énergie et en stockant les moindres excès. C’est souvent le
+        cas après des régimes amaigrissants draconiens et répétitifs, après une
+        grossesse ou un allaitement. La micronutrition va donc partir à la
+        découverte des multiples verrous (carences, déséquilibres, déficits) qui
+        entraînent des problèmes de digestion ou empêchent de perdre du poids,
+        sans faire un calcul savant des calories, et donner les clés pour lever
+        ces verrous.
+      </p>,
+    ],
+  },
+  {
+    id: 8,
+    content: [
+      <p key={0} className="first-content">
+        Objectif du premier repas de la journée : fournir l'énergie nécessaire
+        pour tenir toute la matinée de travail et permettre à l'influx nerveux
+        de se propager le long de nos neurones. Pour cela, nous avons besoin de
+        neuromédiateurs, en particulier la <strong>dopamine</strong> qui se
+        comporte comme la clé dans le contact d'une voiture pour bien démarrer
+        la journée, et <strong>la noradrénaline</strong> (transformée à partir
+        de la dopamine) qui est comme l’accélérateur . Cette{" "}
+        <strong>dopamine</strong> a besoin d'un précurseur qui est un acide
+        aminé: <strong>la tyrosine</strong>. Cet acide aminé est essentiel,
+        c'est à dire que nous ne pouvons pas nous-même le synthétiser; il faut
+        donc l'amener par l'alimentation. Il se trouve en particulier dans les
+        protéines animales.
+      </p>,
+      <p key={1}>
+        <strong>Côté menus</strong> : n'hésitez-pas à mettre un peu de salé dans
+        votre assiette: 1 œuf bio ou bleu-blanc-coeur*si possible à la coque ou
+        au plat, et 1 tranche de jambon ou du bacon maigre ou de truite fumée ou
+        des sardines ou 1 portion de fromage brebis ou chèvre ou 1/2 à 1 yaourt
+        de brebis ou chèvre ou soja.
+      </p>,
+      <p key={2}>
+        30g de fruits à coque (en particulier des noix de Grenoble ou noix du
+        Brésil) ou 1 c à c de purée d'amandes ou de noisettes, 1 c à s de
+        graines de lin mixées pour apporter des "bons acides gras" précurseurs
+        des omégas 3.
+      </p>,
+      <p key={3}>
+        une petite portion de céréales sans sucre ajouté , comme des flocons
+        d'avoine ou épeautre ou châtaigne, ou du muesli ou du pain au sarrasin
+        ou au petit épeautre ou au levain bio.
+      </p>,
+      <p key={4}>
+        1 fruit de saison bio; éviter le jus de fruit même 100% pur jus.
+      </p>,
+      <p key={5}>
+        Ajoutez 1 boisson (thé vert, café, céréales torréfiées, chicorée).
+      </p>,
+      <p key={6}>
+        Ainsi, vous pouvez varier votre petit déjeuner en fonction de vos envies
+        et de votre emploi du temps.
+      </p>,
+      <p key={7}>
+        *bleu-blanc-coeur: animaux nourris avec des graines de lin. On retrouve
+        donc des omégas 3 dans les œufs, le jambon, le lait... Ces produits se
+        trouvent dans certaines grandes surfaces.
+        http://www.bleu-blanc-coeur.org/
+      </p>,
+    ],
+  },
+  {
+    id: 9,
+    content: [
+      <p key={0} className="first-content">
+        Un article du Canard enchainé * nous en apprend de belles sur les huiles
+        végétales.
+      </p>,
+      <p key={1}>
+        On se doutait bien que les processus de transformation industrielle des
+        huiles n’amélioraient pas leurs qualités nutritionnelles, mais cela va
+        au-delà de ce que l’on imagine !
+      </p>,
+      <p key={2}>
+        En effet, après le broyage des graines des oléagineux, il est ajouté de
+        l’hexane, un dérivé du pétrole qui rend le mélange moins trouble, puis
+        après un passage en centrifugeuse, l’huile brute est traité à la soude
+        caustique pour la débarrasser des acides gras indésirables. Elle est
+        décolorée avec du charbon actif, puis décarbonisée par chauffage sous
+        vide entre 180° et 240°C à la vapeur d’eau.
+      </p>,
+      <p key={3}>
+        En effet, après le broyage des graines des oléagineux, il est ajouté de
+        l’hexane, un dérivé du pétrole qui rend le mélange moins trouble, puis
+        après un passage en centrifugeuse, l’huile brute est traité à la soude
+        caustique pour la débarrasser des acides gras indésirables. Elle est
+        décolorée avec du charbon actif, puis décarbonisée par chauffage sous
+        vide entre 180° et 240°C à la vapeur d’eau.
       </p>,
     ],
   },
