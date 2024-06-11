@@ -15,11 +15,11 @@ img{
     display: grid;
     justify-items: center;
     //ancien code
-    gap: 50px;
+    // gap: 50px;
     // grid-template-rows: 1fr 300px;  suppression deuxième ligne
     // grid-template-rows: 2fr 1fr;
     // nouveau code après ajout module commentaires
-    gap: 10px;
+    // gap: 10px;
 // fix intégralité commentaire long
 grid-template-rows: 3fr 1fr;  
     @include media(tablet) {
@@ -136,7 +136,7 @@ height: 100%
     // height:auto;
     // height: 100%;
     // max-height:350px;
-    height:390px;
+    height:370px;
  
     @include media(tablet) {
         // height:
@@ -150,7 +150,7 @@ height: 100%
     
     > .carousel-item {
         // height: 100%;
-        height: 380px; // Ajouter cette ligne
+        height: 370px; // Ajouter cette ligne
         @include media(tablet) {
             height:480px;
         @include media(desktop) {
