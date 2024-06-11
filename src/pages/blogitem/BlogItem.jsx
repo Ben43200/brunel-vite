@@ -42,10 +42,10 @@ const navigate2 = useNavigate();
 {/* <div className="blog-item-subcontainer"> */}
     <img src={`/${blogitem.image}`} alt={blogitem.alt} className="blog-item-image" />
            <div className="complet-text">
-            {BLOGDATAS[id].completText.map((completTexti,id) =>(
+             {BLOGDATAS[id].completText.map((completTexti,id) =>(
                 <div key={id}>{completTexti}</div>))}
                 </div>
-                {/* </div> */}
+                {/* // </div> */} 
                 <div className="back-link-container">
  {/* <NavLink to="/blog" className="back-link">
  <button onClick={() => {
