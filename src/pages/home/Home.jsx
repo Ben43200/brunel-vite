@@ -13,9 +13,9 @@ const Home = () => {
 
   //mise en place des images pour la version mobile
   const ImageDataMobile = [
-    "images/ACB-MOBILE-1.jpg",
-    "images/ACB-MOBILE-2.jpg",
-    "images/ACB-MOBILE-3.jpg",
+    "images/ACB-MOBILE-1.jpeg",
+    "images/ACB-MOBILE-2.jpeg",
+    "images/ACB-MOBILE-3.jpeg",
   ];
 
   const [isDesktopOrLaptop, setIsDesktopOrLaptop] = useState(
