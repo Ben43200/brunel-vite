@@ -4,7 +4,7 @@ import { BLOGDATAS } from "../../assets/BlogData.jsx";
 import { useState } from "react";
 import { useEffect } from "react";
 import { useNavigate } from "react-router-dom";
-
+import { blogdataitem } from "../../assets/BlogDataItem.jsx";
 
 
 const BlogItem =() =>{
@@ -42,9 +42,15 @@ const navigate2 = useNavigate();
 {/* <div className="blog-item-subcontainer"> */}
     <img src={`/${blogitem.image}`} alt={blogitem.alt} className="blog-item-image" />
            <div className="complet-text">
-             {BLOGDATAS[id].completText.map((completTexti,id) =>(
-                <div key={id}>{completTexti}</div>))}
-                </div>
+            {/* Ancien code */}
+
+             {/* {BLOGDATAS[id].completText.map((completTexti,id) =>(
+                // <div key={id}>{completTexti}</div>))} */}
+
+                {/* fin ancien code */}
+                {blogdataitem[id].content.map((contenti,id) =>(
+                  <div key={id}>{contenti}</div>))}
+                </div> 
                 {/* // </div> */} 
                 <div className="back-link-container">
  {/* <NavLink to="/blog" className="back-link">

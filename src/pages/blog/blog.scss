@@ -186,3 +186,15 @@ width: 100%;
         color: black;
     }
   }
+  strong{
+        font-weight: 600;
+  }
+.complet-text.h3{
+    margin-top: 10px;
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+.complet-text > div > h3{
+    font-weight: 600;
+    padding:10px 0px;
+}

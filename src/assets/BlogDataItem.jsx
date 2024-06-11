@@ -29,7 +29,10 @@
 // }
 // ];
 
-export const blogdataitem = [ [
+export const blogdataitem = [
+  {
+  id:0,
+  content: [
   <p key={0}>
     On en parle beaucoup, mais que sont-ils exactement ? A quoi servent-ils ? Où
     les trouve-t-on ? Les omégas 3 sont des acides gras à longues chaines avec
@@ -62,15 +65,19 @@ export const blogdataitem = [ [
     à notre corps chaque jour des sources végétales du précurseur, et
     régulièrement des sources animales d’omégas3.
   </p>
-],
-[<h3 key={0}>La Micronutrition, une approche de la nutrition médicalisée adaptée à chacun...</h3>,
+]},
+{
+id:2,
+content:
+[<h3 key={0}>Micronutrition, une approche de la nutrition médicalisée adaptée à chacun...</h3>,
   <p key={1}>La Micronutrition consiste à satisfaire les besoins en micronutriments de l’individu, par une alimentation diversifiée, associée si nécessaire à une complémentation personnalisée. Elle trouve ses fondements dans les recherches effectuées sur les liens avérés entre alimentation, santé et prévention.</p>,
   <h3 key={2}>Pourquoi la Micronutrition plutôt que la nutrithérapie ?</h3>,
   <p key={3}>La Micronutrition s’intéresse à l’impact des micronutriments sur la santé et vise à optimiser le statut en micronutriments de l’organisme de manière individualisée. Elle choisit donc de regarder les précieuses molécules qui se trouvent dans notre assiette et la façon dont notre organisme les utilise. Elle prend toute sa dimension aujourd’hui avec une alimentation qui se caractérise par l’augmentation de l’apport calorique au détriment de la densité en micronutriments. C’est ce qu’on appelle d’ailleurs « les calories vides ».</p>,
   <h3 key={4}>Les MICROnutriments : des composés MEGAimportants</h3>,
   <p key={5}>Schématiquement, on retrouve dans nos aliments :</p>,
-  <p key={6}>- des macronutriments qui fournissent l’énergie et la force nécessaires à l’organisme. Ce sont les lipides, les glucides et les protéines.</p>,
-  <p key={7}>- des micronutriments qui ne jouent aucun rôle énergétique mais dont le rôle est fondamental pour le fonctionnement de l’ensemble des métabolismes. Ce sont les vitamines, minéraux, oligo-éléments, acides gras essentiels mais aussi les flavonoïdes, acides aminés, probiotiques ...</p>,
+  <p key={6}>-<strong>des macronutriments</strong> qui fournissent l’énergie et la force nécessaires à l’organisme. Ce sont les lipides, les glucides et les protéines.</p>,
+  <p key={7}>-<strong>des micronutriments</strong> qui ne jouent aucun rôle énergétique mais dont le rôle est fondamental pour le fonctionnement de l’ensemble des métabolismes. Ce sont les vitamines, minéraux, oligo-éléments, acides gras essentiels mais aussi les flavonoïdes, acides aminés, probiotiques ...</p>,
   <p key={9}>Tous ces éléments donnent la valeur nutritionnelle de l’assiette.</p>
 ]
+},
 ];
