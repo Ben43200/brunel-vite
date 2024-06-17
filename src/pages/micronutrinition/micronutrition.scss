@@ -9,8 +9,37 @@
 }
 
 .nutri-content{
-    @include media(desktop) {
+    // padding: 200px 0px;
+    row-gap: 20px;
+
     display: grid;
     justify-content: center;
 }
+
+.nutri-content > div > p{
+    padding: 15px 0px;
+}
+
+
+.nutri-video-container{
+    @include media(desktop) {
+        display: grid;
+        justify-content: center;
+
+}
+}
+
+.para-container{
+    padding: 0px;
+    @include media(tablet) {
+        padding: 0px 100px;
+    @include media(large-desktop) {
+  padding: 0px 400px
+}
+}
+}
+.nutri-title{
+    text-align: center;
+    font-weight: 700;
+    
 }
