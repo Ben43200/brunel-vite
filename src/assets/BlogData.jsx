@@ -52,7 +52,7 @@ export const BLOGDATAS = [
   {
     id: 3,
     name: "Qu’est-ce que la dysbiose ?",
-    image: "images/dysbiose.png",
+    image: "images/dysbiose.webp",
     alt: "image dysbiose",
     text: [
       <p key={1}>
