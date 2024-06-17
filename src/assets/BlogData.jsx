@@ -17,7 +17,7 @@ export const BLOGDATAS = [
   },
   {
     id: 1,
-    name: "La micronutrition en deux minutes",
+    name: "Qu'est ce que la micronutrition ?",
     image: "images/micronutrition-v2.webp",
     alt: "image micronutrition",
     // text: <div><p>La Micronutrition, une approche de la nutrition médicalisée adaptée à chacun…La Micronutrition consiste à satisfaire les besoins en micronutriments de l’individu, par...</p><p><strong>En savoir +</strong>...</p></div>,
