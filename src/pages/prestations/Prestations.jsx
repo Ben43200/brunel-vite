@@ -4,18 +4,19 @@ const Prestations = () => {
   return (
     <main className="prestations-container">
       <h2 className="prestations-title">Prestations</h2>
-      <div className="img-container">
+      <div className="prestations-img-container">
         <img
           src="images/itinerary.png"
           alt="puzzle"
-          className="puzzle-image"
+          className="prestations-image"
         />
       </div>
-      <div className="img-container">
+      <h3 className="prestations-subtitle">COMMENT SE PASSE UNE PREMIÈRE CONSULTATION ?</h3>
+      <div className="prestations-img-container">
         <img
           src="images/professor-consultation.png"
           alt="puzzle"
-          className="puzzle-image"
+          className="prestations-image"
         />
       </div>
     </main>

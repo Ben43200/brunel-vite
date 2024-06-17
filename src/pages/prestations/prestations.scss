@@ -16,9 +16,20 @@
       
                                       }
     }
-
-
+.prestations-img-container{
+    width:128px;
+    height: 128px;
+    @include media(desktop){
+    width: 256px;
+    width: 256px;
+}
+}
 .prestations-title{
     font-size: 2rem;
     // margin-right: auto;
+}
+
+.prestations-subtitle{
+    font-size: 1rem;
+    color: grey;
 }
