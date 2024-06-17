@@ -135,6 +135,10 @@ width: 100%;
     color: black;
     font-size: 1.6rem;
     grid-area: title;
+    padding-bottom:10px;
+    @include media(tablet){
+        padding:0px;
+    }
 }
 
 .complet-text{
