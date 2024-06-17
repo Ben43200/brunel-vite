@@ -23,7 +23,7 @@ const Blog = () =>{
             <Link to={`/blog/blogitem/${id}`} id="blog-card" key={id}>
             <h1>{blogdata.name}</h1>
             <img className="blog-data-img" src={`/${blogdata.image}`} alt={`${blogdata.alt}`} />
-            <p>{blogdata.text}</p>
+            <div>{blogdata.text}</div>
             {/* <div className="complet-text">
             {BLOGDATAS[id].completText.map((completTexti,id) =>(
                 <div key={id}>{completTexti}</div>
