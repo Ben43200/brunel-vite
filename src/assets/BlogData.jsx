@@ -8,7 +8,7 @@ export const BLOGDATAS = [
       <p key={1}>
         On en parle beaucoup, mais que sont-ils exactement ? A quoi servent-ils
         ? Où les trouve-t-on ? Les omégas 3 sont des acides gras à longues
-        chaines avec plusieurs doubles liaisons.
+        chaines avec plusieurs...
       </p>,
       <p key={2}>
         <strong>En savoir +</strong>...
@@ -75,7 +75,7 @@ export const BLOGDATAS = [
       <p key={1}>
         Lorsque la dysbiose est installée, le changement d’alimentation,
         l’exclusion d’aliments créant une hypersensibilité ne seront, le plus
-        souvent, pas suffisant pour rétablir la paix...
+        souvent, pas suffisant...
       </p>,
       <p key={2}>
         <strong>En savoir +</strong>...
