@@ -1,6 +1,7 @@
 @import "../../css/mixinsandfunctions.scss";
 .video{
     width: 100%;
+    border: 2px solid gray;
     @include media(desktop) {
         width: 750px; 
         height: 500px;
