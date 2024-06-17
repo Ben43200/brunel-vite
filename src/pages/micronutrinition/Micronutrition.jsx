@@ -3,6 +3,7 @@ import "./micronutrition.scss";
 const Micronutrition = () => {
   return (
     <main className="nutri-content">
+          <h2 className="nutri-title">La micronutrition en deux minutes</h2>
         <div className="nutri-video-container">
       <video className="video" controls playsInline>
         <source src="videos/acb-motion-comp.mp4" type="video/mp4" />
@@ -10,7 +11,7 @@ const Micronutrition = () => {
       </div>
       
       <div className="para-container">
-      <h2 className="nutri-title">QU’EST-CE QUE LA MICRONUTRITION ?</h2>
+    
       <p>
         La Micronutrition consiste à satisfaire les besoins en micronutriments
         (vitamines, minéraux, acides gras essentiels, acides aminés,
