@@ -16,16 +16,18 @@
       
                                       }
     }
-.prestations-img-container{
+.prestations-image{
     width:128px;
     height: 128px;
-    @include media(desktop){
-    width: 256px;
-    width: 256px;
-}
+    // @include media(desktop){
+    // width: 256px;
+    // width: 256px;
 }
 .prestations-title{
+    text-align: center;
+    font-weight: 700;
     font-size: 2rem;
+    padding-bottom: 15px;
     // margin-right: auto;
 }
 
