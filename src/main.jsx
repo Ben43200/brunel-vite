@@ -10,6 +10,8 @@ import Blog from "./pages/blog/Blog.jsx";
 import BlogItem from "./pages/blogitem/BlogItem.jsx";
 import Error from "./pages/error/Error.jsx";
 import Contact from "./pages/contact/Contact.jsx";
+import Puzzle from "./pages/puzzle/Puzzle.jsx";
+import Prestations from "./pages/prestations/Prestations.jsx";
 
 
 
@@ -35,6 +37,8 @@ root.render(
       <Route path="/blog" element={<Blog />} />
       <Route path="/blog/blogitem/:id" element={<BlogItem />} />
       <Route path="contact" element={<Contact />} />
+      <Route path="puzzle" element={<Puzzle />} />
+      <Route path="prestations" element={<Prestations />} />
       <Route path="*" element={<Error />} />
 
 

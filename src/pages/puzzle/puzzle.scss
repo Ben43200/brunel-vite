@@ -1,0 +1,33 @@
+@import "../../css/mixinsandfunctions.scss";
+
+.puzzle-container{
+    display: grid;
+    justify-items: center;
+           margin:0px;         
+    @include media(desktop){
+        margin: 0px 200px;                 
+        @include media(large-desktop){ 
+            margin: 0px 400px;         
+                        
+        }
+       
+        //  margin-top: 0px ;
+      
+                                      }
+    }
+
+
+.img-container{
+    
+    width: 200px;
+    height: 300px
+}
+
+.puzzle-title{
+    font-size: 2rem;
+}
+
+.paragraph-spaces{
+    // font-size: 1.2rem;
+    padding-top: 20px;
+}
