@@ -9,7 +9,15 @@ const testimonials = [
 	"Vous serez toujours reçu avec gentillesse et bienveillance." +
 	"" +
 	"MERCI pour tout Madame BRUNEL."},
-];
+{name: "Priscilla", testimonial: " Une superbe professionnelle ! Anne Christine est très à l’écoute et a su m’apporter ce dont j’avais besoin lors de ma grossesse et encore aujourd’hui … elle est de très bon conseil, je la recommande à 3000%"},
+{name: "Hilario", testimonial:" Depuis plusieurs années Madame Anne Christine Brunel nous prodigue les meilleurs conseils. Ses connaissances et ses explications des analyses médicales nous rassurent"},
+{name: "Florence", testimonial: "Je remercie énormément madame Brunel pour son aide si précieuse pour ses conseils. Depuis 3 ans elle est devenue pour moi une référence. Je la recommande sans hésitation, très bon suivi. Au-delà de la compétence professionnelle que l’on trouve peu actuellement, c’est une personne très à l’écoute, bienveillante et disponible.  Merci beaucoup"},
+{name: "Lila", testimonial: "Madame Brunel est une professionnelle de qualité, très aimable, efficace, et disponible et qui s’assure du suivi de ses patients. Sa connaissance en micronutrition a permis de guérir plusieurs maux, elle assure un suivi qui permet d’adapter les traitements et donc de garantir un résultat optimal ! Je la recommande fortement "},
+{name: "Dorine", testimonial: "Je suis ravie d'avoir découvert Anne-Christine. Elle est toujours à l'écoute et disponible." +
+	"" +
+	"Elle saura vous accompagner dans vos problématiques avec volonté et persévérance pour vous trouver une solution. Et ainsi rendre votre vie plus agréable. Je ne peux que vous la recommander 🙂"},
+{name: "Robert", testimonial: " L'accompagnement de Madame Brunel est précieux car rien n'est laissé au hasard. Je peux me reposer en toute confiance sur son diagnostic étant donnés les résultats obtenus"},
+{name: "Lamiel", testimonial: "Merci à Anne-Christine pour son professionnalisme "}];
 
 function TestimonialCarousel() {
   const [current, setCurrent] = useState(0);
