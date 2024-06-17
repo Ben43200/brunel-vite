@@ -17,7 +17,16 @@ const testimonials = [
 	"" +
 	"Elle saura vous accompagner dans vos problématiques avec volonté et persévérance pour vous trouver une solution. Et ainsi rendre votre vie plus agréable. Je ne peux que vous la recommander 🙂"},
 {name: "Robert", testimonial: " L'accompagnement de Madame Brunel est précieux car rien n'est laissé au hasard. Je peux me reposer en toute confiance sur son diagnostic étant donnés les résultats obtenus"},
-{name: "Lamiel", testimonial: "Merci à Anne-Christine pour son professionnalisme "}];
+{name: "Lamiel", testimonial: "Merci à Anne-Christine pour son professionnalisme "},
+{name: "Alice", testimonial: "Malade depuis plus de 3 ans et en errance médicale, Mme BRUNEL à défini un possible diagnostic qui s'est avéré exact. Elle m'a permis au bout de 6 mois de reprendre mon travail. Le chemin est encore long mais, elle est un réel soutien. Elle est disponible, bienveillante et pointue concernant ma pathologie, toujours dans une démarche de formation et de recherche pour adapter au mieux ses protocoles de soin." +
+	"" +
+	"Encore mille mercis, elle m'a sauvé d'un avenir qui m'aurait amené à de l'invalidité." +
+	"" +
+	"Je la conseille à mille pour cent !!"},
+{name: "Nicole", testimonial: "Je suis suivie par Madame Brunel en diététique depuis 2 ans, elle a une très bonne écoute, je reconnais son professionnalisme et son sérieux, elle a su pallier à mes problèmes de santé, elle accompagne aussi mes enfants." +
+	"" +
+	"Je suis satisfaite de sa prestation et je la recommande"},
+{name: "Martine", testimonial: " Anne-Christine a une analyse pertinente et ses conseils apportent du mieux-être. Son écoute, sa bienveillance, son sourire, ses encouragements par sa voix posée et douce font beaucoup de bien"}];
 
 function TestimonialCarousel() {
   const [current, setCurrent] = useState(0);
