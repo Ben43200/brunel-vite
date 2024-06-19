@@ -50,7 +50,7 @@ function ContactForm() {
     return (
       
         
-        <form onSubmit={sendEmail}>
+        <form className="contact-form" onSubmit={sendEmail}>
         <h2>Contactez-moi pour prendre rendez-vous</h2>
             <input type="text" name="firstName" onChange={onInputChange} value={state.firstName} placeholder="Votre prénom" required />
             <input type="text" name="lastName" onChange={onInputChange} value={state.lastName} placeholder="Votre nom" required />

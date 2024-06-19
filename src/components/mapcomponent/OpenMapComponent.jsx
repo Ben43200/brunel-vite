@@ -46,14 +46,26 @@ const OpenMapComponent = () => {
 
   return (
     <div className="map-big-container">
-      <label>
+      {/* <label>
       <input 
         type="checkbox" 
         className="checkbox"
         checked={isInteractive} 
         onChange={() => setIsInteractive(!isInteractive)} 
       />Cochez cette case pour activer l'interaction avec la carte(zoom, déplacement, etc.)
-      </label>
+      </label> */}
+
+<label className={styles['checkbox-container']}>
+  <input 
+    type="checkbox" 
+    className={styles['hidden-checkbox']}
+    checked={isInteractive} 
+    onChange={() => setIsInteractive(!isInteractive)} 
+  />
+  <span className={styles['checkbox-style']}></span>
+  interaction
+</label>
+
 <div className={styles['map-container-parent']}>
 <MapContainer className={styles['map-container']} center={position} zoom={13}>
       {/* <MapContainer className='map-container' center={position} zoom={13} > */}
