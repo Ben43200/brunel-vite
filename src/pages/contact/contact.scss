@@ -86,7 +86,8 @@
       justify-content: center;
       
       grid-template-columns: auto auto;
-      grid-template-areas: "banner-container banner-container"
+      // grid-template-areas: "banner-container banner-container"
+      grid-template-areas: 
                            "contact-info carousel-container"
                            "map contact-form";
 
