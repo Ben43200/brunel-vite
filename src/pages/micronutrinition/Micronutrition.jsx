@@ -6,7 +6,7 @@ const Micronutrition = () => {
           <h2 className="nutri-title">La micronutrition en deux minutes</h2>
         <div className="nutri-video-container">
       <video className="video" controls playsInline>
-        <source src="videos/acb-motion-comp.mp4" type="video/mp4" />
+        <source src="videos/acb-motion-comp_2.mp4" type="video/mp4" />
       </video>
       </div>
       
