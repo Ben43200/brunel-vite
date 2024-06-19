@@ -25,9 +25,9 @@ const Contact = () => {
 
   return (
     <main className="main-contact-container">
-      <div className="banner-container">
+      {/* <div className="banner-container">
         <img src="images/header-contact.webp" alt="contact" />
-      </div>
+      </div> */}
       <div className="contact-info">
         <h2>ANNE CHRISTINE BRUNEL</h2>
         <p>Diététicienne et micronutritionniste</p>
