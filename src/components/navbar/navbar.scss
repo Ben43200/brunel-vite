@@ -73,8 +73,9 @@ width:100%;
   height: 70px;
   //   background-color: #fef7e5;
   // background: linear-gradient(85deg, #352361 1%, rgb(64, 84, 178) 55%);
-  background: linear-gradient(85deg, #c1e4f1 1%, rgb(64, 84, 178) 55%);
-
+  
+  // background: linear-gradient(85deg, #c1e4f1 1%, rgb(64, 84, 178) 55%);
+background: #408a8b;
   // grid-area: header;
   // width: 100vw;
 
@@ -112,7 +113,7 @@ width:100%;
     // width: 100%; /* Set initial width */
     // height: auto; /* Maintain aspect ratio */
     max-width: 50px; /* Set max-width for larger devices */
-    z-index: 300;
+    z-index: 2000;
     // background-color: #c1e4f1;
     //essai border-radius
     // border-radius: 50%;
@@ -212,8 +213,8 @@ width:100%;
     // top: 84px;
     top: 0px;
     // background: linear-gradient(85deg, #352361 1%, rgb(64, 84, 178) 55%);
-    background: linear-gradient(85deg, #c1e4f1 1%, rgb(64, 84, 178) 55%);
-
+    // background: linear-gradient(85deg, #c1e4f1 1%, rgb(64, 84, 178) 55%);
+background: #408a8b;
     height: 100vh;
     width: 0;
 
