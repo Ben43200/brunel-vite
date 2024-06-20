@@ -4,10 +4,13 @@
     display: grid;
     justify-items: center;
     row-gap: 20px;
+   
+    // grid-template-columns: 1fr;
   
            margin:0px;         
     @include media(desktop){
-        margin: 0px 200px;                 
+        margin: 0px 200px; 
+        // grid-template-columns: 1fr 1fr;                
         @include media(large-desktop){ 
             margin: 0px 400px;         
                         
@@ -16,6 +19,18 @@
         //  margin-top: 0px ;
       
                                       }
+    }
+
+
+    .prestations-container-content{
+        display: grid;
+        justify-items: center;
+        row-gap: 20px;
+        column-gap:30px;
+        grid-template-columns: 1fr;
+        @include media(desktop){
+            grid-template-columns: 1fr 1fr;
+        }
     }
 .prestations-image{
     width:128px;
@@ -39,10 +54,17 @@
     color: grey;
     // padding-bottom: 20px;
     margin-right: auto;
+    @include media(desktop){
+        // text-align: center;
+        margin:auto;
 }
+}
+
 .parcours-list{
     padding-left: 16px;
-
+    @include media(desktop){
+    padding-top: 20px;
+    }
 }
 
 .parcours-list >li {
@@ -53,4 +75,28 @@ list-style-type: disc;
 
 .prestations-container > p:nth-child(4){
     font-weight: 700;
+}
+
+.left-column{
+grid-column: auto;
+display: grid;
+justify-items: center;
+row-gap:20px;
+
+    @include media(desktop){
+grid-column: 1/1;
+
+}
+}
+
+.right-column{
+    grid-column: auto;
+    display: grid;
+    justify-items: center;
+    align-content: flex-start;
+    row-gap:20px;
+    @include media(desktop){
+    grid-column: 2/2;
+
+}
 }

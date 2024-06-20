@@ -4,6 +4,8 @@ const Prestations = () => {
   return (
     <main className="prestations-container">
       <h2 className="prestations-title">Prestations</h2>
+      <div className="prestations-container-content">
+      <aside className="left-column">
       <div className="prestations-img-container">
         <img
           src="images/professor-consultation.png"
@@ -42,6 +44,8 @@ const Prestations = () => {
         l’évolution de votre composition corporelle et d’ajuster mes conseils
         lors de chaque rendez-vous.
       </p>
+      </aside>
+      <aside className="right-column">
       <div className="prestations-img-container">
         <img
           src="images/itinerary.png"
@@ -60,6 +64,8 @@ const Prestations = () => {
         <li>Université spécialisée Nutrihealth en 2016-2019</li>
         <li>Formation continue depuis 2020 (webinaires)</li>
       </ul>
+      </aside>
+      </div>
     </main>
   );
 };
