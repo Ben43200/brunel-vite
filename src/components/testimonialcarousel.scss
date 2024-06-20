@@ -37,10 +37,11 @@
     // margin-bottom: 1rem;
     }
   }
-.quotation-mark{
+.quotation-marks{
   font-size: 0.9rem;
   // line-height: 1.5;
   line-height: 1.2;
+  color: gray;
   @include media(tablet) {
   font-size:2rem;
   margin:0;
