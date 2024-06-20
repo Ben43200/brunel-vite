@@ -32,9 +32,9 @@ const Contact = () => {
         <h2>ANNE CHRISTINE BRUNEL</h2>
         <p>Diététicienne et micronutritionniste</p>
         <p>Espace Synergie / 1 allée Vanber - 26400 CREST </p>
-        <p> 06 01 46 02 74</p>  
-        <p>annechristine.brunel@gmail.com</p>
-        <h2>TARIFS</h2>
+        <p><a href="tel:0601460274" className="contact-link"> 06 01 46 02 74</a></p>  
+        <p><a href="mailto:annechristine.brunel@gmail.com" className="contact-link">annechristine.brunel@gmail.com</a></p>
+        <h2 className="tarifs-title">TARIFS</h2>
         <p>1ère consultation : 80€ (1h30)</p>
         <p> 2ème consultation et suivantes : 60€ (1h)</p>
         <p> Suivi diététique : 30€ (1/2 heure)</p>
