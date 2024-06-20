@@ -8,9 +8,9 @@ export const BLOGDATAS = [
       <p key={1}>
         On en parle beaucoup, mais que sont-ils exactement ? A quoi servent-ils
         ? Où les trouve-t-on ? Les omégas 3 sont des acides gras à longues
-        chaines avec plusieurs...
+        chaines avec plusieurs
       </p>,
-      <p key={2}>
+      <p key={2} className="savoir-plus">
         <strong>En savoir +</strong>...
       </p>,
     ],
@@ -25,9 +25,9 @@ export const BLOGDATAS = [
       <p key={1}>
         La Micronutrition, une approche de la nutrition médicalisée adaptée à
         chacun…La Micronutrition consiste à satisfaire les besoins en
-        micronutriments de l’individu, par...
+        micronutriments de l’individu, par
       </p>,
-      <p key={2}>
+      <p key={2} className="savoir-plus">
         <strong>En savoir +</strong>...
       </p>,
     ],
@@ -42,9 +42,9 @@ export const BLOGDATAS = [
       <p key={1}>
         Parce qu’elle n’est pas réservée à une population particulière mais au
         contraire adaptée pour apporter des solutions personnalisées à chaque
-        période de la vie, la micronutrition s’adresse...
+        période de la vie, la micronutrition s’adresse
       </p>,
-      <p key={2}>
+      <p key={2} className="savoir-plus">
         <strong>En savoir +</strong>...
       </p>,
     ],
@@ -58,9 +58,9 @@ export const BLOGDATAS = [
       <p key={1}>
         La dysbiose (par opposition à l’eubiose) est le nom donné à « la guerre
         dans l’intestin ». Les bactéries « méchantes » et autres microorganismes
-        (tels que levures, parasites) ont pris...
+        (tels que levures, parasites) ont pris
       </p>,
-      <p key={2}>
+      <p key={2} className="savoir-plus">
         <strong>En savoir +</strong>...
       </p>,
     ],
@@ -75,9 +75,9 @@ export const BLOGDATAS = [
       <p key={1}>
         Lorsque la dysbiose est installée, le changement d’alimentation,
         l’exclusion d’aliments créant une hypersensibilité ne seront, le plus
-        souvent, pas suffisant...
+        souvent, pas suffisant
       </p>,
-      <p key={2}>
+      <p key={2} className="savoir-plus">
         <strong>En savoir +</strong>...
       </p>,
     ],
@@ -92,9 +92,9 @@ export const BLOGDATAS = [
       <p key={1}>
         L’hyperperabilité intestinale représente l’ouverture des jonctions
         serrées qui se situent entre chaque cellule de l’intestin. Ces
-        jonctions, qui peuvent être représentées...
+        jonctions, qui peuvent être représentées
       </p>,
-      <p key={2}>
+      <p key={2} className="savoir-plus">
         <strong>En savoir +</strong>...
       </p>,
     ],
@@ -107,9 +107,9 @@ export const BLOGDATAS = [
     text: [
       <p key={1}>
         L’organisme fonctionne alors en mode « économie » en dépensant un
-        minimum d’énergie et en stockant les moindres excès. C’est souvent...
+        minimum d’énergie et en stockant les moindres excès. C’est souvent
       </p>,
-      <p key={2}>
+      <p key={2} className="savoir-plus">
         <strong>En savoir +</strong>...
       </p>,
     ],
@@ -123,9 +123,9 @@ export const BLOGDATAS = [
       <p key={1}>
         Objectif du premier repas de la journée : fournir l’énergie nécessaire
         pour tenir toute la matinée de travail et permettre à l’influx nerveux
-        de se propager...
+        de se propager
       </p>,
-      <p key={2}>
+      <p key={2} className="savoir-plus">
         <strong>En savoir +</strong>...
       </p>,
     ],
@@ -139,9 +139,9 @@ export const BLOGDATAS = [
       <p key={1}>
         Un article du Canard enchainé * nous en apprend de belles sur les huiles
         végétales.On se doutait bien que les processus de transformation
-        industrielle...
+        industrielle
       </p>,
-      <p key={2}>
+      <p key={2} className="savoir-plus">
         <strong>En savoir +</strong>...
       </p>,
     ],
