@@ -37,7 +37,8 @@ grid-template-rows: 3fr 1fr;
   //modif ajustement carousel
     // height: 752px; 
     grid-row: 1 / 2;
-    padding-bottom:20px;
+    // padding-bottom:20px; essai en dessous
+    padding-bottom:10px;
 @include media(desktop) {
 height: 100%;
 padding-bottom: 30px;
