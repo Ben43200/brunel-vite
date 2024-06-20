@@ -63,7 +63,7 @@ const OpenMapComponent = () => {
     onChange={() => setIsInteractive(!isInteractive)} 
   />
   <span className={styles['checkbox-style']}></span>
-  interaction
+  intéraction
 </label>
 
 <div className={styles['map-container-parent']}>
