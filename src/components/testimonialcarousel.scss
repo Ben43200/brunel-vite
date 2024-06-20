@@ -13,23 +13,41 @@
   }
 }
   .testimonial{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    // display: flex;
+    // flex-direction: column;
+    // justify-content: center;
+    // align-items: center;
   }
 
   .testimonial-author{ 
     font-size: 0.8rem;
     font-weight: 700;
     color: #333;
+    @include media(tablet) {
+      font-size:2rem;
     // margin-bottom: 1rem;
-  
+    }
   }
   .testimonial{
     font-size: 0.8rem;
+    line-height: 1.2;
+    @include media(tablet) {
+      font-size:1rem;
+      line-height: 2;
+    // margin-bottom: 1rem;
+    }
   }
-
+.quotation-mark{
+  font-size: 0.9rem;
+  // line-height: 1.5;
+  line-height: 1.2;
+  @include media(tablet) {
+  font-size:2rem;
+  margin:0;
+  line-height: 1;
+  }
+ 
+}
 //   @keyframes slide {
 //     0% {
 //       transform: translateX(-100%);
@@ -103,6 +121,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    // width: 720px;
   }
   .carousel__slide--active {
     display: flex; // Only show the active slide
