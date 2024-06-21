@@ -11,7 +11,7 @@ export const BLOGDATAS = [
         chaines avec plusieurs
       </p>,
       <p key={2} className="savoir-plus">
-        <strong>En savoir +</strong>...
+        <strong>En savoir +</strong>
       </p>,
     ],
   },
@@ -28,7 +28,7 @@ export const BLOGDATAS = [
         micronutriments de l’individu, par
       </p>,
       <p key={2} className="savoir-plus">
-        <strong>En savoir +</strong>...
+        <strong>En savoir +</strong>
       </p>,
     ],
   },
@@ -42,10 +42,10 @@ export const BLOGDATAS = [
       <p key={1}>
         Parce qu’elle n’est pas réservée à une population particulière mais au
         contraire adaptée pour apporter des solutions personnalisées à chaque
-        période de la vie, la micronutrition s’adresse
+        période de la vie,
       </p>,
       <p key={2} className="savoir-plus">
-        <strong>En savoir +</strong>...
+        <strong>En savoir +</strong>
       </p>,
     ],
   },
@@ -58,10 +58,10 @@ export const BLOGDATAS = [
       <p key={1}>
         La dysbiose (par opposition à l’eubiose) est le nom donné à « la guerre
         dans l’intestin ». Les bactéries « méchantes » et autres microorganismes
-        (tels que levures, parasites) ont pris
+        (tels que levures, parasites)
       </p>,
       <p key={2} className="savoir-plus">
-        <strong>En savoir +</strong>...
+        <strong>En savoir +</strong>
       </p>,
     ],
   },
@@ -78,7 +78,7 @@ export const BLOGDATAS = [
         souvent, pas suffisant
       </p>,
       <p key={2} className="savoir-plus">
-        <strong>En savoir +</strong>...
+        <strong>En savoir +</strong>
       </p>,
     ],
   },
@@ -95,7 +95,7 @@ export const BLOGDATAS = [
         jonctions, qui peuvent être représentées
       </p>,
       <p key={2} className="savoir-plus">
-        <strong>En savoir +</strong>...
+        <strong>En savoir +</strong>
       </p>,
     ],
   },
@@ -110,7 +110,7 @@ export const BLOGDATAS = [
         minimum d’énergie et en stockant les moindres excès. C’est souvent
       </p>,
       <p key={2} className="savoir-plus">
-        <strong>En savoir +</strong>...
+        <strong>En savoir +</strong>
       </p>,
     ],
   },
@@ -126,7 +126,7 @@ export const BLOGDATAS = [
         de se propager
       </p>,
       <p key={2} className="savoir-plus">
-        <strong>En savoir +</strong>...
+        <strong>En savoir +</strong>
       </p>,
     ],
   },
@@ -142,7 +142,7 @@ export const BLOGDATAS = [
         industrielle
       </p>,
       <p key={2} className="savoir-plus">
-        <strong>En savoir +</strong>...
+        <strong>En savoir +</strong>
       </p>,
     ],
     // completText: ["Un article du Canard enchainé * nous en apprend de belles sur les huiles végétales." ,
