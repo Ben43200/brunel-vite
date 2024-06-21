@@ -12,6 +12,7 @@ import Error from "./pages/error/Error.jsx";
 import Contact from "./pages/contact/Contact.jsx";
 import Puzzle from "./pages/puzzle/Puzzle.jsx";
 import Prestations from "./pages/prestations/Prestations.jsx";
+import MentionsLegales from "./pages/mentions/MentionsLegales.jsx";
 
 
 
@@ -39,6 +40,7 @@ root.render(
       <Route path="contact" element={<Contact />} />
       <Route path="puzzle" element={<Puzzle />} />
       <Route path="prestations" element={<Prestations />} />
+      <Route path="mentions-legales" element={<MentionsLegales />} /> 
       <Route path="*" element={<Error />} />
 
 
