@@ -116,6 +116,7 @@ width: 100%;
     grid-template-areas: "title title"
                         "image text"
                         "button button";
+                        column-gap: 20px;
 // margin: 0px 100px;
                     
 @include media(desktop){
