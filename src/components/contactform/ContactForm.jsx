@@ -54,7 +54,7 @@ function ContactForm() {
         <h2>Contactez-moi pour prendre rendez-vous</h2>
             <input type="text" name="firstName" onChange={onInputChange} value={state.firstName} placeholder="Votre prénom" required />
             <input type="text" name="lastName" onChange={onInputChange} value={state.lastName} placeholder="Votre nom" required />
-            <input type="email" name="email" onChange={onInputChange} value={state.email} placeholder="Votre email" required />
+            <input type="email" name="email" onChange={onInputChange} value={state.email} placeholder="Votre email" required pattern="^(http(s){0,1}:\/\/.){0,1}[\-a-zA-Z0-9@:%._\+~#=]{2,256}\.[a-z]{2,6}\b([\-a-zA-Z0-9@:%_\+.~#?&\/\/=]*)$" />
             <input type="tel" name="phone" onChange={onInputChange} value={state.phone} placeholder="Votre téléphone" required />
             <textarea name="message" onChange={onInputChange} value={state.message} placeholder="Message" required></textarea>
             <button type="submit">Envoyer</button>
