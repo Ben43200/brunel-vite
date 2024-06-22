@@ -106,7 +106,7 @@ const MentionsLegales = () => {
         Les autres documents sont présentés à titre informatif et ne sauraient
         engager l’Editeur.
       </p>
-      <h3 className="mentions-title">5.4. Crédits photos et vidéos</h3>
+      <h3 className="mentions-title">5. Crédits photos, logos et vidéos</h3>
       <p className="mentions-text">
         Le concepteur du site s’engage à garantir que les photographies et/ou
         vidéos ajoutées sont libres de droit ou dans le cas contraire à
@@ -116,7 +116,11 @@ const MentionsLegales = () => {
         <li>©Eloïse Baslé | Studio Septem</li>
         <li>©Anne-Christine Brunel</li>
       </ul>
-      <h3 className="mentions-title">6. Inquiétudes</h3>
+      <h3 className="mentions-title">6. Conseils graphisme</h3>
+      <ul className="liens-credits">
+        <li>Eloïse Baslé | Studio Septem</li>
+      </ul>
+      <h3 className="mentions-title">7. Inquiétudes</h3>
       <p className="mentions-text">
         Si vous pensez que l’Editeur n'a pas respecté les points qui précèdent,
         nous vous remercions de nous le faire savoir en adressant un courrier à
@@ -125,7 +129,7 @@ const MentionsLegales = () => {
         le problème.
       </p>
       <h3 className="mentions-title">
-        7. Modifications des termes et conditions
+        8. Modifications des termes et conditions
       </h3>
       <p className="mentions-text">
         L’Editeur peut à tout moment modifier les présentes en actualisant ce
