@@ -13,7 +13,7 @@ const MentionsLegales = () => {
       </p>
       <h3 className="mentions-title">2. Infos Hébergeur</h3>
       <p className="mentions-text">
-        Le site de l'étude de Maître Jean-François SULPICE est hébergé par
+        Le site de l'étude de Madame Anne-Christine BRUNEL est hébergé par
         HOSTINGER, dont le siège social est situé HOSTINGER INTERNATIONAL LTD,
         61 Lordou Vironos Street, 6023 Larnaca, Chypre, joignable par le moyen
         suivant : https://www.hostinger.fr/contact.
