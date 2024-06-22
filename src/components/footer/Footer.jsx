@@ -1,3 +1,4 @@
+import { NavLink } from "react-router-dom"
 import "./footer.scss"
 export default function Footer(){
 
@@ -5,7 +6,7 @@ export default function Footer(){
         <footer>
             <div className="footer-container">
             <p>©Meteoben</p>
-            <p>Mentions Légales</p>
+            <NavLink to="mentions-legales"><p>Mentions Légales</p></NavLink>
             </div>
         </footer>
     )
