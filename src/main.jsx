@@ -13,7 +13,7 @@ import Contact from "./pages/contact/Contact.jsx";
 import Puzzle from "./pages/puzzle/Puzzle.jsx";
 import Prestations from "./pages/prestations/Prestations.jsx";
 import MentionsLegales from "./pages/mentions/MentionsLegales.jsx";
-
+import ScrollToTop from "./components/scrolltotop/ScrollToTop.jsx";
 
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
@@ -28,7 +28,7 @@ window.dispatchEvent(new Event('resize'));
 root.render(
 
   <BrowserRouter>
-
+<ScrollToTop /> 
     <Navbar />
 
     <Routes>
