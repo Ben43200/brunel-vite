@@ -2,6 +2,7 @@ import "./mentionslegales.scss";
 import { Link } from "react-router-dom";
 
 const MentionsLegales = () => {
+  window.scrollTo(0, 0);
   return (
     <main className="mentions-container">
       <h2>Mentions légales</h2>
