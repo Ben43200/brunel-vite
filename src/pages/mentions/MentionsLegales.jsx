@@ -1,4 +1,5 @@
 import "./mentionslegales.scss";
+import { Link } from "react-router-dom";
 
 const MentionsLegales = () => {
   return (
@@ -9,14 +10,14 @@ const MentionsLegales = () => {
         Éditeur : le Site est conçu par Benjamin Dollfus, micro-entrepreneur,
         Immatriculé sous le n° Siret 514 925 866 000 48 - Code APE 6201Z - 8B
         rue des Jardins 26400 Aouste-sur-sye. Tél. 06.69.49.98.75
-        https://meteoben.com/
+        <Link to="https://meteoben.com/" target="_blank"  rel="noreferrer"> https://meteoben.com/</Link>
       </p>
       <h3 className="mentions-title">2. Infos Hébergeur</h3>
       <p className="mentions-text">
         Le site de l'étude de Madame Anne-Christine Brunel est hébergé par
         HOSTINGER, dont le siège social est situé HOSTINGER INTERNATIONAL LTD,
         61 Lordou Vironos Street, 6023 Larnaca, Chypre, joignable par le moyen
-        suivant : https://www.hostinger.fr/contact.
+        suivant : <Link to="https://www.hostinger.fr/contact" target="_blank"  rel="noreferrer">https://www.hostinger.fr/contact.</Link>
       </p>
       <h3 className="mentions-title">
         3. Conception et réalisation du site de Mme Anne-Christine Brunel
@@ -38,8 +39,9 @@ const MentionsLegales = () => {
         préalable et écrite de Benjamin Dollfus.
       </p>
       <p className="mentions-text">
-        La création de liens hypertextes vers le site :
-        https://annechristinebrunel.fr/ Le site autorise la mise en place d’un
+        La création de liens hypertextes vers le site 
+        <Link to="https://annechristinebrunel.fr/" target="_blank"  rel="noreferrer"> https://annechristinebrunel.fr/</Link></p>
+        <p className="mentions-text">Le site autorise la mise en place d’un
         lien hypertexte pointant vers son contenu, sous réserve d’un accord
         préalable et exprès de Benjamin Dollfus de :
       </p>
