@@ -9,19 +9,23 @@
   
   .map-container {
     height: 400px;
-     width:400px;
+    //  width:400px;
+    width: 370px;
   
     @media (max-width: 600px) {
       // height: 300px;
-      width: 400px;
+      // width: 400px;
+      width: 330px;
     }
     @media (max-width: 400px) {
       // height: 300px;
       width: 330px;
     }
-    @media (max-width: 300px) {
+    // @media (max-width: 300px) {
+    @media (max-width: 345px) {
+
       // height: 300px;
-      width: 200px;
+      width: 320px;
     }
   }
 
@@ -116,5 +120,5 @@
 
 ._map-container_s3lcg_1 {
   height: 400px;
-  width: 400px;
+  // width: 400px;
 }
