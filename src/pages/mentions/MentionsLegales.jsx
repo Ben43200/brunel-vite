@@ -113,9 +113,103 @@ const MentionsLegales = () => {
         mentionner le nom de l’auteur du document.
       </p>
       <ul className="liens-credits">
-      <li>©Eloïse Baslé | Studio Septem</li>
-      <li>©Anne-Christine Brunel</li>
+        <li>©Eloïse Baslé | Studio Septem</li>
+        <li>©Anne-Christine Brunel</li>
       </ul>
+      <h3 className="mentions-title">6. Inquiétudes</h3>
+      <p className="mentions-text">
+        Si vous pensez que l’Editeur n'a pas respecté les points qui précèdent,
+        nous vous remercions de nous le faire savoir en adressant un courrier à
+        l'adresse suivante : Benjamin Dollfus, 8B rue des jardins , 26400
+        Aouste-sur-sye. Nous nous chargerons alors d'identifier et de corriger
+        le problème.
+      </p>
+      <h3 className="mentions-title">
+        7. Modifications des termes et conditions
+      </h3>
+      <p className="mentions-text">
+        L’Editeur peut à tout moment modifier les présentes en actualisant ce
+        site. Ces modifications vous engagent et nous vous recommandons de
+        consulter régulièrement ce site pour prendre connaissance des termes et
+        conditions en vigueur.
+      </p>
+      <h2>Données personnelles</h2>
+      <h3 className="mentions-title">
+        Politique de protection des données personelles
+      </h3>
+      <p>Définitions</p>
+      <p className="mentions-text">
+        Données personnelles : toute information relative à une personne
+        identifiée ou identifiable directement ou indirectement (ci-après, «
+        données » ou « données personnelles »).
+      </p>
+      <p className="mentions-text">
+        Traitement de données personnelles : toute opération portant sur des
+        données personnelles telles que la collecte, l’enregistrement,
+        l’extraction, la modification, etc. (ci-après, « traitement » ou «
+        traitement de données personnelles »
+      </p>
+      <p className="mentions-text">
+        Personnes concernées : toute personne physique dont les données
+        personnelles font l’objet d’un traitement (ci-après, « vous », « vos »
+        ou « personnes concernées »).
+      </p>
+      <p className="mentions-text">
+        Responsable de traitement : personne physique ou morale qui détermine la
+        finalité et les moyens du traitement.
+      </p>
+      <p className="mentions-text">
+        Délégué à la protection des Données : personne désignée par le
+        responsable de traitement pour notamment contrôler le respect de la
+        réglementation, être le point de contact pour les questions relatives
+        aux droits des personnes concernées et coopérer avec la Commission
+        nationale de l'informatique et des libertés (CNIL).
+      </p>
+      <p className="mentions-text">
+        Cookies : fichierinformatique (traceur) déposé et lu notamment suite à
+        la consultation d’un site internet, la lecture d’un courrier
+        électronique, l’utilisation d’une application ou d’un logiciel, quel que
+        soit le terminal utilisé.
+      </p>
+      <p>Collecte et durées de conservation des données personnelles</p>
+      <p className="mentions-text">
+        Conformément à la règlementation, seules les données nécessaires aux
+        finalités précitées sont traitées.
+      </p>
+      <p className="mentions-text">
+        Les données collectées sont conservées pour une durée limitée et
+        nécessaire à la réalisation des finalités mentionnées précédemment. Il
+        s’agit, généralement, du temps nécessaire au traitement de votre
+        demande.
+      </p>
+      <p className="mentions-text">
+        Mme Brunel s'engage à ne conserver les données qui lui sont communiquées
+        notamment par mail, téléphone ou par le biais du formulaire de contact
+        pendant une durée maximum de 12 mois conformément à la loi.
+      </p>
+      <p>Vos droits</p>
+      <p className="mentions-text">
+        Conformément à la réglementation, vous pouvez accéder aux données vous
+        concernant. Le cas échéant, vous pouvez demander la rectification ou
+        l’effacement de celles-ci, obtenir la limitation du traitement de ces
+        données ou vous y opposer pour des raisons tenant à votre situation
+        particulière. Vous pouvez également définir des directives relatives à
+        la conservation, à l’effacement et à la communication de vos données
+        personnelles après votre décès.
+      </p>
+      <p className="mentions-text">
+        Si vous estimez, après nous avoir contactés, que vos droits ne sont pas
+        respectés, vous pouvez introduire une réclamation auprès d’une autorité
+        de contrôle compétente, la CNIL pour la France.
+      </p>
+      <p>Cookies</p>
+      <p className="mentions-text">Le site n'utilise aucun cookie.</p>
+      <p>La mise à jour de la politique</p>
+      <p className="mentions-text">
+        La présente Politique de protection des données à caractère personnel
+        peut être actualisée, à tout moment, en fonction des évolutions du
+        traitement ou si la Loi l’exige.
+      </p>
     </main>
   );
 };
