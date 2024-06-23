@@ -25,6 +25,7 @@ const Contact = () => {
 
   return (
     <main className="main-contact-container">
+      
       {/* <div className="banner-container">
         <img src="images/header-contact.webp" alt="contact" />
       </div> */}
@@ -44,7 +45,6 @@ const Contact = () => {
           <FullCarousel images={images} className="carousel-image"  />
         </Suspense>
       </div>
-      <h1>Contact</h1>
       <Suspense fallback={<div>Chargement...</div>}>
       <OpenMapComponent  />
       </Suspense>
