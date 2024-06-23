@@ -80,14 +80,14 @@
   
     @include media(tablet) {
         gap:20px;
-      grid-template-rows: auto auto;
+      grid-template-rows: auto auto auto;
         // grid-template-rows: 300px auto auto auto; // Remplacez 200px par la hauteur souhaitée pour banner-container en mode tablette
       align-items: start; // Aligne les éléments au début de leur cellule de grille
       justify-content: center;
       
       grid-template-columns: auto auto;
       // grid-template-areas: "banner-container banner-container"
-      grid-template-areas: 
+      grid-template-areas: "contact-title contact-title"
                            "contact-info carousel-container"
                            "map contact-form";
 
@@ -132,4 +132,11 @@
 
   #root> .main-contact-container > div.contact-info > p:nth-child(5){
     padding-bottom: 20px;
+  }
+
+  .contact-title{
+    font-size: 2rem;
+    font-weight: normal;
+    padding-bottom: 20px;
+    grid-area: contact-title;
   }

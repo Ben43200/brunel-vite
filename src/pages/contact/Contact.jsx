@@ -25,12 +25,12 @@ const Contact = () => {
 
   return (
     <main className="main-contact-container">
-      
+      <h2 className="contact-title">Contact</h2>
       {/* <div className="banner-container">
         <img src="images/header-contact.webp" alt="contact" />
       </div> */}
       <div className="contact-info">
-        <h2>ANNE CHRISTINE BRUNEL</h2>
+        <h3>ANNE CHRISTINE BRUNEL</h3>
         <p>Diététicienne et micronutritionniste</p>
         <p>Espace Synergie / 1 allée Vanber - 26400 CREST </p>
         <p><a href="tel:0601460274" className="contact-link"> 06 01 46 02 74</a></p>  
