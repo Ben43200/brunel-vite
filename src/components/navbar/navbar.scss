@@ -8,31 +8,7 @@
   background-color: #ffffd3;
 }
 
-//ancien code
-// header {
-//   box-shadow: 10px 5px 5px grey;
-//   border-radius: 10px;
-//     grid-template-rows: auto 1fr auto;
-//     background-color:#c1e4f1 ;
-//     //essai header
 
-//     top: 0px;
-//     left: 0px;
-//     // position: sticky;
-//     position: fixed;
-//     right: 0px;
-//     z-index: 400;
-//     @include media(tablet) {
-// // @media (min-width: 1240px) {
-
-//       position: relative;
-//     }
-
-//     //fin essai
-// }
-
-//fin ancien code
-//nouvel essai fixer le header
 
 
 header{
@@ -71,10 +47,7 @@ width:100%;
 
 .navbar {
   height: 70px;
-  //   background-color: #fef7e5;
-  // background: linear-gradient(85deg, #352361 1%, rgb(64, 84, 178) 55%);
-  
-  // background: linear-gradient(85deg, #c1e4f1 1%, rgb(64, 84, 178) 55%);
+
 background: #408a8b;
   // grid-area: header;
   // width: 100vw;
@@ -86,27 +59,7 @@ background: #408a8b;
   }
 }
 
-//logo
-// .logo-1 {
-//   width: 15%;
-//   height: 50px;
 
-//   z-index: 300;
-//   @include media(tablet) {
-//     // border-radius: 25px;
-//     // height: 140px;
-//     // width: 7%;
-//     width: 8%;
-//   height: 60px;
-
-//   }
-//   @include media(desktop) {
-//     // border-radius: 25px;
-//     // height: 140px;
-//     width: 6%;
-//   }
-//   // padding-top: 10px;
-// }
 
 .logo-1
   {
@@ -114,9 +67,7 @@ background: #408a8b;
     // height: auto; /* Maintain aspect ratio */
     max-width: 50px; /* Set max-width for larger devices */
     z-index: 2000;
-    // background-color: #c1e4f1;
-    //essai border-radius
-    // border-radius: 50%;
+
 
 }
 @media only screen and (min-width: 768px) {
@@ -215,8 +166,7 @@ background: #408a8b;
     height: 0rem;
     // top: 84px;
     top: 0px;
-    // background: linear-gradient(85deg, #352361 1%, rgb(64, 84, 178) 55%);
-    // background: linear-gradient(85deg, #c1e4f1 1%, rgb(64, 84, 178) 55%);
+    
 background: #408a8b;
     height: 100vh;
     width: 0;
@@ -270,8 +220,7 @@ background: #408a8b;
 // @media (max-width: 600px) {
 @media (max-width: 788px) {
 
-  // @include media(tablet) {
-  //   display: block;
+
   .menu {
     position: relative;
   }
@@ -283,9 +232,7 @@ background: #408a8b;
 
 }
 
-// .menu > li:hover {
-//   //   background-color: lightgray;
-// }
+
 .drop {
   color: white;
   // top: 0;

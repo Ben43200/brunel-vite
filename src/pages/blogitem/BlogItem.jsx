@@ -53,12 +53,7 @@ const navigate2 = useNavigate();
                 </div> 
                 {/* // </div> */} 
                 <div className="back-link-container">
- {/* <NavLink to="/blog" className="back-link">
- <button onClick={() => {
-  //  console.log('Bouton cliqué');
-  //  window.scrollTo(0, 0);
- }}>Retour au Blog</button>
-</NavLink> */}
+
  <button onClick={() => navigate2(-1)}>Retour au Blog</button>
 </div>
     </main>
