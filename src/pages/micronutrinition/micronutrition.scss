@@ -39,8 +39,10 @@
 
 .para-container{
     padding: 0px;
-    // @include media(tablet) {
-        @include media(desktop) {
+    @include media(tablet) {
+// @media (min-width: 1240px) {                 
+
+        // @include media(desktop) {
         padding: 0px 200px;
     @include media(large-desktop) {
   padding: 0px 400px

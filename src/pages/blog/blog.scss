@@ -106,8 +106,9 @@ width: 100%;
                         "button button";
                         column-gap: 20px;
 // margin: 0px 100px;
-                    
-@include media(desktop){
+// margin:0;
+@media (min-width: 1240px) {                 
+// @include media(desktop){
     margin: 0px 200px;                 
     @include media(large-desktop){ 
         margin: 0px 400px;         

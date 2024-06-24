@@ -3,7 +3,9 @@
 .puzzle-container{
     display: grid;
     justify-items: center;
-           margin:0px;         
+           margin:0px;   
+// @media (min-width: 1240px) {                 
+
     @include media(desktop){
         margin: 0px 200px;                 
         @include media(large-desktop){ 
