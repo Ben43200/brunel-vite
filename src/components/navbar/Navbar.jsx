@@ -67,7 +67,7 @@ const Navbar = () => {
           </div>
         </nav>
         <div className="title-container">
-          <p className="title">ANNE-CHRISTINE BRUNEL,<br/> diététicienne et micronutritionniste</p>
+          <h1 className="title">ANNE-CHRISTINE BRUNEL,<br/> diététicienne et micronutritionniste</h1>
         </div>
       </header>
     );

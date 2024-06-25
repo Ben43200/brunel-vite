@@ -22,7 +22,7 @@ function ContactForm() {
         params.append('phone', state.phone);
         params.append('message', state.message);
     
-        axios.post('https://meteoben.com/contact.php', params)
+        axios.post('https://annechristinebrunel.fr/contact.php', params)
         .then(() => {
             setResponseMessage("Votre message a été envoyé avec succès !");
             // Reset state here

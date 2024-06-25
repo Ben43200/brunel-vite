@@ -21,7 +21,7 @@ const testimonials = [
 {name: "Lamiel", testimonial: " Merci à Anne-Christine pour son professionnalisme "},
 {name: "Nicole", testimonial: " Je suis suivie par Madame Brunel en diététique depuis 2 ans, elle a une très bonne écoute, je reconnais son professionnalisme et son sérieux, elle a su pallier à mes problèmes de santé, elle accompagne aussi mes enfants." +
 	"" +
-	"Je suis satisfaite de sa prestation et je la recommande"},
+	" Je suis satisfaite de sa prestation et je la recommande"},
 {name: "Martine", testimonial: " Anne-Christine a une analyse pertinente et ses conseils apportent du mieux-être. Son écoute, sa bienveillance, son sourire, ses encouragements par sa voix posée et douce font beaucoup de bien"}];
 
 function TestimonialCarousel() {
