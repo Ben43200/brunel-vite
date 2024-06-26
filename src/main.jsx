@@ -37,10 +37,10 @@ root.render(
       <Route path="/micronutrition" element={<Micronutrition />} />
       <Route path="/blog" element={<Blog />} />
       <Route path="/blog/blogitem/:id" element={<BlogItem />} />
-      <Route path="contact" element={<Contact />} />
-      <Route path="puzzle" element={<Puzzle />} />
-      <Route path="prestations" element={<Prestations />} />
-      <Route path="mentions-legales" element={<MentionsLegales />} /> 
+      <Route path="/contact" element={<Contact />} />
+      <Route path="/puzzle" element={<Puzzle />} />
+      <Route path="/prestations" element={<Prestations />} />
+      <Route path="/mentions-legales" element={<MentionsLegales />} /> 
       <Route path="*" element={<Error />} />
 
 
