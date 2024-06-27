@@ -8,7 +8,7 @@ const Prestations = () => {
       <aside className="left-column">
       <div className="prestations-img-container">
         <img
-          src="/images/professor-consultation.png"
+          src="images/professor-consultation.png"
           alt="puzzle"
           className="prestations-image"
         />
