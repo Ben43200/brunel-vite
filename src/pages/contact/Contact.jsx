@@ -3,8 +3,8 @@ import React , { useState, useEffect, Suspense } from 'react';
 import './contact.scss';
 // import OpenMapComponent from '../../components/mapcomponent/OpenMapComponent.jsx';
 import ContactForm from '../../components/contactform/ContactForm.jsx';
-
-const FullCarousel = React.lazy(() => import('../../components/carousel/FullCarousel.jsx'));
+import FullCarousel from '../../components/carousel/FullCarousel.jsx';
+// const FullCarousel = React.lazy(() => import('../../components/carousel/FullCarousel.jsx'));
 const OpenMapComponent = React.lazy(() => import('../../components/mapcomponent/OpenMapComponent.jsx'));
 const Contact = () => {
   const [images, setImages] = useState([]);
@@ -46,9 +46,9 @@ const Contact = () => {
         <p> Suivi diététique : 30€ (1/2 heure)</p>
       </div> 
       <div className="full-carousel-container">
-        <Suspense fallback={<div>Chargement...</div>}>
+        {/* <Suspense fallback={<div>Chargement...</div>}> */}
           <FullCarousel images={images} className="carousel-image"  />
-        </Suspense>
+        {/* </Suspense> */}
       </div>
       <Suspense fallback={<div>Chargement...</div>}>
       <OpenMapComponent  />
