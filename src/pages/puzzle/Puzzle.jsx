@@ -5,8 +5,13 @@ const Puzzle = () => {
     <main className="puzzle-container">
       <h2 className="puzzle-title">Puzzle de ma vie</h2>
       <div className="img-container">
-        <img
+        {/* <img
           src="images/puzzle-portrait.webp"
+          alt="puzzle"
+          className="puzzle-image"
+        /> */}
+               <img
+          src="https://annechristinebrunel.fr/images/puzzle-portrait.webp"
           alt="puzzle"
           className="puzzle-image"
         />

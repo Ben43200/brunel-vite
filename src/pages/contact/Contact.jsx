@@ -9,9 +9,14 @@ const OpenMapComponent = React.lazy(() => import('../../components/mapcomponent/
 const Contact = () => {
   const [images, setImages] = useState([]);
 
+  // const ImageContactData = [
+  //   "images/entree.webp",
+  //   "images/salle-attente.webp",
+  // ];
+
   const ImageContactData = [
-    "images/entree.webp",
-    "images/salle-attente.webp",
+    "https://annechristinebrunel.fr/images/entree.webp",
+    "https://annechristinebrunel.fr/images/salle-attente.webp",
   ];
 
   

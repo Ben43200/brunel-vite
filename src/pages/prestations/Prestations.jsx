@@ -7,11 +7,16 @@ const Prestations = () => {
       <div className="prestations-container-content">
       <aside className="left-column">
       <div className="prestations-img-container">
-        <img
+        {/* <img
           src="/images/professor-consultation.png"
           alt="puzzle"
           className="prestations-image"
-        />
+        /> */}
+        <img
+  src="https://annechristinebrunel.fr/images/professor-consultation.png"
+  alt="professor-consultation"
+  className="prestations-image"
+/>
       </div>
       <h3 className="prestations-subtitle">
         COMMENT SE PASSE UNE PREMIÈRE CONSULTATION ?
@@ -47,9 +52,14 @@ const Prestations = () => {
       </aside>
       <aside className="right-column">
       <div className="prestations-img-container">
-        <img
+        {/* <img
           src="images/itinerary.png"
           alt="puzzle"
+          className="prestations-image"
+        /> */}
+              <img
+          src="https://annechristinebrunel.fr/images/itinerary.png"
+          alt="itineraire"
           className="prestations-image"
         />
       </div>
