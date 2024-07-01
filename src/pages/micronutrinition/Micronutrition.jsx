@@ -6,7 +6,7 @@ const Micronutrition = () => {
     <main className="nutri-content">
                    <Helmet>
       <title>La micronutrinition en deux minutes</title>
-      <meta name="description" content="Appréhender facilement la micornutrition avec diététicienne et micronutritionniste à Crest(26)" />
+      <meta name="description" content="Appréhender facilement la micronutrition avec Anne-Christine Brunel diététicienne et micronutritionniste à Crest(26)" />
     </Helmet>
           <h2 className="nutri-title">La micronutrition en deux minutes</h2>
         <div className="nutri-video-container">

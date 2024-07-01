@@ -6,7 +6,7 @@ const Prestations = () => {
     <main className="prestations-container">
                    <Helmet>
       <title>Prestations</title>
-      <meta name="description" content="Prestations proposées par Anne-Christine Brunel diététicienne et micronutritionniste à Crest(26)" />
+      <meta name="description" content="Présentation des Prestations proposées par Anne-Christine Brunel diététicienne et micronutritionniste à Crest(26)" />
     </Helmet>
       <h2 className="prestations-title">Prestations</h2>
       <div className="prestations-container-content">
