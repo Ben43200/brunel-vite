@@ -1,13 +1,15 @@
 import "./puzzle.scss";
-import { Helmet } from "react-helmet";
+// réactiver helmet toutes pages avant nouveau build
+// import { Helmet } from "react-helmet";
 
 const Puzzle = () => {
   return (
     <main className="puzzle-container">
-                        <Helmet>
+       {/* Réactiver Helmet avant nouveau build toutes pages */}
+                        {/* <Helmet>
       <title>Puzzle de ma vie</title>
       <meta name="description" content="Le Puzzle de la vie d'Anne-Christine Brunel diététicienne et micronutritionniste à Crest(26)" />
-    </Helmet>
+    </Helmet> */}
       <h2 className="puzzle-title">Puzzle de ma vie</h2>
       <div className="img-container">
         {/* <img

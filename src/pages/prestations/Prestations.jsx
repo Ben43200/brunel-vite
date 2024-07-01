@@ -1,13 +1,15 @@
 import "./prestations.scss";
-import { Helmet } from "react-helmet";
+// réactiver helmet toutes pages avant nouveau build
+// import { Helmet } from "react-helmet";
 
 const Prestations = () => {
   return (
     <main className="prestations-container">
-                   <Helmet>
+       {/* Réactiver Helmet avant nouveau build toutes pages */}
+                   {/* <Helmet>
       <title>Prestations</title>
       <meta name="description" content="Présentation des Prestations proposées par Anne-Christine Brunel diététicienne et micronutritionniste à Crest(26)" />
-    </Helmet>
+    </Helmet> */}
       <h2 className="prestations-title">Prestations</h2>
       <div className="prestations-container-content">
       <aside className="left-column">
