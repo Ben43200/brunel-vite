@@ -1,5 +1,5 @@
 import "../../pages/blog/blog.scss";
-import { NavLink, useParams } from "react-router-dom";
+import {  useParams } from "react-router-dom";
 import { BLOGDATAS } from "../../assets/BlogData.jsx";
 import { useState } from "react";
 import { useEffect } from "react";
