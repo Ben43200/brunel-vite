@@ -1,8 +1,13 @@
 import "./micronutrition.scss";
+import { Helmet } from "react-helmet";
 
 const Micronutrition = () => {
   return (
     <main className="nutri-content">
+                   <Helmet>
+      <title>La micronutrinition en deux minutes</title>
+      <meta name="description" content="Appréhender facilement la micornutrition avec diététicienne et micronutritionniste à Crest(26)" />
+    </Helmet>
           <h2 className="nutri-title">La micronutrition en deux minutes</h2>
         <div className="nutri-video-container">
       <video className="video" controls playsInline>

@@ -2,7 +2,7 @@ import { BLOGDATAS } from "../../assets/BlogData.jsx"
 import "./blog.scss"
 import { Link } from "react-router-dom"
 import { useEffect } from "react"
-
+import { Helmet } from "react-helmet"
 const Blog = () =>{
       //code pour précharger les images
   const images = BLOGDATAS.map((blogitem) => blogitem.image);
@@ -19,6 +19,10 @@ const Blog = () =>{
 // console.log(BLOGDATAS[0].completText)
     return(
         <main className="main-blog-container">
+             <Helmet>
+      <title>Blog</title>
+      <meta name="description" content="Blog d'Anne-Christine Brunel diététicienne et micronutritionniste à Crest(26)" />
+    </Helmet>
         {BLOGDATAS.map((blogdata, id) =>
             <Link to={`/blog/blogitem/${id}`} id="blog-card" key={id}>
             <h1>{blogdata.name}</h1>

@@ -1,10 +1,15 @@
 import "./mentionslegales.scss";
 import { Link } from "react-router-dom";
+import { Helmet } from "react-helmet";
 
 const MentionsLegales = () => {
   window.scrollTo(0, 0);
   return (
     <main className="mentions-container">
+                   <Helmet>
+      <title>Mentions Légales</title>
+      <meta name="description" content="Mentions Légales du site d'Anne-Christine Brunel diététicienne et micronutritionniste à Crest(26)" />
+    </Helmet>
       <h2>Mentions légales</h2>
       <h3 className="mentions-title">1.Infos Editeur</h3>
       <p className="mentions-text">

@@ -2,7 +2,7 @@ import "./home.scss";
 import FullCarousel from "../../components/carousel/FullCarousel.jsx";
 import { useEffect, useState } from "react";
 import TestimonialCarousel from "../../components/TestimonialCarousel.jsx";
-
+import { Helmet } from "react-helmet";
 // const FullCarousel = React.lazy(() => import('../../components/carousel/FullCarousel.jsx'));
 const Home = () => {
   const ImageDataDesktop = [
@@ -57,6 +57,10 @@ const Home = () => {
 
   return (
     <main className="home-container">
+                   <Helmet>
+      <title>Accueil</title>
+      <meta name="description" content="Accueil du site d'Anne-Christine Brunel diététicienne et micronutritionniste à Crest(26)" />
+    </Helmet>
       <div className="carousel-home-container">
         {/* <Suspense fallback={<div>Chargement...</div>}> */}
         <FullCarousel images={ImageData} />

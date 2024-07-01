@@ -4,6 +4,7 @@ import './contact.scss';
 // import OpenMapComponent from '../../components/mapcomponent/OpenMapComponent.jsx';
 import ContactForm from '../../components/contactform/ContactForm.jsx';
 import FullCarousel from '../../components/carousel/FullCarousel.jsx';
+import { Helmet } from 'react-helmet';
 // const FullCarousel = React.lazy(() => import('../../components/carousel/FullCarousel.jsx'));
 const OpenMapComponent = React.lazy(() => import('../../components/mapcomponent/OpenMapComponent.jsx'));
 const Contact = () => {
@@ -30,6 +31,10 @@ const Contact = () => {
 
   return (
     <main className="main-contact-container">
+                  <Helmet>
+      <title>Contact</title>
+      <meta name="description" content="Contactez et prenez rdv avec Anne-Christine Brunel diététicienne et micronutritionniste à Crest(26)" />
+    </Helmet>
       <h2 className="contact-title">Contact</h2>
       {/* <div className="banner-container">
         <img src="images/header-contact.webp" alt="contact" />

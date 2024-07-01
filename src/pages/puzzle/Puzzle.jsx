@@ -1,8 +1,13 @@
 import "./puzzle.scss";
+import { Helmet } from "react-helmet";
 
 const Puzzle = () => {
   return (
     <main className="puzzle-container">
+                        <Helmet>
+      <title>Puzzle de ma vie</title>
+      <meta name="description" content="Le Puzzle de la vie d'Anne-Christine Brunel diététicienne et micronutritionniste à Crest(26)" />
+    </Helmet>
       <h2 className="puzzle-title">Puzzle de ma vie</h2>
       <div className="img-container">
         {/* <img
